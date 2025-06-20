@@ -45,25 +45,25 @@
         
 
         
-            <lastBuildDate>Fri, 23 May 2025 16:56:37 PDT</lastBuildDate>
+            <lastBuildDate>Thu, 19 Jun 2025 16:56:37 PDT</lastBuildDate>
         
 
         
-            <link>http://localhost:1313/categories/</link>
+            <link>https://sri-fm.github.io/categories/</link>
         
 
         
-            <atom:link href="http://localhost:1313/categories/rss.xml" hreflang="en-us" rel="self" type="application/rss+xml"/>
+            <atom:link href="https://sri-fm.github.io/categories/rss.xml" hreflang="en-us" rel="self" type="application/rss+xml"/>
         
 
         
             
 
-            <atom:link href="http://localhost:1313/categories/" hreflang="en-us" rel="alternate" type="text/html"/>
+            <atom:link href="https://sri-fm.github.io/categories/" hreflang="en-us" rel="alternate" type="text/html"/>
         
             
 
-            <atom:link href="http://localhost:1313/categories/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
+            <atom:link href="https://sri-fm.github.io/categories/rss.xml" hreflang="en-us" rel="alternate" type="application/rss+xml"/>
         
 
         
@@ -71,7 +71,7 @@
         
 
         
-            <title>Categories · My New Hugo Site</title>
+            <title>Categories · Formal Methods and Dependable Systems @ SRI</title>
         
 
         
