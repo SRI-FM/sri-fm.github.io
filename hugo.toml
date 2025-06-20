@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sri-fm.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Formal Methods and Dependable Systems @ SRI'
 [markup.highlight]
 noclasses = false
 style = "github"
