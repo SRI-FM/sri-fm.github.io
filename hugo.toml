@@ -1,8 +1,0 @@
-baseURL = 'https://sri-fm.github.io/'
-languageCode = 'en-us'
-title = 'Formal Methods and Dependable Systems @ SRI'
-[markup.highlight]
-noclasses = false
-style = "github"
-[[module.imports]]
-path = "github.com/willfaught/paige"

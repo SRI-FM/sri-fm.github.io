@@ -1,0 +1,28 @@
+baseURL: https://sri-fm.github.io/
+languageCode: en-us
+title: SRI Formal Methods Program
+theme: hugo-xmin
+
+menu:
+  main:
+    - name: Home
+      url: ""
+      weight: 1
+    - name: About
+      url: "about/"
+      weight: 2
+    - name: Tools
+      url: "tools/"
+      weight: 4
+    - name: Publications
+      url: "pubs/"
+      weight: 5
+    - name: Events
+      url: "events/"
+      weight: 6 
+    - name: Posts
+      url: "posts/"
+      weight: 7
+    - name: Impact
+      url: "impact/"
+      weight: 8
