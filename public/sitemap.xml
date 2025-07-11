@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:61241/</loc>
+    <loc>https://sri-fm.github.io/</loc>
   </url><url>
-    <loc>http://localhost:61241/about/</loc>
+    <loc>https://sri-fm.github.io/about/</loc>
   </url><url>
-    <loc>http://localhost:61241/events/</loc>
+    <loc>https://sri-fm.github.io/events/</loc>
   </url><url>
-    <loc>http://localhost:61241/history/</loc>
+    <loc>https://sri-fm.github.io/history/</loc>
   </url><url>
-    <loc>http://localhost:61241/pubs/</loc>
+    <loc>https://sri-fm.github.io/pubs/</loc>
   </url><url>
-    <loc>http://localhost:61241/tools/</loc>
+    <loc>https://sri-fm.github.io/tools/</loc>
   </url><url>
-    <loc>http://localhost:61241/categories/</loc>
+    <loc>https://sri-fm.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:61241/tags/</loc>
+    <loc>https://sri-fm.github.io/tags/</loc>
   </url>
 </urlset>

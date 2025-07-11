@@ -14,15 +14,18 @@ menu:
     - name: Tools
       url: "tools/"
       weight: 4
+    - name: Media
+      url: "media/"
+      weight: 5      
     - name: Publications
       url: "pubs/"
-      weight: 5
+      weight: 6
     - name: Events
       url: "events/"
-      weight: 6 
+      weight: 7 
     - name: Posts
       url: "posts/"
-      weight: 7
+      weight: 8
     - name: Impact
       url: "impact/"
-      weight: 8
+      weight: 9
