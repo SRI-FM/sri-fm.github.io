@@ -34,3 +34,9 @@ menu:
     - name: Impact
       url: "impact/"
       weight: 9
+
+privacy:
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: false

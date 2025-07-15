@@ -47,3 +47,11 @@ Invited Seminar @ IIT Bombay Trust Lab 2023
 
 Conference Presentation @ IJCAR 2020
 {{< /details >}}
+
+## 2017
+{{< details title="John Rushby: Should Assurance be Indefeasible?" >}}
+<p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/G0GoXrF6R9M?si=RiG_e_la_goZ4_t_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+
+Invited Talk @ fortiss
+
+{{< /details >}}
