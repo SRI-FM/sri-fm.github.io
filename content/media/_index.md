@@ -35,6 +35,10 @@ Topos Institute Colloquium, 31st of August 2023
 
 {{< talk_entry speaker="Harald Ruess" title="The Next Big Thing: From Embodied Systems to Embodied Actors" >}}
 <p align="center"> <iframe width="560" height="315" src="https://www.youtube.com/embed/70F9GpPZnbU?si=N3ryLJRoNk4AKMZ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> </p>
+
+Invited talk @ Formal Methods (FM) 2023
+
+**Abstract**: A new generation of increasingly autonomous and self-evolving software systems is about to emerge. When deploying and embodying these systems into our very societal fabric we face various engineering challenges, as it is crucial to coordinate the behavior of embodied systems in a beneficial manner, ensure their compatibility with social values, and design verifiably safe and reliable machine interaction. In this talk, I am arguing that traditional software engineering is coming to a climacteric from embedded to embodied systems, and with assuring the trustworthiness of dynamic federations of situationally aware, intent-driven, explorative, ever-evolving, largely non-predictable, and increasingly autonomous embodied systems in uncertain and largely unpredictable real-world operating contexts. I am also discussing corresponding engineering challenges — namely, robust AI techniques, cognitive architectures, uncertainty quantification, trustworthy self-integration, and continual analysis and assurance — together with the central role of formal methods for designing embodied systems in which we can put our trust.
 {{< /talk_entry >}}
 
 {{< talk_entry speaker="Natarajan Shankar" title="Composing High Assurance Software">}}
