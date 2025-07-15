@@ -1,15 +1,28 @@
 # TODO List
+## Homepage
+ - Add SRI Logo/branding (KN) - DONE
 
- - Home: Add SRI Logo/branding (KN)
-2) About: Update personal websites (all)
-3) Tools: Populate tools, link to respective websites (HR)
- - Yices2: links to manual, presentations (KN)
- - Tool websites, manuals to PDF (https://pandoc.org/index.html) (KN)
- - Predecessor tools (SAL/HybridSAL) (HR)
-4) Media: Embedded videos/demos (KN)
- - Figure out how to embed videos (KN)
-5) Publications: Populate publications (maybe avoid conference/journal ones, only on personal websites) (all)
-6) Events (HR)
-7) Add posts/direct links to Linkedin/social media (TBD)
-8) Find old tech. reports and add them to Publications/ (all)
-9) Make sure old sites/repositories are carried over. (HR)
+## About
+ - Update personal websites (all)
+
+## Tools
+ - Populate tools, link to respective websites (HR)
+ - Manual PDFs to HTML (https://pandoc.org/index.html) (KN)
+### PVS
+ - PVS website, manuals (KN)
+### Yices2
+ - Yices website, manuals, slides (KN)
+### Predecessors
+ - SAL/HybridSAL (HR)
+
+## Media
+ - Embedded videos/demos (KN) - DONE
+
+## Publications
+ - Populate publications (avoid conferences/journals and keep those on personal sites?) (all)
+ - Recover old tech. reports (all)
+## Events (HR)
+
+## Misc./TBD
+ - Add posts/direct links to Linkedin/social media
+ - Carry info over from old sites/repos (HR)
