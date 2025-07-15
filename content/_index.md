@@ -1,6 +1,6 @@
 # Formal Methods Program
 
-![The Stanford Dish, owned and maintained by SRI](./Stanford_Dish.jpg)
+![The Stanford Dish, owned and maintained by SRI](./SRI_dish.jpg)
 
 For over 60 years, the Computer Science Lab at SRI has been pivotal in the founding, theory, and practice of
 formal methods, fault-tolerant computing, and the development of high-assurance software.
