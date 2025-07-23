@@ -38,9 +38,9 @@
 <h1></h1>
 
 
-<h1 id="pvs---specification-and-proof-assistent">PVS - Specification and Proof Assistent</h1>
+<h1 id="tools">Tools</h1>
 <details>
-    <summary>PVS</summary>
+    <summary><span class="details-h1">PVS - Specification and Proof Assistant</span></summary>
     <div><h2 id="description">Description</h2>
 <p>PVS is an interactive specification and proof assistant</p>
 <ul>
@@ -65,8 +65,9 @@ the <a href="https://pvs.csl.sri.com">PVS website</a> and on the
 </div>
 </details>
 
-<h1 id="yices---decision-procedures">Yices - Decision Procedures</h1>
-<h2 id="description">Description</h2>
+<details>
+    <summary><span class="details-h1">Yices - Decision Procedures</span></summary>
+    <div><h2 id="description">Description</h2>
 <p>Powerful automated reasoning tool that determines the satisfiability of formulas in combinations of logical theories</p>
 <ul>
 <li>Supports linear and nonlinear real and integer arithmetic, bitvectors, scalar types, tuples, extensional arrays, and uninterpreted function symbols with equality</li>
@@ -83,8 +84,12 @@ constraints over various data types.</p>
 <a href="yices.csl.sri.com">Yices website</a> and on the
 <a href="github.com/SRI-CSL/yices2">Yices2 Github</a>.</p>
 <p>Licenses for commercial usage or specific support are available upon request.</p>
-<h1 id="sally---model-checking">Sally - Model Checking</h1>
-<h2 id="description-1">Description</h2>
+</div>
+</details>
+
+<details>
+    <summary><span class="details-h1">Sally - Model Checking</span></summary>
+    <div><h2 id="description">Description</h2>
 <p>Sally is a model checker for the formal verification of infinite-state systems.
 It is the successor to SRI’s earlier SAL (Symbolic Analysis Laboratory)</p>
 <ul>
@@ -92,17 +97,21 @@ It is the successor to SRI’s earlier SAL (Symbolic Analysis Laboratory)</p>
 <li>Implements property-directed k-induction, a variant of IC3/PDR, which is particularly effective for generating k-inductive strengthenings</li>
 <li>Sally heavily relies on the <a href="yices.csl.sri.co">Yices2 solver</a> for efficient constraint solving for bitvectors and nonlinear real and integer arithmetic</li>
 </ul>
-<h2 id="purpose-1">Purpose</h2>
+<h2 id="purpose">Purpose</h2>
 <p>Robust formal verification backend for other applications that require reasoning about complex
 logical constraints over various data type.s</p>
-<h2 id="use-cases-1">Use Cases</h2>
+<h2 id="use-cases">Use Cases</h2>
 <p>Software and Hardware Verification, Protocol Analysis, Fault-Tolerant Distributed Algorithms.</p>
-<h2 id="download-1">Download</h2>
+<h2 id="download">Download</h2>
 <p>Sally is available at <a href="https://github.com/SRI-CSL/sally">Github</a>  under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL v3</a> GPL v3 license.</p>
 <p>Licenses for commercial usage or specific support are available upon request.</p>
 <p>Its predecessor can be downloaded from the <a href="sal.csl.sri.com">SAL Website</a>.</p>
-<h1 id="radler----multi-rate-integration-architecture">Radler -  Multi-Rate Integration Architecture</h1>
-<h2 id="description-2">Description</h2>
+</div>
+</details>
+
+<details>
+    <summary><span class="details-h1">Radler - Multi-Rate Integration Architecture</span></summary>
+    <div><h2 id="description">Description</h2>
 <p>Radler implements a formally grounded approach to designing, developing, and verifying distributed multi-rate cyber-physical systems,
 ensuring robustness, safety, and performance in critical applications.</p>
 <ul>
@@ -111,22 +120,26 @@ ensuring robustness, safety, and performance in critical applications.</p>
 <li>Quasi-periodic execution</li>
 <li>Bounded-latency channels</li>
 </ul>
-<h2 id="purpose-2">Purpose</h2>
+<h2 id="purpose">Purpose</h2>
 <p>Radler provides strong architectural guarantees for safety, security, resilience, which are formally proven in PVS.
 * Certifiable to a range of assurance levels
 * Seamless integration with easy SW/HW-in-the-loop testing and debugging, and rapid prototyping.</p>
-<h2 id="use-cases-2">Use Cases</h2>
+<h2 id="use-cases">Use Cases</h2>
 <p>Critical cyber-physical systems including drones, robots, medical devices, SCADA, autonomous systems, and agentic AI.</p>
-<h2 id="download-2">Download</h2>
+<h2 id="download">Download</h2>
 <p>Radler is available  from the <a href="https://github.com/SRI-CSL/radler">Radler github</a>  under the
 <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL v3</a> license.</p>
 <p>Licenses for commercial usage or specific support are available upon request.</p>
-<h1 id="etb---evidential-toolbus">ETB - Evidential Toolbus</h1>
-<h2 id="description-3">Description</h2>
+</div>
+</details>
+
+<details>
+    <summary><span class="details-h1">ETB - Evidential Toolbus</span></summary>
+    <div><h2 id="description">Description</h2>
 <p>Distributed framework for integrating various software systems analysis and verification tools.
 Designed to facilitate the continuous creation and maintenance of assurance cases, automatically updating claims
 and evidence as system requirements or components change.</p>
-<h2 id="purpose-3">Purpose</h2>
+<h2 id="purpose">Purpose</h2>
 <p>The primary purpose of ETB is to significantly reduce the cost, labor, and <em>ad hoc</em> nature of developing and
 maintaining assurance cases for critical systems. By automating the evidence generation and argument construction processes,
 it aims to:</p>
@@ -135,15 +148,19 @@ it aims to:</p>
 <li>Enable <em>continuous assurance</em> for complex systems, where traditional manual processes are unsustainable.</li>
 <li>Improve <em>rigor and trustworthiness</em> of assurance cases by grounding them in formal logic and verifiable evidence.</li>
 </ul>
-<h2 id="use-cases-3">Use Cases</h2>
+<h2 id="use-cases">Use Cases</h2>
 <p>Automated Driving, Flight-Control Systems, Software System Certification, AI/ML Assurance, Continuous Authority to Operate,
 Software Understanding.</p>
-<h2 id="download-3">Download</h2>
+<h2 id="download">Download</h2>
 <p>The latest ETB2 is available from the [ETB2 github]  <a href="https://github.com/SRI-CSL/etb2">https://github.com/SRI-CSL/etb2</a>  under the
 <a href="https://www.gnu.org/licenses/gpl-3.0.html">GPL v3</a> license.</p>
 <p>Licenses for commercial usage or specific support are available upon request.</p>
-<h1 id="assurance-20---rigorous-assurance-cases">Assurance 2.0 - Rigorous Assurance Cases</h1>
-<h2 id="description-4">Description</h2>
+</div>
+</details>
+
+<details>
+    <summary><span class="details-h1">Assurance 2.0 - Rigorous Assurance Cases</span></summary>
+    <div><h2 id="description">Description</h2>
 <p>Modern approach to the development and assessment of assurance cases, which are structured arguments backed by evidence to demonstrate that a system possesses certain critical properties (e.g., safety, security).
 <a href="https://arxiv.org/pdf/2409.10665">Assurance 2.0</a> builds upon the established Claims, Arguments, Evidence methodology but introduces a higher degree of rigor and systematic evaluation:</p>
 <ul>
@@ -152,31 +169,38 @@ Software Understanding.</p>
 <li>Probabilistic assessment of residual risks</li>
 <li>Confirmation theory:  does evidence support a claim?  how well does it discriminate against alternative claims?</li>
 </ul>
-<h2 id="purpose-4">Purpose</h2>
+<h2 id="purpose">Purpose</h2>
 <p>Provide a robust framework for justified confidence in the deployment of complex, critical systems,
 especially those incorporating new technologies like AI and autonomous capabilities, where traditional testing alone is insufficient.</p>
-<h2 id="use-cases-4">Use Cases</h2>
+<h2 id="use-cases">Use Cases</h2>
 <p>Certification of Safety-Critical Systems, Security Assurance, AI Assurance, Regulatory Compliance, Continuous and Incremental Assurance.</p>
 <h2 id="tool-support">Tool Support</h2>
 <p>The Assurance 2.0 methodology is usually implemented in industry-specific development frameworks, with
 <a href="https://github.com/SRI-CSL/etb2">ETB</a> used for curating evidence in CI/CD pipelines. We have been cooperating
 with Adelard (now part of <a href="https://www.nccgroup.com/">NCC group</a> in developing <em>Clarissa</em>, which directly
 supports Assurance 2.0.</p>
-<h1 id="pce---probabilistic-consistency-engine">PCE - Probabilistic Consistency Engine</h1>
-<h2 id="description-5">Description</h2>
+</div>
+</details>
+
+<details>
+    <summary><span class="details-h1">PCE - Probabilistic Consistency Engine</span></summary>
+    <div><h2 id="description">Description</h2>
 <p>Probabilistic inference for  Markov Logic Networks, which combine first-order logic with Markov networks.
 PCE relies on sampling-based methods such as Gibbs sampling to approximate marginal and conditional probabilities
 and it uses maximum a posterior inference, allowing it to achieve scalability for larger problems.</p>
-<h2 id="purpose-5">Purpose</h2>
+<h2 id="purpose">Purpose</h2>
 <p>Enable logical reasoning about systems where uncertainty and probabilities are inherent.
 This is crucial for analyzing and verifying systems where components might fail with a certain probability,
 or where decisions are based on uncertain inputs. It helps in modeling and analyzing probabilistic systems,
 consistency checking of probabilistic statements, and probabilistic inference.</p>
-<h2 id="use-cases-5">Use Cases</h2>
+<h2 id="use-cases">Use Cases</h2>
 <p>Probabilistic program analysis, information extraction and integration, knowledge base construction, natural language processing, semantic parsing, social network analysis, computer vision, computational biology, robotics and autonomous systems, fraud detection, cybersecurity.</p>
-<h2 id="download-4">Download.</h2>
+<h2 id="download">Download.</h2>
 <p>PCE is available from the <a href="https://github.com/SRI-CSL/pce">PCE Github</a> under the
 <a href="https://www.gnu.org/licenses/lgpl-3.0.html">LGPL v3</a> license.</p>
+</div>
+</details>
+
 
 
 <ul>

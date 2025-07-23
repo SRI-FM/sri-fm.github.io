@@ -1,6 +1,6 @@
-# PVS - Specification and Proof Assistent
+# Tools
 
-{{< details title="PVS" >}}
+{{< dropdown-title title="PVS - Specification and Proof Assistant" >}}
 
 ## Description
 PVS is an interactive specification and proof assistant
@@ -27,9 +27,9 @@ Licenses for commercial usage or specific support are available upon request.
 
 Note that the PVS2C and PVS2Rust extensions of PVS are not part of the publicly released PVS.
 
-{{< /details >}}
+{{< /dropdown-title >}}
 
-# Yices - Decision Procedures
+{{< dropdown-title title="Yices - Decision Procedures" >}}
 
 ## Description
 Powerful automated reasoning tool that determines the satisfiability of formulas in combinations of logical theories
@@ -51,8 +51,9 @@ The latest Yices2 is available under the [GPL v3](https://www.gnu.org/licenses/g
 
 Licenses for commercial usage or specific support are available upon request. 
 
+{{< /dropdown-title >}}
 
-# Sally - Model Checking
+{{< dropdown-title title="Sally - Model Checking" >}}
 
 ## Description
 Sally is a model checker for the formal verification of infinite-state systems.
@@ -75,9 +76,9 @@ Licenses for commercial usage or specific support are available upon request.
 
 Its predecessor can be downloaded from the [SAL Website](sal.csl.sri.com).
 
+{{< /dropdown-title >}}
 
-
-# Radler -  Multi-Rate Integration Architecture
+{{< dropdown-title title="Radler - Multi-Rate Integration Architecture" >}}
 
 ## Description
 Radler implements a formally grounded approach to designing, developing, and verifying distributed multi-rate cyber-physical systems,
@@ -101,7 +102,9 @@ Radler is available  from the [Radler github](https://github.com/SRI-CSL/radler)
 
 Licenses for commercial usage or specific support are available upon request.
 
-# ETB - Evidential Toolbus
+{{< /dropdown-title >}}
+
+{{< dropdown-title title="ETB - Evidential Toolbus" >}}
 
 ## Description
 Distributed framework for integrating various software systems analysis and verification tools.
@@ -126,8 +129,9 @@ The latest ETB2 is available from the [ETB2 github]  https://github.com/SRI-CSL/
 
 Licenses for commercial usage or specific support are available upon request.
 
-# Assurance 2.0 - Rigorous Assurance Cases
+{{< /dropdown-title >}}
 
+{{< dropdown-title title="Assurance 2.0 - Rigorous Assurance Cases" >}}
 ## Description
 Modern approach to the development and assessment of assurance cases, which are structured arguments backed by evidence to demonstrate that a system possesses certain critical properties (e.g., safety, security).
 [Assurance 2.0](https://arxiv.org/pdf/2409.10665) builds upon the established Claims, Arguments, Evidence methodology but introduces a higher degree of rigor and systematic evaluation:
@@ -149,10 +153,9 @@ The Assurance 2.0 methodology is usually implemented in industry-specific develo
 with Adelard (now part of [NCC group](https://www.nccgroup.com/) in developing *Clarissa*, which directly
 supports Assurance 2.0.
 
+{{< /dropdown-title >}}
 
-
-
-# PCE - Probabilistic Consistency Engine
+{{< dropdown-title title="PCE - Probabilistic Consistency Engine" >}}
 
 ## Description
 Probabilistic inference for  Markov Logic Networks, which combine first-order logic with Markov networks.
@@ -172,4 +175,4 @@ Probabilistic program analysis, information extraction and integration, knowledg
 PCE is available from the [PCE Github](https://github.com/SRI-CSL/pce) under the
 [LGPL v3](https://www.gnu.org/licenses/lgpl-3.0.html) license.
 
-
+{{< /dropdown-title >}}

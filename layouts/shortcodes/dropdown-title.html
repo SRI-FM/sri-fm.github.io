@@ -1,0 +1,4 @@
+<details>
+    <summary><span class="details-h1">{{ .Get "title" | default "" | markdownify }}</span></summary>
+    <div>{{ .Inner | markdownify }}</div>
+</details>
