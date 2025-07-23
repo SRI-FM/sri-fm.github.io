@@ -1,16 +1,4 @@
-<!-- <details> -->
-<!--   <summary>{{ (.Get 0) | markdownify }}</summary> -->
-<!--   {{ .Inner | markdownify }} -->
-<!-- </details> -->
-
 <details>
     <summary>{{ .Get "title" | default "" | markdownify }}</summary>
     <div>{{ .Inner | markdownify }}</div>
 </details>
-
-
-<!-- moved to talk_entry.html -->
-<!-- <details> -->
-<!--     <summary><strong>{{ .Get "speaker" | default "" }}</strong> | {{ .Get "title" | default "" | markdownify }}</summary> -->
-<!--     <div>{{ .Inner | markdownify }}</div> -->
-<!-- </details> -->
