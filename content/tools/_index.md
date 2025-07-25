@@ -1,4 +1,7 @@
-# Tools
+# Specification and Verification Tools
+
+![The Verification Wedge](./the_wedge.jpg)
+
 
 {{< dropdown-title title="PVS - Specification and Proof Assistant" >}}
 
