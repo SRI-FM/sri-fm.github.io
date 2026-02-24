@@ -1,7 +1,7 @@
 # Talks
 
 ## 2024
-{{< talk_entry speaker="Natarajan Shankar" title="Beautiful Formalizations and Proofs" >}}
+{{< talk_entry speaker="Natarajan Shankar" title="Beautiful Formalizations and Proofs"  >}}
 <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/8I-v3y1MGfM?si=RBBfmKA_8Xzr9FK6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 
 2024 Formalization of Mathematics Workshop @ the Hausdorff Center for Mathematics, Bonn, Germany
@@ -9,7 +9,7 @@
 **Abstract**: Beauty in mathematics may or may not be a concept that is formalizable, but beauty is clearly critical for effective formalization. In the context of mechanization of mathematics that has been ongoing over the last four decades, the criterion for beauty needs to be adapted from that of informal mathematics. Beautiful informal arguments might turn out to be less than elegant when formalized, and conversely, the austere beauty of mechanized mathematics might defy conventional standards. In the context of mechanization, particularly the use of decision procedures, a beautiful formalization is one that elegantly leverages the power of formal language and automation to deliver clear, concise, and general definitions and proofs. We illustrate our approach to the aesthetics of formalization with examples.
 {{< /talk_entry >}}
 
-{{< talk_entry speaker="Natarajan Shankar" title="Cueology of Proof" >}}
+{{< talk_entry speaker="Natarajan Shankar" title="Cueology of Proof">}}
 <p align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/YKmiRGCBSmk?si=Z9D6XTR7_unAd-1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
 
 2024 Bridging between informal and formal Workshop @ the Hausdorff Center for Mathematics, Bonn, Germany

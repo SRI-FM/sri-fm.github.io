@@ -3,7 +3,7 @@
 ![The Verification Wedge](./the_wedge.jpg)
 
 
-{{< dropdown-title title="PVS - Specification and Proof Assistant" >}}
+{{< dropdown-title title="Prototype Verification System (PVS)" >}}
 
 ## Description
 PVS is an interactive specification and proof assistant
@@ -32,7 +32,7 @@ Note that the PVS2C and PVS2Rust extensions of PVS are not part of the publicly 
 
 {{< /dropdown-title >}}
 
-{{< dropdown-title title="Yices - Decision Procedures" >}}
+{{< dropdown-title title="Yices2 Satisfiability Modulo Theories (SMT) Solver" >}}
 
 ## Description
 Powerful automated reasoning tool that determines the satisfiability of formulas in combinations of logical theories
@@ -56,9 +56,11 @@ Licenses for commercial usage or specific support are available upon request.
 
 {{< /dropdown-title >}}
 
-{{< dropdown-title title="Sally - Model Checking" >}}
+{{< dropdown-title title="Symbolic Analysis Laboratory (SAL) + Sally" >}}
 
-## Description
+## SAL
+
+## Sally
 Sally is a model checker for the formal verification of infinite-state systems.
 It is the successor to SRI’s earlier SAL (Symbolic Analysis Laboratory)
    * Takes as input a description of transition systems based on  SMT-LIB2, BTOR2, and MOXI, allowing for the definition of state types, initial states, and transition relations using first-order formulas
@@ -81,7 +83,7 @@ Its predecessor can be downloaded from the [SAL Website](sal.csl.sri.com).
 
 {{< /dropdown-title >}}
 
-{{< dropdown-title title="Radler - Multi-Rate Integration Architecture" >}}
+{{< dropdown-title title="Radler Multi-Rate Integration Architecture" >}}
 
 ## Description
 Radler implements a formally grounded approach to designing, developing, and verifying distributed multi-rate cyber-physical systems,
@@ -107,7 +109,7 @@ Licenses for commercial usage or specific support are available upon request.
 
 {{< /dropdown-title >}}
 
-{{< dropdown-title title="ETB - Evidential Toolbus" >}}
+{{< dropdown-title title="Evidential Toolbus (ETB)" >}}
 
 ## Description
 Distributed framework for integrating various software systems analysis and verification tools.
