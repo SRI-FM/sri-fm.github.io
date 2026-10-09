@@ -50,7 +50,8 @@ make serve
 ```
 
 Open <http://localhost:1313>. Pushing `main` rebuilds and deploys the site with
-GitHub Pages.
+GitHub Pages. The exported stylesheet URL includes a content hash so CSS changes
+receive a fresh browser-cache key on each deployment.
 
 The local server watches `content/`, `static/`, `examples/tools/`,
 `publish.el`, and the static source highlighter. After a

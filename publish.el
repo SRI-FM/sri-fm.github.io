@@ -33,6 +33,13 @@
 (defconst sri-public-directory
   (expand-file-name "public" sri-root-directory))
 
+(defun sri-static-version (path)
+  "Return a content version for PATH under static/."
+  (with-temp-buffer
+    (insert-file-contents-literally
+     (expand-file-name (concat "static/" path) sri-root-directory))
+    (substring (secure-hash 'sha256 (current-buffer)) 0 12)))
+
 (defun sri--html-text (text)
   "Encode TEXT for safe use in HTML."
   (org-html-encode-plain-text (or text "")))
@@ -170,7 +177,8 @@ The Org source supports two deliberately small extensions:
          :html-doctype "html5"
          :html-html5-fancy t
          :html-head
-         "<link rel=\"stylesheet\" href=\"/css/site.css\">\n<meta name=\"theme-color\" content=\"#17364f\">"
+         ,(format "<link rel=\"stylesheet\" href=\"/css/site.css?v=%s\">\n<meta name=\"theme-color\" content=\"#17364f\">"
+                  (sri-static-version "css/site.css"))
          :html-preamble sri-html-preamble
          :html-postamble sri-html-postamble)
         ("site-static"
