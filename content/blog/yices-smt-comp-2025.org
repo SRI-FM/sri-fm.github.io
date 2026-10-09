@@ -1,4 +1,5 @@
 #+TITLE: Yices2 at SMT-COMP 2025
+#+HTML_CONTENT_CLASS: article-page
 #+DESCRIPTION: Yices2 has been submitted to SMT-COMP 2025.
 #+DATE: June 2025
 

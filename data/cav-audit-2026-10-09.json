@@ -1,0 +1,547 @@
+{
+  "reviewed": "2026-10-09",
+  "scope": "CAV main-conference proceedings papers authored by any of Natarajan Shankar, Harald Ruess/Rueß, John Rushby/John M. Rushby, or Sam Owre, through the review date. Includes published invited/tutorial/tool papers; excludes workshop-only papers, journal extensions, preprints of these proceedings papers, awards and editorships.",
+  "method": "Independently enumerated the four DBLP author pages, deduplicated by proceedings record key, reconciled author names and titles, and opened all 23 Springer chapter records. Cross-checked SRI author and historical PVS bibliographies and the fortiss Ruess bibliography. Publisher affiliation metadata checked for additions and the 1997 author-order correction.",
+  "author_sources": {
+    "Shankar": "https://dblp.org/pid/33/1623.html",
+    "Ruess": "https://dblp.org/pid/28/800.html",
+    "Rushby": "https://dblp.org/pid/02/3378.html",
+    "Owre": "https://dblp.org/pid/06/503.html"
+  },
+  "primary_bibliographies": [
+    "https://www.csl.sri.com/users/shankar/shankar-papers.html",
+    "https://www.csl.sri.com/~rushby/biblio.html",
+    "https://www.csl.sri.com/~rushby/pvs-bib.html",
+    "https://www.fortiss.org/en/results/scientific-publications/author/harald-ruess"
+  ],
+  "totals": {
+    "Shankar": {
+      "expected": 11,
+      "existing": 8,
+      "added": 3
+    },
+    "Ruess": {
+      "expected": 11,
+      "existing": 4,
+      "added": 7
+    },
+    "Rushby": {
+      "expected": 5,
+      "existing": 5,
+      "added": 0
+    },
+    "Owre": {
+      "expected": 6,
+      "existing": 6,
+      "added": 0
+    }
+  },
+  "unique_total": 23,
+  "existing": 15,
+  "added": 8,
+  "limitations": [
+    "No unmatched record remains in the enumerated set; this is a source-based completeness audit, not a guarantee against unindexed publications.",
+    "The SRI Shankar page is explicitly partial; the historical PVS bibliography is dated. Direct SRI Owre and Ruess personal pages could not be fetched by the research tool; DBLP, historical PVS records, fortiss and Springer supplied the cross-checks.",
+    "Three Ruess papers have no SRI affiliation and are included with visible notes. JBernstein has an SRI coauthor despite Ruess’s fortiss affiliation. The 1997 bit-vector paper lists Ruess at Ulm and Cyrluk at SRI."
+  ],
+  "exclusions": [
+    {
+      "title": "The Ontological Argument in PVS",
+      "year": 2013,
+      "reason": "Fun With Formal Methods workshop at CAV; not main proceedings.",
+      "source": "https://www.csl.sri.com/~rushby/biblio.html"
+    },
+    {
+      "title": "Modular Verification of SRT Division",
+      "year": 1999,
+      "reason": "Journal extension; retained separately, not counted as CAV 1996.",
+      "source": "https://www.csl.sri.com/users/shankar/shankar-papers.html"
+    },
+    {
+      "title": "PVS: Combining Specification, Proof Checking, and Model Checking",
+      "year": 1996,
+      "reason": "FMCAD tutorial distinct from CAV system paper; not counted as CAV.",
+      "source": "https://www.csl.sri.com/users/shankar/shankar-papers.html"
+    }
+  ],
+  "records": [
+    {
+      "key": "conf/cav/TafeseNSSGL26",
+      "title": "Show Me The Money: An Exercise in Proof-Driven Software Understanding",
+      "year": 2026,
+      "authors": [
+        "Joseph Tafese",
+        "Karthik Nukala",
+        "Hassen Saïdi",
+        "Natarajan Shankar",
+        "Arie Gurfinkel",
+        "Giuliano Losa"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-032-32537-2_11",
+        "https://dblp.org/rec/conf/cav/TafeseNSSGL26",
+        "https://dblp.org/db/conf/cav/cav2026-3.html#conf/cav/TafeseNSSGL26"
+      ]
+    },
+    {
+      "key": "conf/cav/JohannsenNDISTVR24",
+      "title": "The MoXI Model Exchange Tool Suite",
+      "year": 2024,
+      "authors": [
+        "Chris Johannsen",
+        "Karthik Nukala",
+        "Rohit Dureja",
+        "Ahmed Irfan",
+        "Natarajan Shankar",
+        "Cesare Tinelli",
+        "Moshe Y. Vardi",
+        "Kristin Yvonne Rozier"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Shankar"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-031-65627-9_10",
+        "https://dblp.org/rec/conf/cav/JohannsenNDISTVR24",
+        "https://dblp.org/db/conf/cav/cav2024-1.html#conf/cav/JohannsenNDISTVR24"
+      ]
+    },
+    {
+      "key": "conf/cav/ChengHR16",
+      "title": "Structural Synthesis for GXW Specifications",
+      "year": 2016,
+      "authors": [
+        "Chih-Hong Cheng",
+        "Yassine Hamza",
+        "Harald Ruess"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Ruess"
+      ],
+      "affiliation_note": "No SRI author affiliation listed; Ruess at fortiss.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-319-41528-4_6",
+        "https://dblp.org/rec/conf/cav/ChengHR16",
+        "https://dblp.org/db/conf/cav/cav2016-1.html#conf/cav/ChengHR16"
+      ]
+    },
+    {
+      "key": "conf/cav/ChengHRS14",
+      "title": "G4LTL-ST: Automatic Generation of PLC Programs",
+      "year": 2014,
+      "authors": [
+        "Chih-Hong Cheng",
+        "Chung-Hao Huang",
+        "Harald Ruess",
+        "Stefan Stattelmann"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Ruess"
+      ],
+      "affiliation_note": "No SRI author affiliation listed; Ruess at fortiss.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-319-08867-9_36",
+        "https://dblp.org/rec/conf/cav/ChengHRS14",
+        "https://dblp.org/db/conf/cav/cav2014.html#conf/cav/ChengHRS14"
+      ]
+    },
+    {
+      "key": "conf/cav/ChengRS13",
+      "title": "JBernstein: A Validity Checker for Generalized Polynomial Constraints",
+      "year": 2013,
+      "authors": [
+        "Chih-Hong Cheng",
+        "Harald Ruess",
+        "Natarajan Shankar"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Shankar",
+        "Ruess"
+      ],
+      "affiliation_note": "Ruess at fortiss; Shankar at SRI.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-642-39799-8_43",
+        "https://dblp.org/rec/conf/cav/ChengRS13",
+        "https://dblp.org/db/conf/cav/cav2013.html#conf/cav/ChengRS13"
+      ]
+    },
+    {
+      "key": "conf/cav/ChengGRBK12",
+      "title": "MGSyn: Automatic Synthesis for Industrial Automation",
+      "year": 2012,
+      "authors": [
+        "Chih-Hong Cheng",
+        "Michael Geisinger",
+        "Harald Ruess",
+        "Christian Buckl",
+        "Alois Knoll"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Ruess"
+      ],
+      "affiliation_note": "No SRI author affiliation listed; Ruess at fortiss.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-642-31424-7_46",
+        "https://dblp.org/rec/conf/cav/ChengGRBK12",
+        "https://dblp.org/db/conf/cav/cav2012.html#conf/cav/ChengGRBK12"
+      ]
+    },
+    {
+      "key": "conf/cav/MouraDS07",
+      "title": "A Tutorial on Satisfiability Modulo Theories",
+      "year": 2007,
+      "authors": [
+        "Leonardo de Moura",
+        "Bruno Dutertre",
+        "Natarajan Shankar"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-540-73368-3_5",
+        "https://dblp.org/rec/conf/cav/MouraDS07",
+        "https://dblp.org/db/conf/cav/cav2007.html#conf/cav/MouraDS07"
+      ]
+    },
+    {
+      "key": "conf/cav/MouraR04",
+      "title": "An Experimental Evaluation of Ground Decision Procedures",
+      "year": 2004,
+      "authors": [
+        "Leonardo de Moura",
+        "Harald Ruess"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Ruess"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-540-27813-9_13",
+        "https://dblp.org/rec/conf/cav/MouraR04",
+        "https://dblp.org/db/conf/cav/cav2004.html#conf/cav/MouraR04"
+      ]
+    },
+    {
+      "key": "conf/cav/MouraORRSST04",
+      "title": "SAL 2",
+      "year": 2004,
+      "authors": [
+        "Leonardo de Moura",
+        "Sam Owre",
+        "Harald Ruess",
+        "John Rushby",
+        "Natarajan Shankar",
+        "Maria Sorea",
+        "Ashish Tiwari"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar",
+        "Ruess",
+        "Rushby",
+        "Owre"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-540-27813-9_45",
+        "https://dblp.org/rec/conf/cav/MouraORRSST04",
+        "https://dblp.org/db/conf/cav/cav2004.html#conf/cav/MouraORRSST04"
+      ]
+    },
+    {
+      "key": "conf/cav/MouraRS03",
+      "title": "Bounded Model Checking and Induction: From Refutation to Verification",
+      "year": 2003,
+      "authors": [
+        "Leonardo de Moura",
+        "Harald Ruess",
+        "Maria Sorea"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Ruess"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/978-3-540-45069-6_2",
+        "https://dblp.org/rec/conf/cav/MouraRS03",
+        "https://dblp.org/db/conf/cav/cav2003.html#conf/cav/MouraRS03"
+      ]
+    },
+    {
+      "key": "conf/cav/FilliatreORS01",
+      "title": "ICS: Integrated Canonizer and Solver",
+      "year": 2001,
+      "authors": [
+        "Jean-Christophe Filliâtre",
+        "Sam Owre",
+        "Harald Ruess",
+        "Natarajan Shankar"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar",
+        "Ruess",
+        "Owre"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-44585-4_22",
+        "https://dblp.org/rec/conf/cav/FilliatreORS01",
+        "https://dblp.org/db/conf/cav/cav2001.html#conf/cav/FilliatreORS01"
+      ]
+    },
+    {
+      "key": "conf/cav/OwreR00",
+      "title": "Integrating WS1S with PVS",
+      "year": 2000,
+      "authors": [
+        "Sam Owre",
+        "Harald Ruess"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Ruess",
+        "Owre"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/10722167_42",
+        "https://dblp.org/rec/conf/cav/OwreR00",
+        "https://dblp.org/db/conf/cav/cav2000.html#conf/cav/OwreR00"
+      ]
+    },
+    {
+      "key": "conf/cav/Rushby00",
+      "title": "Verification Diagrams Revisited: Disjunctive Invariants for Easy Verification",
+      "year": 2000,
+      "authors": [
+        "John Rushby"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Rushby"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/10722167_38",
+        "https://dblp.org/rec/conf/cav/Rushby00",
+        "https://dblp.org/db/conf/cav/cav2000.html#conf/cav/Rushby00"
+      ]
+    },
+    {
+      "key": "conf/cav/SaidiS99",
+      "title": "Abstract and Model Check while you Prove",
+      "year": 1999,
+      "authors": [
+        "Hassen Saïdi",
+        "Natarajan Shankar"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-48683-6_38",
+        "https://dblp.org/rec/conf/cav/SaidiS99",
+        "https://dblp.org/db/conf/cav/cav99.html#conf/cav/SaidiS99"
+      ]
+    },
+    {
+      "key": "conf/cav/BensalemLO98",
+      "title": "Computing Abstractions of Infinite State Systems Compositionally and Automatically",
+      "year": 1998,
+      "authors": [
+        "Saddek Bensalem",
+        "Yassine Lakhnech",
+        "Sam Owre"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Owre"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/BFb0028755",
+        "https://dblp.org/rec/conf/cav/BensalemLO98",
+        "https://dblp.org/db/conf/cav/cav98.html#conf/cav/BensalemLO98"
+      ]
+    },
+    {
+      "key": "conf/cav/BensalemLO98a",
+      "title": "InVeSt: A Tool for the Verification of Invariants",
+      "year": 1998,
+      "authors": [
+        "Saddek Bensalem",
+        "Yassine Lakhnech",
+        "Sam Owre"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Owre"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/BFb0028771",
+        "https://dblp.org/rec/conf/cav/BensalemLO98a",
+        "https://dblp.org/db/conf/cav/cav98.html#conf/cav/BensalemLO98a"
+      ]
+    },
+    {
+      "key": "conf/cav/CyrlukMR97",
+      "title": "An Efficient Decision Procedure for the Theory of Fixed-Sized Bit-Vectors",
+      "year": 1997,
+      "authors": [
+        "David Cyrluk",
+        "Oliver Möller",
+        "Harald Ruess"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Ruess"
+      ],
+      "affiliation_note": "Ruess and Möller at Ulm; Cyrluk at SRI.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-63166-6_9",
+        "https://dblp.org/rec/conf/cav/CyrlukMR97",
+        "https://dblp.org/db/conf/cav/cav97.html#conf/cav/CyrlukMR97"
+      ]
+    },
+    {
+      "key": "conf/cav/Rushby96",
+      "title": "Automated Deduction and Formal Methods",
+      "year": 1996,
+      "authors": [
+        "John Rushby"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Rushby"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-61474-5_67",
+        "https://dblp.org/rec/conf/cav/Rushby96",
+        "https://dblp.org/db/conf/cav/cav96.html#conf/cav/Rushby96"
+      ]
+    },
+    {
+      "key": "conf/cav/RuessSS96",
+      "title": "Modular Verification of SRT Division",
+      "year": 1996,
+      "authors": [
+        "Harald Ruess",
+        "Natarajan Shankar",
+        "Mandayam K. Srivas"
+      ],
+      "status": "added",
+      "target_authors": [
+        "Shankar",
+        "Ruess"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-61474-5_63",
+        "https://dblp.org/rec/conf/cav/RuessSS96",
+        "https://dblp.org/db/conf/cav/cav96.html#conf/cav/RuessSS96"
+      ]
+    },
+    {
+      "key": "conf/cav/OwreRRSS96",
+      "title": "PVS: Combining Specification, Proof Checking, and Model Checking",
+      "year": 1996,
+      "authors": [
+        "S. Owre",
+        "S. Rajan",
+        "J.M. Rushby",
+        "Natarajan Shankar",
+        "M.K. Srivas"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar",
+        "Rushby",
+        "Owre"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-61474-5_91",
+        "https://dblp.org/rec/conf/cav/OwreRRSS96",
+        "https://dblp.org/db/conf/cav/cav96.html#conf/cav/OwreRRSS96"
+      ]
+    },
+    {
+      "key": "conf/cav/RajanSS95",
+      "title": "An Integration of Model-Checking with Automated Proof Checking",
+      "year": 1995,
+      "authors": [
+        "S. Rajan",
+        "Natarajan Shankar",
+        "M.K. Srivas"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-60045-0_42",
+        "https://dblp.org/rec/conf/cav/RajanSS95",
+        "https://dblp.org/db/conf/cav/cav95.html#conf/cav/RajanSS95"
+      ]
+    },
+    {
+      "key": "conf/cav/LincolnR93",
+      "title": "The Formal Verification of an Algorithm for Interactive Consistency under a Hybrid Fault Model",
+      "year": 1993,
+      "authors": [
+        "Patrick Lincoln",
+        "John Rushby"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Rushby"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-56922-7_24",
+        "https://dblp.org/rec/conf/cav/LincolnR93",
+        "https://dblp.org/db/conf/cav/cav93.html#conf/cav/LincolnR93"
+      ]
+    },
+    {
+      "key": "conf/cav/Shankar93",
+      "title": "Verification of Real-Time Systems Using PVS",
+      "year": 1993,
+      "authors": [
+        "Natarajan Shankar"
+      ],
+      "status": "existing",
+      "target_authors": [
+        "Shankar"
+      ],
+      "affiliation_note": "SRI-connected record.",
+      "sources": [
+        "https://link.springer.com/chapter/10.1007/3-540-56922-7_23",
+        "https://dblp.org/rec/conf/cav/Shankar93",
+        "https://dblp.org/db/conf/cav/cav93.html#conf/cav/Shankar93"
+      ]
+    }
+  ]
+}

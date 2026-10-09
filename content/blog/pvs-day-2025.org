@@ -1,4 +1,5 @@
 #+TITLE: PVS Day at NASA Formal Methods 2025
+#+HTML_CONTENT_CLASS: article-page
 #+DESCRIPTION: PVS Day brings the PVS community together at NASA Formal Methods 2025.
 #+DATE: June 2025
 

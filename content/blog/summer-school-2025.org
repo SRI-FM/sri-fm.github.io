@@ -1,4 +1,5 @@
 #+TITLE: Fourteenth Summer School on Formal Techniques
+#+HTML_CONTENT_CLASS: article-page
 #+DESCRIPTION: The 2025 Summer School on Formal Techniques at Menlo College.
 #+DATE: May 2025
 

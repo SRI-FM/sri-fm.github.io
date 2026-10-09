@@ -1,0 +1,6 @@
+(define x::(bitvector 8))
+(assert
+  (= (bv-add x 0b00000001)
+     0b00000000))
+(check)
+(show-model)

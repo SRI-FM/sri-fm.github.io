@@ -1,4 +1,5 @@
 #+TITLE: Blog
+#+HTML_CONTENT_CLASS: blog-index
 #+DESCRIPTION: News and notes from the SRI Formal Methods Program.
 
 * [[site:blog/yices-smt-comp-2025/][Yices2 at SMT-COMP 2025]]

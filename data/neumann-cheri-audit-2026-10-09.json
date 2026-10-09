@@ -1,0 +1,3743 @@
+{
+  "reviewed": "2026-10-09",
+  "scope": "Historical source reconciliation of SRI-era Neumann research and the official CTSRD/CHERI inventories. The original broad project import has subsequently been narrowed to direct SRI authorship; see cheri-sri-affiliation-audit-2026-10-09.json for final inclusion decisions.",
+  "sources": [
+    "https://www.csl.sri.com/~neumann/",
+    "https://www.csl.sri.com/~neumann/references.html",
+    "https://www.csl.sri.com/people/neumann/",
+    "https://dblp.org/pid/n/PeterGNeumann.html",
+    "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+    "https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/cheriformal_bib.html"
+  ],
+  "method": [
+    "Enumerate the official CTSRD/CHERI inventory, retain its independently numbered reports and dissertations, and deduplicate the thesis/report double listing.",
+    "Enumerate Neumann’s DBLP author records; select research papers, books and chapters, then reconcile his selected SRI bibliography, SRI homepage and all 15 entries in the official CSL paper list.",
+    "Correct chapter classifications; distinguish conference, journal, report and thesis versions. Use publisher dates where the author bibliography describes a prepublication version.",
+    "Preserve source URLs on every record. Missing DOI, pagination or publisher fields are omitted rather than inferred. A source bibliography link is explicitly identified when the original paper is unavailable."
+  ],
+  "limitations": [
+    "Neumann’s selected bibliography and CSL list are partial and historical; the CHERI source inventories are maintained independently and may omit newer work. No claim of completeness beyond the enumerated source inventories.",
+    "Neumann serial Inside Risks columns, RISKS digests, routine editorials, book reviews, interviews, testimony, event listings and pre-SRI publications are outside this research reconciliation. Selected substantial essays and retrospective articles explicitly listed by the author are retained.",
+    "The 2004 Computer Ethics and Professional Responsibility contribution has no chapter title in the selected bibliography; it is not fabricated as a separate record.",
+    "The 1975 and 1977 PSOS reports are mentioned in the verified 1980 second-edition record; their precise independent edition metadata has not been established.",
+    "The homepage mentions Trustworthy Total-System Integration: Exploration of Hidden Security Problems, and Potential Approaches for Resolving Them without enough independently verified publication metadata for a new entry.",
+    "Some legacy SRI links are intermittently unavailable or lead to a bibliography rather than full text. The 1985 IDES, 1986 SIDS and 1988 Secure Distributed Data Views records explicitly point to later source bibliographies.",
+    "Committee books use corporate authorship and explicitly credit Neumann’s committee contribution; they are not represented as solely authored books.",
+    "The per-source added/existing statuses below describe the original reconciliation. Forty-two project entries were subsequently removed by the SRI authorship audit, including the 2026 linkage-based paper. Draft guide and CTSRD final-report status remain explicitly noted."
+  ],
+  "cheri_project_inventory": [
+    {
+      "source_index": 0,
+      "title": "Efficient Linkage-Based Compartmentalization on CHERI",
+      "year": 2026,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 1,
+      "title": "Deprivileging Low-Level GPU Drivers Efficiently with User-Space Processes and CHERI Compartments",
+      "year": 2025,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 2,
+      "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+      "year": 2025,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 3,
+      "title": "Adaptive CHERI Compartmentalization for Heterogeneous Accelerators",
+      "year": 2025,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 4,
+      "title": "Morello-Cerise: A Proof of Strong Encapsulation for the Arm Morello Capability Hardware Architecture",
+      "year": 2025,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 5,
+      "title": "It is time to standardize principles and practices for software memory safety",
+      "year": 2025,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 6,
+      "title": "Safe Speculation for CHERI",
+      "year": 2024,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 7,
+      "title": "Cornucopia Reloaded: Load Barriers for CHERI Heap Temporal Safety",
+      "year": 2024,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 8,
+      "title": "Formal Mechanised Semantics of CHERI C: Capabilities, Provenance, and Undefined Behaviour",
+      "year": 2024,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 9,
+      "title": "Randomized Testing of RISC-V CPUs using Direct Instruction Injection",
+      "year": 2024,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 10,
+      "title": "Architectural Contracts for Safe Speculation",
+      "year": 2023,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 11,
+      "title": "CHERIoT: Complete Memory Safety for Embedded Devices",
+      "year": 2023,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 12,
+      "title": "Library-based Compartmentalisation on CHERI",
+      "year": 2023,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 13,
+      "title": "The Arm Morello Evaluation Platform—Validating CHERI-Based Security in a High-Performance System",
+      "year": 2023,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 14,
+      "title": "Verified Security for the Morello Capability-enhanced Prototype Arm Architecture",
+      "year": 2022,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 15,
+      "title": "Developing a Test Suite for Transient-Execution Attacks on RISC-V and CHERI-RISC-V",
+      "year": 2021,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 16,
+      "title": "Position Paper: Defending Direct Memory Access with CHERI Capabilities",
+      "year": 2020,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 17,
+      "title": "Cornucopia: Temporal Safety for CHERI Heaps",
+      "year": 2020,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 18,
+      "title": "Rigorous engineering for hardware security: Formal modelling and proof in the CHERI design and implementation process",
+      "year": 2020,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 19,
+      "title": "CHERIvoke: Characterising Pointer Revocation using CHERI Capabilities for Temporal Memory Safety",
+      "year": 2019,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 20,
+      "title": "CHERI Concentrate: Practical Compressed Capabilities",
+      "year": 2019,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 21,
+      "title": "CheriABI: Enforcing Valid Pointer Provenance and Minimizing Pointer Privilege in the POSIX C Run-time Environment",
+      "year": 2019,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 22,
+      "title": "Thunderclap: Exploring Vulnerabilities in Operating System IOMMU Protection via DMA from Untrustworthy Peripherals",
+      "year": 2019,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 23,
+      "title": "Exploring C Semantics and Pointer Provenance",
+      "year": 2019,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 24,
+      "title": "CheriRTOS: A Capability Model for Embedded Devices",
+      "year": 2018,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 25,
+      "title": "Efficient Tagged Memory",
+      "year": 2017,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 26,
+      "title": "Balancing Disruption and Deployability in the CHERI Instruction-Set Architecture (ISA)",
+      "year": 2018,
+      "status": "added",
+      "category": "Book Chapters"
+    },
+    {
+      "source_index": 27,
+      "title": "Fundamental Trustworthiness Principles",
+      "year": 2018,
+      "status": "added",
+      "category": "Book Chapters"
+    },
+    {
+      "source_index": 28,
+      "title": "Pointer Provenance in a Capability Architecture",
+      "year": 2018,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 29,
+      "title": "CHERI-JNI: Sinking the Java security model into the C",
+      "year": 2017,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 30,
+      "title": "Fast Protection-Domain Crossing in the CHERI Capability-System Architecture",
+      "year": 2016,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 31,
+      "title": "Into the depths of C: elaborating the de facto standards",
+      "year": 2016,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 32,
+      "title": "Clean Application Compartmentalization with SOAAP",
+      "year": 2015,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 33,
+      "title": "A Generic Synthesisable Test Bench",
+      "year": 2015,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 34,
+      "title": "CHERI: A Hybrid Capability-System Architecture for Scalable Software Compartmentalization",
+      "year": 2015,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 35,
+      "title": "Beyond the PDP-11: Architectural support for a memory-safe C abstract machine",
+      "year": 2015,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 36,
+      "title": "Smten with Satisfiability-based Search",
+      "year": 2014,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 37,
+      "title": "Network Stack Specialization for Performance",
+      "year": 2014,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 38,
+      "title": "The CHERI capability model: Revisiting RISC in an age of risk",
+      "year": 2014,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 39,
+      "title": "TESLA: Temporally Enhanced System Logic Assertions",
+      "year": 2014,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 40,
+      "title": "Modular Compilation of Guarded Atomic Actions",
+      "year": 2013,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 41,
+      "title": "Smten: Automatic Translation of High-level Symbolic Computations into SMT Queries",
+      "year": 2013,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 42,
+      "title": "Declarative, Temporal, and Practical Programming with Capabilities",
+      "year": 2013,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 43,
+      "title": "A Decade of OS Access-Control Extensibility: Open-source Security Foundations for mobile and embedded devices",
+      "year": 2013,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 44,
+      "title": "Inside Risks: More Sight on Foresight",
+      "year": 2013,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 45,
+      "title": "Inside Risks: The Foresight Saga, Redux",
+      "year": 2012,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "source_index": 46,
+      "title": "Automatic Generation of Hardware/Software Interfaces",
+      "year": 2012,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 47,
+      "title": "Network stack specialisation for performance",
+      "year": 2013,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 48,
+      "title": "Towards a theory of application compartmentalisation",
+      "year": 2013,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 49,
+      "title": "Memory Segmentation to Support Secure Applications",
+      "year": 2013,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 50,
+      "title": "Exploring compartmentalisation hypotheses with SOAAP",
+      "year": 2012,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 51,
+      "title": "CHERI: A Research Platform Deconflating Hardware Virtualization and Protection",
+      "year": 2012,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 52,
+      "title": "Capabilities Revisited: A Holistic Approach to Bottom-to-Top Assurance of Trustworthy Systems",
+      "year": 2010,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 53,
+      "title": "How FreeBSD Boots: a soft-core MIPS perspective",
+      "year": 2014,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 54,
+      "title": "LLVM in the FreeBSD Toolchain",
+      "year": 2014,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 55,
+      "title": "The BERIpad tablet: open-source construction, CPU, OS and applications",
+      "year": 2013,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "source_index": 56,
+      "title": "CHERI C/C++ Programming Guide (2025 draft)",
+      "year": 2025,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 57,
+      "title": "CHERI-SIMT report: implementing capability memory protection in GPGPUs",
+      "year": 2025,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 58,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 9)",
+      "year": 2023,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 59,
+      "title": "Early performance results from the prototype Morello microarchitecture",
+      "year": 2023,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 60,
+      "title": "Arm Morello Programme: Architectural security goals and known limitations",
+      "year": 2023,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 61,
+      "title": "Assessing the Viability of an Open-Source CHERI Desktop Software Ecosystem",
+      "year": 2021,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 62,
+      "status": "excluded",
+      "reason": "Empty list item"
+    },
+    {
+      "source_index": 63,
+      "title": "Verified security for the Morello capability-enhanced prototype Arm architecture",
+      "year": 2021,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 64,
+      "title": "DSbD CHERI and Morello Capability Essential IP (Version 1)",
+      "year": 2020,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 65,
+      "title": "Security analysis of CHERI ISA",
+      "year": 2020,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 66,
+      "status": "duplicate",
+      "reason": "UCAM-CL-TR-949 is also listed under PhD dissertations; represented there once."
+    },
+    {
+      "source_index": 67,
+      "title": "An Introduction to CHERI",
+      "year": 2019,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 68,
+      "title": "CheriABI: Enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment",
+      "year": 2019,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 69,
+      "title": "Capability Hardware Enhanced RISC Instructions (CHERI): Notes on the Meltdown and Spectre Attacks",
+      "year": 2018,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 70,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Programmer’s Guide",
+      "year": 2015,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 71,
+      "title": "Bluespec Extensible RISC Implementation: BERI Software Reference",
+      "year": 2015,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 72,
+      "title": "Bluespec Extensible RISC Implementation: BERI Hardware Reference",
+      "year": 2015,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 73,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 8)",
+      "year": 2020,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 74,
+      "title": "CHERI C/C++ Programming Guide",
+      "year": 2020,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 75,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 7)",
+      "year": 2019,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 76,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 6)",
+      "year": 2017,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 77,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 5)",
+      "year": 2016,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 78,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (UCAM-CL-TR-876)",
+      "year": 2015,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 79,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (UCAM-CL-TR-864)",
+      "year": 2014,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 80,
+      "title": "Bluespec Extensible RISC Implementation: BERI Software Reference (UCAM-CL-TR-853)",
+      "year": 2014,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 81,
+      "title": "Bluespec Extensible RISC Implementation: BERI Hardware Reference (UCAM-CL-TR-852)",
+      "year": 2014,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 82,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI User’s Guide",
+      "year": 2014,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 83,
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (UCAM-CL-TR-850)",
+      "year": 2014,
+      "status": "added",
+      "category": "Technical Reports"
+    },
+    {
+      "source_index": 84,
+      "title": "Toward transient-execution attack mitigations on CHERI",
+      "year": 2025,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 85,
+      "title": "Efficient spatial and temporal safety for microcontrollers and application-class processors",
+      "year": 2023,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 86,
+      "title": "The Cerberos C semantics",
+      "year": 2023,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 87,
+      "title": "CHERI compartmentalisation for embedded systems",
+      "year": 2022,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 88,
+      "title": "Memory safety with CHERI capabilities: security analysis, language interpreters, and heap temporal safety",
+      "year": 2022,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 89,
+      "title": "Capability-based access control for cyber physical systems",
+      "year": 2021,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 90,
+      "title": "CheriOS: designing an untrusted single-address-space capability operating system utilising capability hardware and a minimal hypervisor",
+      "year": 2021,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 91,
+      "title": "Capability memory protection for embedded systems",
+      "year": 2021,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 92,
+      "title": "Complete spatial safety for C and C++ using CHERI capabilities",
+      "year": 2020,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 93,
+      "title": "High-performance memory safety: optimizing the CHERI capability machine",
+      "year": 2019,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 94,
+      "title": "Hardware support for compartmentalisation",
+      "year": 2016,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 95,
+      "title": "A RISC capability machine for practical memory safety",
+      "year": 2014,
+      "status": "added",
+      "category": "Theses"
+    },
+    {
+      "source_index": 96,
+      "title": "New approaches to operating system security extensibility",
+      "year": 2012,
+      "status": "added",
+      "category": "Theses"
+    }
+  ],
+  "neumann_dblp": [
+    {
+      "key": "journals/cacm/Neumann26",
+      "title": "Emerging Trustworthy Healthcare: Lessons for and from Computing",
+      "year": 2026,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann26",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2026,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann26a",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2026,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/WatsonBCCCDFGJLMMNORRST25",
+      "title": "It Is Time to Standardize Principles and Practices for Software Memory Safety",
+      "year": 2025,
+      "status": "existing",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann25",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2025,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann25a",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2025,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann25b",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2025,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann25c",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2025,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannL24",
+      "title": "The Future of Misuse Detection",
+      "year": 2024,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/cybersecurity/AbelsonABBBCDLNRSSTT24",
+      "title": "Bugs in our pockets: the risks of client-side scanning",
+      "year": 2024,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/dt/JoannouRWFMNRWNM24",
+      "title": "Randomized Testing of RISC-V CPUs Using Direct Instruction Injection",
+      "year": 2024,
+      "status": "existing",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/ieeesp/WatsonCCDFLMNRSWW24",
+      "title": "CHERI: Hardware-Enabled C/C++ Memory Protection at Scale",
+      "year": 2024,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann24",
+      "title": "Risks to the Public.",
+      "year": 2024,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann24a",
+      "title": "Risks to the Public.",
+      "year": 2024,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann24b",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2024,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann24c",
+      "title": "ACM Risks Forum Quarterly Summary.",
+      "year": 2024,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/asplos/FilardoGW0RDJNC24",
+      "title": "Cornucopia Reloaded: Load Barriers for CHERI Heap Temporal Safety",
+      "year": 2024,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/healthsec/Neumann24",
+      "title": "Position Paper: Computer-Related Health Risks",
+      "year": 2024,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/iccd/FuchsWRJ0BDNWM24",
+      "title": "Safe Speculation for Cheri",
+      "year": 2024,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann23",
+      "title": "Computer-Related Risks and Remediation Challenges.",
+      "year": 2023,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann23",
+      "title": "Risks to the Public.",
+      "year": 2023,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann23a",
+      "title": "Risks to the Public.",
+      "year": 2023,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann23b",
+      "title": "Risks to the Public.",
+      "year": 2023,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann23c",
+      "title": "Risks to the Public.",
+      "year": 2023,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/iccd/FuchsWRMJR0FDBN23",
+      "title": "Architectural Contracts for Safe Speculation",
+      "year": 2023,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann22",
+      "title": "Toward total-system trustworthiness",
+      "year": 2022,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann22",
+      "title": "Risks to the Public.",
+      "year": 2022,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann22a",
+      "title": "Risks to the Public.",
+      "year": 2022,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann22b",
+      "title": "Risks to the Public.",
+      "year": 2022,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann22c",
+      "title": "Risks to the Public.",
+      "year": 2022,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/corr/abs-2206-02852",
+      "title": "CompartOS: CHERI Compartmentalization for Embedded Systems",
+      "year": 2022,
+      "status": "added",
+      "category": "Preprints and Working Papers"
+    },
+    {
+      "key": "journals/cacm/MercuriN21",
+      "title": "The risks of election believability (or lack thereof).",
+      "year": 2021,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann21",
+      "title": "Risks to the Public.",
+      "year": 2021,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann21a",
+      "title": "Risks to the Public.",
+      "year": 2021,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann21b",
+      "title": "Risks to the Public.",
+      "year": 2021,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann21c",
+      "title": "Risks to the Public.",
+      "year": 2021,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/corr/abs-2110-07450",
+      "title": "Bugs in our Pockets: The Risks of Client-Side Scanning.",
+      "year": 2021,
+      "status": "excluded",
+      "reason": "Preprint of the included 2024 Bugs in our pockets journal paper."
+    },
+    {
+      "key": "journals/cacm/Neumann20",
+      "title": "A holistic view of future risks.",
+      "year": 2020,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann20",
+      "title": "Risks to the Public.",
+      "year": 2020,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann20a",
+      "title": "Risks to the Public.",
+      "year": 2020,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann20b",
+      "title": "Risks to the Public.",
+      "year": 2020,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann20c",
+      "title": "Risks to the Public.",
+      "year": 2020,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/micro/MarkettosBBNMW20",
+      "title": "Position Paper: Defending Direct Memory Access with CHERI Capabilities",
+      "year": 2020,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/sp/FilardoGWAPDXNR20",
+      "title": "Cornucopia: Temporal Safety for CHERI Heaps",
+      "year": 2020,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/sp/NienhuisJBFR0NN20",
+      "title": "Rigorous engineering for hardware security: Formal modelling and proof in the CHERI design and implementation process",
+      "year": 2020,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/MarkettosWMSN19",
+      "title": "Through computer architecture, darkly",
+      "year": 2019,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/cacm/Neumann19",
+      "title": "How might we increase system trustworthiness?",
+      "year": 2019,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann19",
+      "title": "Risks to the Public.",
+      "year": 2019,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann19a",
+      "title": "Risks to the Public.",
+      "year": 2019,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann19b",
+      "title": "Risks to the Public.",
+      "year": 2019,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann19c",
+      "title": "Risks to the Public.",
+      "year": 2019,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/tc/WoodruffJXFNCDG19",
+      "title": "CHERI Concentrate: Practical Compressed Capabilities",
+      "year": 2019,
+      "status": "existing",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "conf/asplos/DavisWRNMBCCFGJ19",
+      "title": "CheriABI: Enforcing Valid Pointer Provenance and Minimizing Pointer Privilege in the POSIX C Run-time Environment",
+      "year": 2019,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/micro/XiaWAFRRRNMW019",
+      "title": "CHERIvoke: Characterising Pointer Revocation using CHERI Capabilities for Temporal Memory Safety",
+      "year": 2019,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/ndss/MarkettosRGPNMW19",
+      "title": "Thunderclap: Exploring Vulnerabilities in Operating System IOMMU Protection via DMA from Untrustworthy Peripherals",
+      "year": 2019,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/BellovinN18",
+      "title": "The big picture.",
+      "year": 2018,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann18",
+      "title": "Risks to the Public.",
+      "year": 2018,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann18a",
+      "title": "Risks to the Public.",
+      "year": 2018,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann18b",
+      "title": "Risks to the Public.",
+      "year": 2018,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann18c",
+      "title": "Risks to the Public.",
+      "year": 2018,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/iccd/XiaWBEJKCRDNBGN18",
+      "title": "CheriRTOS: A Capability Model for Embedded Devices",
+      "year": 2018,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/LindqvistN17",
+      "title": "The future of the internet of things",
+      "year": 2017,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/cacm/Neumann17",
+      "title": "Trustworthiness and truthfulness are essential.",
+      "year": 2017,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann17",
+      "title": "Risks to the Public.",
+      "year": 2017,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann17a",
+      "title": "Risks to the Public.",
+      "year": 2017,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann17b",
+      "title": "Risks to the Public.",
+      "year": 2017,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann17c",
+      "title": "Risks to the Public.",
+      "year": 2017,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/asplos/ChisnallDGBJWMM17",
+      "title": "CHERI JNI: Sinking the Java Security Model into the C",
+      "year": 2017,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/iccd/JoannouWKMBXWCR17",
+      "title": "Efficient Tagged Memory",
+      "year": 2017,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/MercuriN16",
+      "title": "The risks of self-auditing systems.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann16",
+      "title": "Risks of automation: a cautionary total-system perspective of our cyberfuture.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/micro/WatsonNWMNACDLR16",
+      "title": "Fast Protection-Domain Crossing in the CHERI Capability-System Architecture",
+      "year": 2016,
+      "status": "existing",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann16",
+      "title": "Risks to the Public.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann16a",
+      "title": "Risks to the Public.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann16b",
+      "title": "Risks to the Public.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann16c",
+      "title": "Risks to the Public.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann16d",
+      "title": "Risks to the Public.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann16e",
+      "title": "Risks to the Public.",
+      "year": 2016,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/ubiquity/Neumann16",
+      "title": "Automated Car Woes - Whoa There!",
+      "year": 2016,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/ercim/WatsonMN16",
+      "title": "CHERI: A Hardware-Software System to Support the Principle of Least Privilege",
+      "year": 2016,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/cacm/Neumann15",
+      "title": "Far-sighted thinking about deleterious computer-related events.",
+      "year": 2015,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/AbelsonABBBDGGL15",
+      "title": "Keys under doormats",
+      "year": 2015,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/cybersecurity/AbelsonABBBDGG015",
+      "title": "Keys under doormats: mandating insecurity by requiring government access to all data and communications",
+      "year": 2015,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann15",
+      "title": "Risks to the Public.",
+      "year": 2015,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann15a",
+      "title": "Risks to the Public.",
+      "year": 2015,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann15b",
+      "title": "Risks to the Public.",
+      "year": 2015,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann15c",
+      "title": "Risks to the Public.",
+      "year": 2015,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann15d",
+      "title": "Risks to the Public.",
+      "year": 2015,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann15e",
+      "title": "Risks to the Public.",
+      "year": 2015,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/ancs/HanMRADMN15",
+      "title": "Blueswitch: Enabling Provably Consistent Configuration of Network Switches",
+      "year": 2015,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/asplos/ChisnallRWWVMRD15",
+      "title": "Beyond the PDP-11: Architectural Support for a Memory-Safe C Abstract Machine",
+      "year": 2015,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/ccs/GudkaWACDLMNR15",
+      "title": "Clean Application Compartmentalization with SOAAP",
+      "year": 2015,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/sosp/Neumann15",
+      "title": "Reminiscences on SOSP history day",
+      "year": 2015,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/sp/WatsonWNMACDDGL15",
+      "title": "CHERI: A Hybrid Capability-System Architecture for Scalable Software Compartmentalization",
+      "year": 2015,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann14",
+      "title": "Risks and myths of cloud computing and cloud storage.",
+      "year": 2014,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/ieeesp/NeumannPS14",
+      "title": "The IEEE Symposium on Security and Privacy, in Retrospect",
+      "year": 2014,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann14",
+      "title": "Risks to the public.",
+      "year": 2014,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann14a",
+      "title": "Risks to the Public.",
+      "year": 2014,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann14b",
+      "title": "Risks to the public.",
+      "year": 2014,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann14c",
+      "title": "Risks to the public.",
+      "year": 2014,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann14d",
+      "title": "Risks to the public.",
+      "year": 2014,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann14e",
+      "title": "Risks to the Public.",
+      "year": 2014,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/isca/WoodruffWCMADLNNR14",
+      "title": "The CHERI capability model: Revisiting RISC in an age of risk",
+      "year": 2014,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann13",
+      "title": "More sight on foresight.",
+      "year": 2013,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann13",
+      "title": "Risks to the public.",
+      "year": 2013,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann13a",
+      "title": "Risks to the public.",
+      "year": 2013,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann13b",
+      "title": "Risks to the public.",
+      "year": 2013,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann13c",
+      "title": "Risks to the public.",
+      "year": 2013,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann13d",
+      "title": "Risks to the Public.",
+      "year": 2013,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann13e",
+      "title": "Risks to the public.",
+      "year": 2013,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/spw/WatsonMGANL13",
+      "title": "Towards a Theory of Application Compartmentalisation",
+      "year": 2013,
+      "status": "existing",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann12",
+      "title": "The foresight saga, redux.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/ieeesp/NeumannL12",
+      "title": "The IEEE Symposium on Security and Privacy Is Moving to San Francisco.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "journals/ieeesp/ThomsenEN12",
+      "title": "Lost Treasures",
+      "year": 2012,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann12",
+      "title": "Risks to the Public.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann12a",
+      "title": "Risks to the public.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann12b",
+      "title": "Risks to the public.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann12c",
+      "title": "Risks to the public.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann12d",
+      "title": "Risks to the public.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann12e",
+      "title": "Risks to the public.",
+      "year": 2012,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann11",
+      "title": "Risks to the public.",
+      "year": 2011,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann11a",
+      "title": "Risks to the public.",
+      "year": 2011,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann11b",
+      "title": "Risks to the Public.",
+      "year": 2011,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann11c",
+      "title": "Risks to the public.",
+      "year": 2011,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann11d",
+      "title": "Risks to the public.",
+      "year": 2011,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann11e",
+      "title": "Risks to the public.",
+      "year": 2011,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/birthday/Neumann11",
+      "title": "Carrying Goals to Newcastle: A Tribute to Brian Randell",
+      "year": 2011,
+      "status": "added",
+      "category": "Book Chapters"
+    },
+    {
+      "key": "journals/sigsoft/Neumann10",
+      "title": "Risks to the public.",
+      "year": 2010,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann10a",
+      "title": "Risks to the public.",
+      "year": 2010,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann10b",
+      "title": "Risks to the public.",
+      "year": 2010,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann10c",
+      "title": "Risks to the public.",
+      "year": 2010,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann10d",
+      "title": "Risks to the public.",
+      "year": 2010,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann10e",
+      "title": "Risks to the public.",
+      "year": 2010,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/sp/NeumannBPS10",
+      "title": "Reflections on the 30th Anniversary of the IEEE Symposium on Security and Privacy",
+      "year": 2010,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "series/ais/Neumann10",
+      "title": "Combatting Insider Threats",
+      "year": 2010,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/cacm/Neumann09",
+      "title": "Inside risks - U.S. election after-math.",
+      "year": 2009,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann09",
+      "title": "Risks to the public.",
+      "year": 2009,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann09a",
+      "title": "Risks to the public.",
+      "year": 2009,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann09b",
+      "title": "Risks to the public.",
+      "year": 2009,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann09c",
+      "title": "Risks to the public.",
+      "year": 2009,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann09d",
+      "title": "Risks to the public.",
+      "year": 2009,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann09e",
+      "title": "Risks to the public.",
+      "year": 2009,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/acsac/Neumann09",
+      "title": "Computer-Related Risk Futures",
+      "year": 2009,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann08",
+      "title": "Reflections on computer-related risks.",
+      "year": 2008,
+      "status": "added via author-selected bibliography",
+      "reason": "Invited retrospective essay explicitly selected by author."
+    },
+    {
+      "key": "journals/cacm/HorningN08",
+      "title": "Risks of neglecting infrastructure.",
+      "year": 2008,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/ieeesp/BellovinBDSNR08",
+      "title": "Risking Communications Security: Potential Hazards of the Protect America Act",
+      "year": 2008,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann08",
+      "title": "Risks to the public.",
+      "year": 2008,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann08a",
+      "title": "Risks to the public.",
+      "year": 2008,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann08b",
+      "title": "Risks to the public.",
+      "year": 2008,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann08c",
+      "title": "Risks to the public.",
+      "year": 2008,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann08d",
+      "title": "Risks to the public.",
+      "year": 2008,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann08e",
+      "title": "Risks to the public.",
+      "year": 2008,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/ac/Neumann07",
+      "title": "Reflections on systems trustworthiness",
+      "year": 2007,
+      "status": "added",
+      "category": "Book Chapters"
+    },
+    {
+      "key": "journals/cacm/Neumann07",
+      "title": "Widespread network failures.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann07a",
+      "title": "E-migrating risks?",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/LinSNG07",
+      "title": "Toward a safer and more secure cyberspace.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/BellovinBDLRN07",
+      "title": "Internal surveillance, external risks.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann07",
+      "title": "Risks to the public.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann07a",
+      "title": "Risks to the public.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann07b",
+      "title": "Risks to the public.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann07c",
+      "title": "Risks to the public.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann07d",
+      "title": "Risks to the public.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann07e",
+      "title": "Risks to the public.",
+      "year": 2007,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann06",
+      "title": "Trustworthy systems revisited.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannW06",
+      "title": "Risks of RFID.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann06a",
+      "title": "Risks relating to system compositions.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann06b",
+      "title": "The foresight saga.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann06",
+      "title": "Risks to the public.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann06a",
+      "title": "Risks to the public.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann06b",
+      "title": "Risks to the public.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann06c",
+      "title": "Risks to the public.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann06d",
+      "title": "Risks to the public.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann06e",
+      "title": "Risks to the public.",
+      "year": 2006,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/acsac/Neumann06",
+      "title": "Risks of Untrustworthiness",
+      "year": 2006,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/ccs/Neumann06",
+      "title": "System and network trustworthiness in perspective",
+      "year": 2006,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/oopsla/FraserKLNNRSS06",
+      "title": "The ultra challenge: software systems beyond big",
+      "year": 2006,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann05",
+      "title": "Responsibilities of technologists.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann05a",
+      "title": "Anticipating disasters.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannB05",
+      "title": "Disability-related risks.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann05",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann05a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann05b",
+      "title": "Risks to the Public.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann05c",
+      "title": "Risks to the public.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann05d",
+      "title": "Risks to the public.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann05e",
+      "title": "Risks to the public.",
+      "year": 2005,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann04",
+      "title": "Optimistic optimization.",
+      "year": 2004,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann04a",
+      "title": "The big picture.",
+      "year": 2004,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann04b",
+      "title": "Introduction.",
+      "year": 2004,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann04",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2004,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann04a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2004,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann04b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2004,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/icfem/Neumann04",
+      "title": "When Can Formal Methods Make a Real Difference?",
+      "year": 2004,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann03",
+      "title": "Gambling on system accountability.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann03a",
+      "title": "E-epistemology and misinformation.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann03b",
+      "title": "Risks in trusting untrustworthiness.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann03c",
+      "title": "Information system security redux.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/MercuriN03",
+      "title": "Security by obscurity.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann03",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann03a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann03b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann03c",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2003,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/acsac/NeumannF03",
+      "title": "PSOS Revisited",
+      "year": 2003,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/bsdcon/Neumann03",
+      "title": "Social and Technical Implications of Nonproprietary Software",
+      "year": 2003,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/discex/Neumann03",
+      "title": "Achieving Principled Assuredly Trustworthy Composable Systems and Networks",
+      "year": 2003,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "series/ais/MercuriN03",
+      "title": "Verification for Electronic Balloting Systems",
+      "year": 2003,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann02",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2002,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann02a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2002,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann02b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2002,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann02c",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2002,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/cfp/AlexanderHNTDN02",
+      "title": "Plenary Session #5: how to hack an election.",
+      "year": 2002,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "conf/cfp/DavidsonNCA02",
+      "title": "ICANN in Year 3.",
+      "year": 2002,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "journals/cacm/MercuriN01",
+      "title": "System integrity revisited.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann01",
+      "title": "What to know about risks.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannP01",
+      "title": "Computers: boon or bane?",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/WeinsteinN01",
+      "title": "Inside Risks: Risks of Panic.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannW01",
+      "title": "Risks of National Identity Cards.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann01",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann01a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann01b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann01c",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/ubiquity/Neumann01",
+      "title": "Machanizing proof: computing, risk, and trust.",
+      "year": 2001,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "journals/cacm/Neumann00",
+      "title": "A Tale of Two Thousands.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann00a",
+      "title": "Denial-of-Service Attacks.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/WeinsteinN00",
+      "title": "Internet Risks.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann00b",
+      "title": "Risks in retrospect.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann00c",
+      "title": "Missile defense.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann00",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann00a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann00b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann00c",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 2000,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/ubiquity/Neumann00a",
+      "title": "Certitude and rectitude",
+      "year": 2000,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/ubiquity/Neumann00",
+      "title": "Risks in our information infrastructures",
+      "year": 2000,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "conf/icre/Neumann00",
+      "title": "Requirements-Related Risks in Critical Systems",
+      "year": 2000,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/icre/Neumann00a",
+      "title": "Certitude and Rectitude",
+      "year": 2000,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/sp/Neumann00",
+      "title": "Robust Nonproprietary Software",
+      "year": 2000,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann99",
+      "title": "Robust Open-Source Software.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannM99",
+      "title": "Risks of Y2K.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann99a",
+      "title": "Information is a Double-Edged Sword.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannW99",
+      "title": "Risks of Content Filtering.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann99b",
+      "title": "Risks of Insiders.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/internet/Neumann99",
+      "title": "IC Online Exclusive Interview: Internet Security - Beyond Cryptography.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "journals/sigsoft/Neumann99",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann99a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1999,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/id/NeumannP99",
+      "title": "Experience with EMERALD to Date",
+      "year": 1999,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann98",
+      "title": "Protecting the Infrastructures.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann98c",
+      "title": "Internet Gambling.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann98a",
+      "title": "Are Computers Addictive?",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann98d",
+      "title": "Laptops in Congress?",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann98e",
+      "title": "Y2K Update.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann98f",
+      "title": "Risks of E-Education.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann98",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann98a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann98b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann98c",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/dimacs/dimacs38",
+      "title": "Network Threats, Proceedings of a DIMACS Workshop, December 2-4, 1996.",
+      "year": 1998,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "journals/cacm/Neumann97",
+      "title": "Hopes for Fewer Risks?",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann97a",
+      "title": "The Big Picture.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannW97",
+      "title": "Spam, Spam, Spam!",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann97b",
+      "title": "Identity-Ralated Misuse.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann97c",
+      "title": "Crypto Key Management.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann97d",
+      "title": "Integrity in Software Development.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann97e",
+      "title": "System Development Woes.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann97",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann97a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann97b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann97c",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1997,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/wwwj/AbelsonABBBDGNR97",
+      "title": "The risks of key recovery, key escrow, and trusted third-party encryption",
+      "year": 1997,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "books/crc/tucker97/Neumann97",
+      "title": "Security and Privacy Issues in Computer and Communication Systems",
+      "year": 1997,
+      "status": "added",
+      "category": "Book Chapters"
+    },
+    {
+      "key": "journals/cacm/Neumann96",
+      "title": "Risks in Digital Commerce.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/NeumannD96",
+      "title": "W(h)ither Research and Education?",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann96d",
+      "title": "A Risks-related Bookshelf.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann96e",
+      "title": "Linguistic Risks.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann96f",
+      "title": "Using Formal Methods to Reduce Risks.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann96a",
+      "title": "Disinformation Theory.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann96b",
+      "title": "Distributed Systems have Distributed Risks.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann96c",
+      "title": "Risks of Anonymity.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann96c",
+      "title": "Illustrative risks to the public in the use of computer systems and related technology.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann96",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann96a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann96b",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1996,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "books/el/96/Neumann96",
+      "title": "Risks of Technology",
+      "year": 1996,
+      "status": "added",
+      "category": "Book Chapters"
+    },
+    {
+      "key": "books/daglib/0079418",
+      "title": "Computer-related risks",
+      "year": 1995,
+      "status": "added",
+      "category": "Books"
+    },
+    {
+      "key": "journals/cacm/Neumann95",
+      "title": "Reassessing the Crypto Debate.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann95c",
+      "title": "Computer Vulnerabilities: Exploitation or Avoidance.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann95a",
+      "title": "Risks of Easy Answers.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann95b",
+      "title": "Reviewing the Risks Archives.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann95",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann95a",
+      "title": "Book review: Software Creativity by Robert L. Glass.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann95b",
+      "title": "Risks to the Public in Computers and Related Systems.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann95c",
+      "title": "Risks to the Public in Computers and Related Systems.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann95d",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann95e",
+      "title": "Safeware: System Safety and Computers.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann95f",
+      "title": "Fatal Defect: Chasing Killer Computer Bugs.",
+      "year": 1995,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/acm/Neumann95",
+      "title": "Risks, Responsibilities, and the Future: Walking the Tightwire",
+      "year": 1995,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann94",
+      "title": "Technology, Laws, and Society.",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann94a",
+      "title": "Risks of Passwords.",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann94b",
+      "title": "Alternative Passwords.",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann94c",
+      "title": "Risks on the Information Superhighway.",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/LandauKBCDDLMNS94",
+      "title": "Crypto Policy Perspectives",
+      "year": 1994,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/cacm/Neumann94d",
+      "title": "Friendly Fire.",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann94e",
+      "title": "Expectations of Security and Privacy.",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann94f",
+      "title": "Inside \"Inside Risks\".",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann94",
+      "title": "Illustrative risks to the public in the use of computer systems and related technology.",
+      "year": 1994,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93",
+      "title": "Risks Considered Global(ly).",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93a",
+      "title": "Are Dependable Systems Feasible?",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93b",
+      "title": "Risks of Technology.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93c",
+      "title": "Using Names as Identifiers.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93d",
+      "title": "The Role of Software Engineering.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93e",
+      "title": "Modeling and Simulation.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93f",
+      "title": "Risks on the Rails.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93g",
+      "title": "Risks of Surveillance.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93h",
+      "title": "Animal Crackers.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann93i",
+      "title": "System Development Woes.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann93",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann93a",
+      "title": "Risks to the Public in Computers and Related Systems.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/tse/LevesonN93",
+      "title": "Introduction to Special Issue on Software for Critical Systems.",
+      "year": 1993,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "conf/acsac/ClarkGBLNWJ93",
+      "title": "Effects of multilevel security on real-time applications",
+      "year": 1993,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann92b",
+      "title": "What's in a Name?",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92c",
+      "title": "Inside \"Risks of Risks\".",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92",
+      "title": "Survivable Systems.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92d",
+      "title": "Leap-Year Problems.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92a",
+      "title": "Aggravation by Computer: Life, Death, and Taxes.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92e",
+      "title": "Fraud by Computer.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92f",
+      "title": "Accidental Financial Losses.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92g",
+      "title": "Where to Place Trust.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann92h",
+      "title": "Avoiding Weak Links.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann92",
+      "title": "Illustrative risks to the public in the use of computer systems and related technology.",
+      "year": 1992,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/gi/Neumann92",
+      "title": "Developing Complex Software for Critical Systems",
+      "year": 1992,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/cacm/Neumann91f",
+      "title": "The Clock Grows at Midnight.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91e",
+      "title": "Certifying Professionals.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91d",
+      "title": "Putting on Your Best Interface.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91c",
+      "title": "Interpreting (Mis)information.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91b",
+      "title": "Expecting the Unexpected Mayday.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91a",
+      "title": "Computers, Ethics, and Values.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91",
+      "title": "The Not-So-Accidental Holist.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91g",
+      "title": "The Human Element.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann91h",
+      "title": "Collaborative Effords.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann91",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann91a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1991,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann90d",
+      "title": "Some Reflections on a Telephone Switching Problem.",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann90c",
+      "title": "Insecurity about Security?",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann90b",
+      "title": "A Few Old Coincidences.",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann90a",
+      "title": "Ghosts, Mysteries and Uncertainty.",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann90",
+      "title": "Risks in Computerized Elections.",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann90",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann90a",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann90b",
+      "title": "Risks to the public.",
+      "year": 1990,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "conf/acsac/LuntTGJNJ90",
+      "title": "IDES: a progress report [Intrusion-Detection Expert System]",
+      "year": 1990,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/sigsoft/Neumann89",
+      "title": "Errata - Interchanged pages in the previous issue: SEN 14-1: Page 31 and Page 46.",
+      "year": 1989,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann88",
+      "title": "Risks to the public.",
+      "year": 1988,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann88a",
+      "title": "Risks to the public and related systems.",
+      "year": 1988,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumanna88",
+      "title": "Risks to the public.",
+      "year": 1988,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann87",
+      "title": "Risks to the public in computers and related systems.",
+      "year": 1987,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann87a",
+      "title": "Risks to the public.",
+      "year": 1987,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann87b",
+      "title": "Risks to the public.",
+      "year": 1987,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/tse/DenningAHLMNS87",
+      "title": "Views for Multilevel Database Security",
+      "year": 1987,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann86",
+      "title": "Risks to the public in computer systems.",
+      "year": 1986,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann86a",
+      "title": "Risks to the public in computer systems.",
+      "year": 1986,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann86b",
+      "title": "Risks to the public in computer systems.",
+      "year": 1986,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann86c",
+      "title": "Risks to the public in computer systems.",
+      "year": 1986,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/tse/Neumann86",
+      "title": "On Hierarchical Design of Computer Systems for Critical Applications",
+      "year": 1986,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "conf/sp/DenningAMNSH86",
+      "title": "Views for Multilevel Database Security",
+      "year": 1986,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/sigsoft/Neumann85",
+      "title": "Review of \"The Sachertorte algorithm and other antidotes to computer anxiety\" by John Shore. Viking 1985.",
+      "year": 1985,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/cacm/Neumann84",
+      "title": "A Further View of the First Quarter Century, Introduction to the April 1984 Special Section.",
+      "year": 1984,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/Neumann84",
+      "title": "Review of \"The hacker's dictionary: a guide to the world of computer wizards\" by Guy L. Steele, Donald R. Woods, Raphael A. Finkel, Mark R. Crispin, Richard M. Stallman, and Geoffrey S. Goodfellow. Harper & Row Publishers 1983.",
+      "year": 1984,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/computer/AmesN83",
+      "title": "Computer Security Technology: Guest Editors' Introduction.",
+      "year": 1983,
+      "status": "excluded",
+      "reason": "Editorship, session listing, interview or editorial introduction rather than a research paper."
+    },
+    {
+      "key": "journals/sigsoft/Neumann82",
+      "title": "Psychosocial implications of computer software development and use: Zen and the art of computing",
+      "year": 1982,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "journals/sigsoft/Neumann81",
+      "title": "Retrospective introduction to VERkshop II.",
+      "year": 1981,
+      "status": "excluded",
+      "reason": "Serial commentary, edited risk digest, review or short column outside this research-paper reconciliation; selected substantive articles are included."
+    },
+    {
+      "key": "journals/sigsoft/LevittN81",
+      "title": "Recent SRI work in verification",
+      "year": 1981,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "conf/mark2/FeiertagN79",
+      "title": "The foundations of a provably secure operating system (PSOS)",
+      "year": 1979,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/afips/Neumann78",
+      "title": "Computer system - Security evaluation",
+      "year": 1978,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/icse/NeumannFLR76",
+      "title": "Software Development and Proofs of Multi-Level Security",
+      "year": 1976,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "journals/tc/NeumannR75",
+      "title": "Error-Correcting Codes for Byte-Organized Arithmetic Processors",
+      "year": 1975,
+      "status": "added",
+      "category": "Journal Articles"
+    },
+    {
+      "key": "conf/relsoft/RobinsonLNS75",
+      "title": "On attaining reliable software for a secure operating system",
+      "year": 1975,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/afips/LipnerWSPNWL74",
+      "title": "Security kernels",
+      "year": 1974,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/gi/Neumann74",
+      "title": "Toward a Methodology for Designing Large Systems and Verifying Their Properties",
+      "year": 1974,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/sigplan/Neumann73",
+      "title": "Report of evening session protection",
+      "year": 1973,
+      "status": "added",
+      "category": "Conference Papers"
+    },
+    {
+      "key": "conf/sosp/Neumann69",
+      "title": "The role of motherhood in the pop art of system programming.",
+      "year": 1969,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tit/Neumann65",
+      "title": "A note on Gilbert burst-correcting codes.",
+      "year": 1965,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "conf/afips/DaleyN65",
+      "title": "A general-purpose file system for secondary storage.",
+      "year": 1965,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tit/Neumann64",
+      "title": "On a class of cyclically permutable error-correcting codes.",
+      "year": 1964,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tit/Neumann64a",
+      "title": "Error-limiting coding using information-lossless sequential machines.",
+      "year": 1964,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tit/Neumann63",
+      "title": "On error-limiting variable-length codes (Corresp.).",
+      "year": 1963,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/iandc/Neumann62",
+      "title": "A Note on Cyclic Permutation Error-Correcting Codes.",
+      "year": 1962,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tc/Neumann62",
+      "title": "On the Logical Design of Noiseless Load-Sharing Matrix Switches.",
+      "year": 1962,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tc/Neumann62a",
+      "title": "Encoding and Decoding for Cyclic Permutation Codes.",
+      "year": 1962,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tit/Neumann62",
+      "title": "Efficient error-limiting variable-length codes.",
+      "year": 1962,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tit/Neumann62a",
+      "title": "On a class of efficient error-limiting variable-length codes.",
+      "year": 1962,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    },
+    {
+      "key": "journals/tc/BrooksHNW57",
+      "title": "An experiment in musical composition.",
+      "year": 1957,
+      "status": "excluded",
+      "reason": "Pre-SRI publication (joined September 1971)."
+    }
+  ],
+  "neumann_primary_reconciliation": [
+    {
+      "title": "A Provably Secure Operating System (PSOS): The System, Its Applications, and Proofs",
+      "year": 1980,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/psos/psos80.pdf"
+    },
+    {
+      "title": "Experiences with Formality in Software Development",
+      "year": 1983,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Psychosocial Implications of Computer Software Development and Use: Zen and the Art of Computing",
+      "year": 1983,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Rainbows and Arrows: How the Security Criteria Address Computer Misuse",
+      "year": 1990,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Beauty and the Beast of Software Complexity—Elegance versus Elephants",
+      "year": 1990,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Computers at Risk: Safe Computing in the Information Age",
+      "year": 1991,
+      "status": "added",
+      "source": "https://www.nationalacademies.org/publications/1581"
+    },
+    {
+      "title": "Cryptography’s Role in Securing the Information Society",
+      "year": 1996,
+      "status": "added",
+      "source": "https://www.nationalacademies.org/publications/5595"
+    },
+    {
+      "title": "Toward a Safer and More Secure Cyberspace",
+      "year": 2007,
+      "status": "added",
+      "source": "https://www.nationalacademies.org/publications/11925"
+    },
+    {
+      "title": "Practical Architectures for Survivable Systems and Networks: Phase Two Final Report",
+      "year": 2000,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/survivability.pdf"
+    },
+    {
+      "title": "Comments on the Carnivore System Technical Review",
+      "year": 2000,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Verification for Electronic Balloting Systems",
+      "year": 2003,
+      "status": "updated",
+      "source": "https://doi.org/10.1007/978-1-4615-0239-5_3"
+    },
+    {
+      "title": "U.S. Computer Insecurity Redux",
+      "year": 2003,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Network Security and Privacy",
+      "year": 2004,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Attaining Robust Open Source Software",
+      "year": 2005,
+      "status": "added",
+      "source": "https://direct.mit.edu/books/edited-volume/3816/Perspectives-on-Free-and-Open-Source-Software"
+    },
+    {
+      "title": "Risks of Computer-Related Technology",
+      "year": 2006,
+      "status": "added",
+      "source": "https://doi.org/10.1057/9780230625839_5"
+    },
+    {
+      "title": "Combatting Insider Misuse, with Relevance to Integrity and Accountability in Elections and Other Applications",
+      "year": 2008,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "E-Deceptive Campaign Practices",
+      "year": 2008,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "The Future of Information Assurance",
+      "year": 2009,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Combatting Insider Threats",
+      "year": 2010,
+      "status": "updated",
+      "source": "https://link.springer.com/book/10.1007/978-1-4419-7133-3"
+    },
+    {
+      "title": "How Might System and Network Security Interact with Privacy?",
+      "year": 2015,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/references.html"
+    },
+    {
+      "title": "Principled Assuredly Trustworthy Composable Architectures",
+      "year": 2004,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/chats4.pdf"
+    },
+    {
+      "title": "Architectures and Formal Representations for Secure Systems",
+      "year": 1996,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/csl-96-05/"
+    },
+    {
+      "title": "Architectural Implications of Covert Channels",
+      "year": 1992,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/"
+    },
+    {
+      "title": "EMERALD: Event Monitoring Enabling Responses to Anomalous Live Disturbances",
+      "year": 1997,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/emerald-niss97/"
+    },
+    {
+      "title": "EMERALD: Conceptual Overview Statement",
+      "year": 1996,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/emerald-position1/"
+    },
+    {
+      "title": "System Design Document: Next-Generation Intrusion Detection Expert System (NIDES)",
+      "year": 1993,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/3sri/3sri.pdf"
+    },
+    {
+      "title": "A Real-Time Intrusion-Detection Expert System (IDES)",
+      "year": 1992,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/9sri/9sri.pdf"
+    },
+    {
+      "title": "IDES: The Enhanced Prototype: A Real-Time Intrusion-Detection Expert System",
+      "year": 1988,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/1sri/1sri.pdf"
+    },
+    {
+      "title": "Requirements and Model for IDES—A Real-Time Intrusion Detection System",
+      "year": 1985,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/9sri/9sri.pdf"
+    },
+    {
+      "title": "Analytical Techniques Development for a Statistical Intrusion Detection System (SIDS) Based on Accounting Records",
+      "year": 1986,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/9sri/9sri.pdf"
+    },
+    {
+      "title": "The Challenges of Insider Misuse",
+      "year": 1999,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/pgn-misuse/"
+    },
+    {
+      "title": "Holistic Systems",
+      "year": 2006,
+      "status": "added",
+      "source": "https://www.csl.sri.com/users/neumann/holistic.pdf"
+    },
+    {
+      "title": "CRASH-worthy Trustworthy Systems R&D (CTSRD): CHERI System Architecture and Research",
+      "year": 2019,
+      "status": "added",
+      "source": "https://www.csl.sri.com/~neumann/20191213-ctsrd-ftr-final.pdf"
+    },
+    {
+      "title": "Reflections on Computer-Related Risks",
+      "year": 2008,
+      "status": "added",
+      "source": "https://doi.org/10.1145/1327452.1327487"
+    },
+    {
+      "title": "Practical Architectures for Survivable Systems and Networks",
+      "year": 1999,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/arl-one/"
+    },
+    {
+      "title": "Secure Distributed Data Views, Volume 1: Security Policy and Policy Interpretation for a Class A1 Multilevel Secure Relational Database System",
+      "year": 1988,
+      "status": "added",
+      "source": "https://www.csl.sri.com/papers/1sri/1sri.pdf"
+    }
+  ],
+  "cheri_formal_reconciliation": [
+    {
+      "title": "Into the depths of C: elaborating the de facto standards",
+      "status": "existing"
+    },
+    {
+      "title": "Exploring C Semantics and Pointer Provenance",
+      "status": "existing"
+    },
+    {
+      "title": "ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS",
+      "status": "added"
+    },
+    {
+      "title": "Detailed Models of Instruction Set Architectures: From Pseudocode to Formal Semantics",
+      "status": "added"
+    },
+    {
+      "title": "CheriABI: Enforcing Valid Pointer Provenance and Minimizing Pointer Privilege in the POSIX C Run-time Environment",
+      "status": "existing"
+    },
+    {
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 7)",
+      "status": "existing"
+    },
+    {
+      "title": "Through computer architecture, darkly",
+      "status": "existing"
+    },
+    {
+      "title": "Rigorous engineering for hardware security: Formal modelling and proof in the CHERI design and implementation process",
+      "status": "added"
+    },
+    {
+      "title": "CheriABI: Enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment",
+      "status": "existing"
+    },
+    {
+      "title": "An Introduction to CHERI",
+      "status": "existing"
+    },
+    {
+      "title": "Rigorous engineering for hardware security: Formal modelling and proof in the CHERI design and implementation process",
+      "status": "existing"
+    },
+    {
+      "title": "CHERI C/C++ Programming Guide",
+      "status": "existing"
+    },
+    {
+      "title": "Verified Security for the Morello Capability-enhanced Prototype Arm Architecture",
+      "status": "existing"
+    },
+    {
+      "title": "Formal CHERI: rigorous engineering and design-time proof of full-scale architecture security properties",
+      "status": "excluded: research-summary blog"
+    },
+    {
+      "title": "Improving Security with Hardware Support: CHERI and Arm's Morello",
+      "status": "added"
+    },
+    {
+      "title": "The Arm Morello Evaluation Platform---Validating CHERI-Based Security in a High-Performance System",
+      "status": "existing"
+    },
+    {
+      "title": "Formal Mechanised Semantics of CHERI C: Capabilities, Provenance, and Undefined Behaviour",
+      "status": "existing"
+    },
+    {
+      "title": "Extracting Behaviour from an Executable Instruction Set Model",
+      "status": "added"
+    },
+    {
+      "title": "CHERI Concentrate: Practical Compressed Capabilities",
+      "status": "existing"
+    }
+  ],
+  "pre_affiliation_filter_counts": {
+    "canonical_records": 426,
+    "added_after_224_record_baseline": 202,
+    "cav_additions": 8,
+    "cheri_project_inventory_additions": 95,
+    "neumann_dblp_additions": 60,
+    "neumann_primary_additions": 34,
+    "cheri_formal_additions": 5,
+    "project_collection_records": 101
+  },
+  "final_counts": {
+    "canonical_records": 384,
+    "bibtex_entries": 384,
+    "sri_cheri_ctsrd_records": 62,
+    "removed_nonqualifying_project_records": 42
+  },
+  "superseding_audit": "cheri-sri-affiliation-audit-2026-10-09.json"
+}

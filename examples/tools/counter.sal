@@ -1,0 +1,13 @@
+counter: CONTEXT =
+BEGIN
+  main: MODULE =
+  BEGIN
+    LOCAL n: [0..3]
+    INITIALIZATION n = 0
+    TRANSITION
+      [ step: n < 3 --> n' = n + 1
+      [] wrap: n = 3 --> n' = 0 ]
+  END;
+
+  returns: THEOREM main |- G(F(n = 0));
+END

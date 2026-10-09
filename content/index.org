@@ -16,16 +16,16 @@ See [[site:impact/][Impact]] for a detailed portfolio.
 * Latest News
 ** 2026
 - @@html:[07/2026]@@ SRI has been awarded a contract by DARPA (under the ERIS/LUCID effort) for proof-assisted mission operator awareness.
-- @@html:[06/2026]@@ Yices2 submitted to SMT-COMP 2026!
-- @@html:[06/2026]@@ SRI has been awarded a contract by DARPA (under the DARPAVERSE effort) for rigorous coupling of multi-physical systems.
+- @@html:[06/2026]@@ [[https://ahmed-irfan.github.io/smtcomp/yices2-smtcomp-2026.pdf][Yices2]] submitted to [[https://smt-comp.github.io/2026/][SMT-COMP 2026]]!
+- @@html:[06/2026]@@ SRI has been awarded a contract by DARPA (under the DARPAVERSE effort) for rigorous coupling of multi-physics.
 - @@html:[05/2026]@@ [[https://ssft-sri.github.io/][Fifteenth Summer School on Formal Techniques]] @ Menlo College
-- @@html:[03/2025]@@ /Show Me The Money: An Exercise in Proof-Driven Software Understanding/ accepted to CAV 2026 (FLoC/Lisbon)!  
+- @@html:[03/2025]@@ /[[https://link.springer.com/chapter/10.1007/978-3-032-32537-2_11][Show Me The Money: An Exercise in Proof-Driven Software Understanding]]/ accepted to CAV 2026 (FLoC/Lisbon)!
 ** 2025
-- @@html:[06/2025]@@ Yices2 submitted to SMT-COMP 2025!
+- @@html:[06/2025]@@ [[https://ahmed-irfan.github.io/smtcomp/yices2-smtcomp-2025.pdf][Yices2]] submitted to [[https://smt-comp.github.io/2025/][SMT-COMP 2025]]!
 - @@html:[06/2025]@@ [[https://shemesh.larc.nasa.gov/nfm2025/pvs-day.html][PVS Day @ NASA Formal Methods 2025]]
 - @@html:[05/2025]@@ [[https://ssft-sri.github.io/][Fourteenth Summer School on Formal Techniques]] @ Menlo College
-- @@html:[05/2025]@@ /Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search/ accepted to CADE-30!
-- @@html:[04/2025]@@ /Decision Heuristics in MCSat/ accepted to CAV 2025!
+- @@html:[05/2025]@@ /[[https://link.springer.com/chapter/10.1007/978-3-031-99984-0_6][Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search]]/ accepted to CADE-30!
+- @@html:[04/2025]@@ /[[https://link.springer.com/chapter/10.1007/978-3-031-98682-6_3][Decision Heuristics in MCSat]]/ accepted to CAV 2025!
 ** 2024
 - @@html:[11/2024]@@ SRI has been awarded a contract by ARPA-H (under the PARADIGM
   effort) to develop a mobile healthcare platform that improves healthcare

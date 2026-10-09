@@ -2,19 +2,27 @@
 #+DESCRIPTION: People and affiliates of the SRI Formal Methods Program.
 
 #+ATTR_HTML: :class people-list
-- *Harald Ruess* :: /Senior Principal Scientist/ (Head of Formal Methods Program) · [[https://www.csl.sri.com/people/ruess/][Personal Website]]
-- *Natarajan Shankar* :: /Distinguished Senior Scientist/ · [[https://www.csl.sri.com/~shankar/][Personal Website]]
-- *John Rushby* :: /Distinguished Senior Scientist/ · [[https://www.csl.sri.com/users/rushby/][Personal Website]]
+- *Brian Arthur* :: /Complexity Economist/
 - *Alejandro Brito* :: /Senior Computer Scientist/
-- *Karthik Nukala* :: /Computer Scientist/ · [[https://karthiknukala.github.io/][Personal Website]]
-- *Brian Arthur* :: /Consultant/
+- *[[https://karthiknukala.github.io/][Karthik Nukala]]* :: /Computer Scientist/
+- *[[https://www.csl.sri.com/people/ruess/][Harald Ruess]]* :: /Senior Principal Scientist/ (Head of Formal Methods Program)
+- *[[https://www.csl.sri.com/users/rushby/][John Rushby]]* :: /Distinguished Senior Scientist/
+- *[[https://www.csl.sri.com/~shankar/][Natarajan Shankar]]* :: /Distinguished Senior Scientist/
 
 * Affiliates
 
-** Entalus
+** [[https://www.capabilitieslimited.co.uk/][Capabilities Limited]]
+
+
+** [[https://www.entalus.com/][Entalus]]
 
 #+ATTR_HTML: :class people-list
-- *Hassen Saidi* ([[https://www.entalus.com/][Entalus Labs]]) :: /Senior Scientist/ · [[https://www.csl.sri.com/~saidi/][Personal Website]]
-- *Sam Owre* ([[https://www.entalus.com/][Entalus Labs]]) :: /Distinguished Software Engineer/ · [[https://www.csl.sri.com/~shankar/][Personal Website]]
+- *[[https://www.csl.sri.com/users/owre/][Sam Owre]]* :: /Distinguished Software Engineer/
+- *[[https://www.csl.sri.com/~saidi/][Hassen Saidi]]* :: /Chief Executive Officer/
 
-** NASA Langley Formal Methods Group
+** [[https://shemesh.larc.nasa.gov/][NASA Langley Formal Methods Group]]
+
+** [[https://www.msbit.com/][MSB Associates]]
+
+
+** [[https://www.cam.ac.uk/][University of Cambridge]]

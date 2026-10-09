@@ -1,5 +1,10 @@
 /.cache/
 /public/
 /.hugo_build.lock
+/.site-build.lock
 .DS_Store
 **/.DS_Store
+
+# Local Python bytecode
+__pycache__/
+*.py[cod]

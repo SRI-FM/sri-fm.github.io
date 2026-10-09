@@ -1,0 +1,2 @@
+WARNING: Your property is only true if it is deadlock free. You should run sal-deadlock-checker for that.proved.
+

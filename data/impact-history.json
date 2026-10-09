@@ -1,0 +1,1413 @@
+{
+  "reviewed": "2026-10-09",
+  "scope": "47 historical items; source decade groupings retained. Selected contributors are supported by the cited works, not exhaustive team rosters or sole-invention claims.",
+  "original_figure": "/images/sri_fm_history.jpg",
+  "excluded": [
+    "Mental Models",
+    "Reconfiguration from first principles",
+    "DPRIVE",
+    "State of the Art FM"
+  ],
+  "research_method": "Compared all entries with the canonical 384-record bibliography; checked primary papers, publication-time affiliations, SRI project/person pages, author histories and manuals. Repeated broad entries use era-specific references. Unresolved gaps remain visible. No bibliography entries were added.",
+  "sources": {
+    "security-history": {
+      "title": "SRI CSL security project history",
+      "url": "https://www.csl.sri.com/programs/security/past-projects.html",
+      "evidence": "The PSOS section identifies the SRI effort, Richard Feiertag’s flow analyzer (CSL-109), and Goguen and Meseguer’s noninterference work. Used for those claims, not as a complete roster.",
+      "reviewed": "2026-10-09"
+    },
+    "pvs-history": {
+      "title": "SRI historical PVS bibliography",
+      "url": "https://www.csl.sri.com/~rushby/pvs-bib-bib.html",
+      "evidence": "SRI bibliography records the JOVIAL verifier, HDM Handbook, EHDM reports and their authors. Historical credit is limited to the cited work.",
+      "reviewed": "2026-10-09"
+    },
+    "ruess-profile": {
+      "title": "Harald Ruess: SRI research profile",
+      "url": "https://www.csl.sri.com/people/ruess/",
+      "evidence": "SRI profile connects Ruess to ICS, PVS, SAL, bit-vector decision procedures and SRT division.",
+      "reviewed": "2026-10-09"
+    },
+    "pvs-releases": {
+      "title": "PVS release history (through April 2020)",
+      "url": "https://pvs.csl.sri.com/doc/pvs-release-notes.pdf",
+      "evidence": "Release history by Sam Owre, SRI, records continuing PVS development. Used for decade-specific continuation, not a new invention date.",
+      "reviewed": "2026-10-09"
+    },
+    "owre1992-fa8d9ecd05": {
+      "title": "PVS: A Prototype Verification System (1992)",
+      "url": "https://www.csl.sri.com/papers/cade92-pvs/",
+      "evidence": "SRI paper page links all three authors to SRI profiles; foundational PVS system description.",
+      "reviewed": "2026-10-09"
+    },
+    "maude1999": {
+      "title": "Maude: Specification and Programming in Rewriting Logic (1999)",
+      "url": "https://www.csl.sri.com/papers/maude-manual/",
+      "evidence": "SRI publication and Eker/Lincoln profiles identify their Maude contributions. Other coauthors are not automatically labeled SRI.",
+      "reviewed": "2026-10-09"
+    },
+    "rrm1994": {
+      "title": "The Rewrite Rule Machine Node Architecture and its Performance (1994)",
+      "url": "https://www.csl.sri.com/papers/conpar94/conpar94.pdf",
+      "evidence": "Title page affiliates Patrick Lincoln, José Meseguer and Livio Ricciulli with SRI CSL.",
+      "reviewed": "2026-10-09"
+    },
+    "maude2003": {
+      "title": "The Maude 2.0 System (2003)",
+      "url": "https://www.csl.sri.com/papers/1558/",
+      "evidence": "SRI publication with Eker, Lincoln and Talcott; official SRI staff/project pages confirm participation. This is the 2000s continuation reference.",
+      "reviewed": "2026-10-09"
+    },
+    "eker-profile": {
+      "title": "Steven Eker: SRI research profile",
+      "url": "https://www.csl.sri.com/people/eker/",
+      "evidence": "SRI profile explicitly lists Maude, Pathway Logic and the 1999/2003 system papers.",
+      "reviewed": "2026-10-09"
+    },
+    "maude2015": {
+      "title": "Two Decades of Maude (2015): author bibliography",
+      "url": "https://personales.upv.es/sanesro/papers-variant-narrowing.html",
+      "evidence": "Author-maintained bibliography identifies Eker, Lincoln and Talcott among authors of this retrospective. Used for 2010s continuation; not sole credit.",
+      "reviewed": "2026-10-09"
+    },
+    "maude2020": {
+      "title": "Programming and Symbolic Computation in Maude (2020)",
+      "url": "https://maude.cs.illinois.edu/w/images/0/0c/Maude-jlamp.pdf",
+      "evidence": "Title page assigns Steven Eker and Carolyn Talcott to SRI; other authors have university affiliations.",
+      "reviewed": "2026-10-09"
+    },
+    "sift1978": {
+      "title": "SIFT: Design and Analysis of a Fault-Tolerant Computer for Aircraft Control (1978)",
+      "url": "https://www.microsoft.com/en-us/research/publication/sift-design-analysis-fault-tolerant-computer-aircraft-control/",
+      "evidence": "Lamport’s publication commentary describes SIFT at SRI and lists the eight authors.",
+      "reviewed": "2026-10-09"
+    },
+    "wensley1978-35d7c16306": {
+      "title": "SIFT (1978): full paper and author affiliations",
+      "url": "https://www.microsoft.com/en-us/research/uploads/prod/2016/12/Design-and-Analysis-of-a-Fault-Tolerant-Computer-for-Aircraft-Control.pdf",
+      "evidence": "Primary paper title page identifies all eight authors as SRI International; confirms the selected SRI contributor list.",
+      "reviewed": "2026-10-09"
+    },
+    "lamport1982-7602b8691a": {
+      "title": "The Byzantine Generals Problem (1982)",
+      "url": "https://www.microsoft.com/en-us/research/publication/byzantine-generals-problem/",
+      "evidence": "Lamport’s author-hosted publication and SIFT commentary connect this collaboration to the SRI SIFT work.",
+      "reviewed": "2026-10-09"
+    },
+    "neumann1980-8f319f35d0": {
+      "title": "A Provably Secure Operating System (PSOS): The System, Its Applications, and Proofs (1980)",
+      "url": "https://www.csl.sri.com/~neumann/psos/psos80.pdf",
+      "evidence": "SRI report title page identifies the PSOS team.",
+      "reviewed": "2026-10-09"
+    },
+    "elspas1979-5a0f2d9216": {
+      "title": "A JOVIAL Verifier (1979)",
+      "url": "https://www.csl.sri.com/~rushby/pvs-bib-bib.html",
+      "evidence": "SRI historical bibliography records the JOVIAL verifier authors.",
+      "reviewed": "2026-10-09"
+    },
+    "boyer-moore": {
+      "title": "A Lemma Driven Automatic Theorem Prover for Recursive Function Theory",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=53d39de772a8661b866957b65f194cc7d5b20274&repid=rep1&type=pdf",
+      "evidence": "Primary paper title page affiliates Boyer and Moore with SRI CSL.",
+      "reviewed": "2026-10-09"
+    },
+    "flow-foundation": {
+      "title": "SRI security-model references: 1977 paper and CSL-109 (1980)",
+      "url": "https://www.csl.sri.com/~rushby/papers/ncsc-ns85.pdf",
+      "evidence": "References identify Feiertag’s 1980 analyzer report and Feiertag, Levitt and Robinson’s 1977 paper.",
+      "reviewed": "2026-10-09"
+    },
+    "robinson1979-910e0a3d40": {
+      "title": "The HDM Handbook (1979)",
+      "url": "https://www.csl.sri.com/~rushby/pvs-bib-bib.html",
+      "evidence": "The HDM Handbook is credited to these authors in SRI’s historical bibliography.",
+      "reviewed": "2026-10-09"
+    },
+    "separation1981": {
+      "title": "Design and Verification of Secure Systems (1981)",
+      "url": "https://www.csl.sri.com/users/rushby/papers/sosp81.pdf",
+      "evidence": "Author’s reprint explicitly states that the original work was performed at Newcastle, despite the later SRI address.",
+      "reviewed": "2026-10-09"
+    },
+    "rushby2008-195a9f3494": {
+      "title": "Separation and Integration in MILS: The MILS Constitution (2008)",
+      "url": "https://www.csl.sri.com/~rushby/abstracts/mils-constitution",
+      "evidence": "SRI-era MILS continuation by John Rushby.",
+      "reviewed": "2026-10-09"
+    },
+    "ehdm1989": {
+      "title": "Formal Verification of the Interactive Convergence Clock Synchronization Algorithm (1989)",
+      "url": "https://www.csl.sri.com/papers/csl-89-3/",
+      "evidence": "SRI report credits Rushby and von Henke and explicitly describes verification with EHDM.",
+      "reviewed": "2026-10-09"
+    },
+    "rushby1991-4f12d0a781": {
+      "title": "An Introduction to Formal Specification and Verification Using Ehdm (1991)",
+      "url": "https://www.csl.sri.com/papers/csl-91-2/",
+      "evidence": "SRI EHDM report credits Rushby, von Henke and Owre.",
+      "reviewed": "2026-10-09"
+    },
+    "rushby1992-cff083cb9d": {
+      "title": "Noninterference, Transitivity, and Channel-Control Security Policies (1992)",
+      "url": "https://www.csl.sri.com/papers/csl-92-2/",
+      "evidence": "Rushby’s SRI report treats noninterference, transitivity and channel-control policies.",
+      "reviewed": "2026-10-09"
+    },
+    "algebraic": {
+      "title": "Goguen’s references to SRI equational-logic and order-sorted-algebra reports",
+      "url": "https://cseweb.ucsd.edu/~goguen/pps/ins.pdf",
+      "evidence": "Author’s paper bibliography identifies Goguen/Meseguer’s SRI CSL-135 (1982), SRI-CSL-89-10, and Goguen/Winkler’s OBJ3 report.",
+      "reviewed": "2026-10-09"
+    },
+    "order-sorted": {
+      "title": "SRI history: Order-sorted algebra",
+      "url": "https://www.sri.com/hoi/order-sorted-algebra/",
+      "evidence": "Institutional history identifies the SRI order-sorted algebra and OBJ work; no exclusive invention claim is inferred.",
+      "reviewed": "2026-10-09"
+    },
+    "obj": {
+      "title": "The OBJ Family: original author’s project account",
+      "url": "https://cseweb.ucsd.edu/~goguen/sys/obj.html",
+      "evidence": "Goguen’s project account describes OBJ3 and its manual; the 1988 SRI report names Goguen and Winkler.",
+      "reviewed": "2026-10-09"
+    },
+    "lunt1988-247a3612cf": {
+      "title": "IDES: The Enhanced Prototype: A Real-Time Intrusion-Detection Expert System (1988)",
+      "url": "https://www.csl.sri.com/papers/1sri/1sri.pdf",
+      "evidence": "The SRI IDES report lists these contributors among its larger team.",
+      "reviewed": "2026-10-09"
+    },
+    "millen-cv": {
+      "title": "Jonathan Millen’s curriculum vitae and publications",
+      "url": "https://jonmillen.com/cv.html",
+      "evidence": "Author’s CV places Millen at MITRE until 1997 and SRI from 1997–2004; lists the Interrogator publications.",
+      "reviewed": "2026-10-09"
+    },
+    "interrogator1995": {
+      "title": "The Interrogator Model (1995)",
+      "url": "https://doi.org/10.1109/SECPRI.1995.398937",
+      "evidence": "Publication identity cross-checked against the author’s CV and the UC Davis bibliography; historical work predates SRI employment.",
+      "reviewed": "2026-10-09"
+    },
+    "lazy1997": {
+      "title": "Lazy Compositional Verification (1997)",
+      "url": "https://www.csl.sri.com/papers/compos97-paper/",
+      "evidence": "SRI publication attributes this compositional verification work to Shankar.",
+      "reviewed": "2026-10-09"
+    },
+    "miller1995-c27efd643f": {
+      "title": "Formal Verification of the AAMP5 Microprocessor: A Case Study in the Industrial Use of Formal Methods (1995)",
+      "url": "https://www.csl.sri.com/papers/wift95/",
+      "evidence": "SRI paper describes the joint Collins/SRI verification effort; Srivas is the SRI contributor and Miller the Collins coauthor.",
+      "reviewed": "2026-10-09"
+    },
+    "cyrluk1997-c294fad7a0": {
+      "title": "An Efficient Decision Procedure for the Theory of Fixed-Sized Bit-Vectors (1997)",
+      "url": "https://doi.org/10.1007/3-540-63166-6_9",
+      "evidence": "Publisher affiliations: David Cyrluk at SRI; Harald Ruess and Oliver Möller at Ulm. Confirmed against the CAV audit.",
+      "reviewed": "2026-10-09"
+    },
+    "predicate1999": {
+      "title": "Abstract and Model Check while you Prove (1999)",
+      "url": "https://www.csl.sri.com/papers/saidicav/saidicav.pdf",
+      "evidence": "Both authors have SRI CSL affiliations on the primary paper.",
+      "reviewed": "2026-10-09"
+    },
+    "ruess1996-685b17acc2": {
+      "title": "Modular Verification of SRT Division (1996)",
+      "url": "https://doi.org/10.1007/3-540-61474-5_63",
+      "evidence": "Springer author affiliations identify all three authors at SRI CSL for the 1996 paper.",
+      "reviewed": "2026-10-09"
+    },
+    "filliatre2001-f04396666a": {
+      "title": "ICS: Integrated Canonizer and Solver (2001)",
+      "url": "https://doi.org/10.1007/3-540-44585-4_22",
+      "evidence": "CAV system description; SRI profile confirms the SRI ICS team.",
+      "reviewed": "2026-10-09"
+    },
+    "cyberlogic2003": {
+      "title": "Introducing Cyberlogic (HCSS 2003)",
+      "url": "https://www.csl.sri.com/people/shankar/hcss03.pdf",
+      "evidence": "SRI-hosted presentation credited by Shankar’s publication list to Ruess and Shankar.",
+      "reviewed": "2026-10-09"
+    },
+    "moura2004-7cdc2f612c": {
+      "title": "SAL 2 (2004)",
+      "url": "https://doi.org/10.1007/978-3-540-27813-9_45",
+      "evidence": "Primary SAL 2 paper title page affiliates all seven authors with SRI CSL (https://fm.csl.sri.com/doc/sal-cav04.pdf).",
+      "reviewed": "2026-10-09"
+    },
+    "sal": {
+      "title": "Symbolic Analysis Laboratory",
+      "url": "https://sal.csl.sri.com/",
+      "evidence": "Official SAL project describes the suite and collaboration with Stanford and Berkeley.",
+      "reviewed": "2026-10-09"
+    },
+    "capsl2002": {
+      "title": "CAPSL and MuCAPSL (2002)",
+      "url": "https://www.csl.sri.com/papers/1467/",
+      "evidence": "SRI paper page links Denker to the SRI profile; Millen’s author CV establishes SRI employment in 2002.",
+      "reviewed": "2026-10-09"
+    },
+    "pathway2002": {
+      "title": "Pathway Logic: Executable Models of Biological Networks (2002)",
+      "url": "https://www.csl.sri.com/papers/eker-etal-02wrla/",
+      "evidence": "SRI paper links Eker, Lincoln and Talcott to SRI profiles; Knapp and Laderoute are collaborating coauthors.",
+      "reviewed": "2026-10-09"
+    },
+    "bonsai2007": {
+      "title": "Bonsai: Balanced Lineage Authentication (2007)",
+      "url": "https://www.csl.sri.com/users/gehani/papers/ACSAC-2007.Bonsai.pdf",
+      "evidence": "Both authors are affiliated with SRI on the title page.",
+      "reviewed": "2026-10-09"
+    },
+    "calendar2004": {
+      "title": "Modeling and Verification of a Fault-Tolerant Real-Time Startup Protocol Using Calendar Automata (2004)",
+      "url": "https://research.manchester.ac.uk/en/publications/modeling-and-verification-of-a-fault-tolerant-real-time-startup-p",
+      "evidence": "Author’s institutional record documents the paper; primary title page assigns Dutertre to SRI and Sorea to Ulm.",
+      "reviewed": "2026-10-09"
+    },
+    "calendar-paper": {
+      "title": "Calendar automata: author manuscript",
+      "url": "https://citeseerx.ist.psu.edu/document?doi=74e6db559644f0d93a7f609558ebb44ff397e1e3&repid=rep1&type=pdf",
+      "evidence": "Title page: Dutertre, SRI System Design Laboratory; Sorea, University of Ulm.",
+      "reviewed": "2026-10-09"
+    },
+    "wmc": {
+      "title": "Counterexample-Driven Model Checking",
+      "url": "https://www.csl.sri.com/people/shankar/wmc.pdf",
+      "evidence": "Primary title page affiliates both authors with SRI and notes Sorea’s additional Ulm affiliation; paper develops witness/counterexample generation.",
+      "reviewed": "2026-10-09"
+    },
+    "parikh2003": {
+      "title": "Monadic Second-Order Logics with Cardinalities (2003)",
+      "url": "https://link.springer.com/chapter/10.1007/3-540-45061-0_54",
+      "evidence": "Publisher affiliation block: Ruess, SRI; Klaedtke, Freiburg.",
+      "reviewed": "2026-10-09"
+    },
+    "sankaranarayanan2011-077cb45f21": {
+      "title": "Relational Abstractions for Continuous and Hybrid Systems (2011)",
+      "url": "https://www.csl.sri.com/users/tiwari/relational-abstraction/relational.pdf",
+      "evidence": "Primary title page: Tiwari, SRI; Sankaranarayanan, Colorado.",
+      "reviewed": "2026-10-09"
+    },
+    "occam2019": {
+      "title": "Reinforcement Learning Guided Software Debloating (2019)",
+      "url": "https://www.csl.sri.com/users/gehani/papers/MLSys-2019.DeepOCCAM.pdf",
+      "evidence": "Author-hosted primary paper documents DeepOCCAM and lists these coauthors.",
+      "reviewed": "2026-10-09"
+    },
+    "gehani": {
+      "title": "Ashish Gehani: SRI research profile",
+      "url": "https://www.sri.com/people/ashish-gehani/",
+      "evidence": "Official SRI profile confirms Gehani’s software debloating work.",
+      "reviewed": "2026-10-09"
+    },
+    "occam-repo": {
+      "title": "OCCAM project",
+      "url": "https://github.com/SRI-CSL/OCCAM",
+      "evidence": "Official SRI repository describes OCCAM and its implementation.",
+      "reviewed": "2026-10-09"
+    },
+    "shankar2017-2acc302a7c": {
+      "title": "A Brief Introduction to the PVS2C Code Generator (2017)",
+      "url": "https://easychair.org/publications/paper/Rzxm",
+      "evidence": "SRI AFM primary paper title page assigns Shankar to SRI.",
+      "reviewed": "2026-10-09"
+    },
+    "arsenal": {
+      "title": "ARSENAL: Automatic Requirements Specification Extraction from Natural Language",
+      "url": "https://arxiv.org/pdf/1403.3142",
+      "evidence": "Primary title page assigns the five listed contributors to SRI and Wilfried Steiner to TTTech.",
+      "reviewed": "2026-10-09"
+    },
+    "radler2014": {
+      "title": "A Framework for High-Assurance Quasi-Synchronous Systems (2014)",
+      "url": "https://www.sri.com/publication/information-computer-science-pubs/a-framework-for-high-assurance-quasi-synchronous-systems/",
+      "evidence": "SRI explicitly labels Shankar its author and lists Larrieu as coauthor.",
+      "reviewed": "2026-10-09"
+    },
+    "radler": {
+      "title": "Radler project documentation",
+      "url": "https://sri-csl.github.io/radler/",
+      "evidence": "Official project describes the architecture and generator; the 2014 foundations paper is also cited by the project’s technical overview.",
+      "reviewed": "2026-10-09"
+    },
+    "parsley2020": {
+      "title": "Research Report: The Parsley Data Format Definition Language (2020)",
+      "url": "https://www.cs.dartmouth.edu/~sws/pubs/parsley-langsec2020.pdf",
+      "evidence": "Title page assigns these three authors to SRI; Anantharaman, Ali, Lucas and Smith to Dartmouth.",
+      "reviewed": "2026-10-09"
+    },
+    "dutta2019-65324b8686": {
+      "title": "Demo Abstract: Sherlock – A Tool for Verification of Neural Network Feedback Systems (2019)",
+      "url": "https://susmitjha.github.io/papers/hscc19.pdf",
+      "evidence": "Author-hosted Sherlock paper documents the neural-network verification tool and authors; SRI affiliations require publication-time distinction for Tiwari.",
+      "reviewed": "2026-10-09"
+    },
+    "kot2010": {
+      "title": "Rewriting, Inference, and Proof (2010)",
+      "url": "https://www.csl.sri.com/people/shankar/RIP.pdf",
+      "evidence": "Primary SRI paper explicitly describes the Kernel of Truth project and its architecture.",
+      "reviewed": "2026-10-09"
+    },
+    "pvs2c2017": {
+      "title": "PVS2C tutorial manuscript (2017)",
+      "url": "https://fm.csl.sri.com/AFM17/AFM17_paper_9.pdf",
+      "evidence": "Primary paper with SRI author affiliation; placeholder DOI in the draft is deliberately not used.",
+      "reviewed": "2026-10-09"
+    },
+    "reverse2014": {
+      "title": "Reverse Engineering Digital Circuits Using Structural and Functional Analyses (2014)",
+      "url": "https://cse.iitk.ac.in/users/spramod/papers/tetc14.pdf",
+      "evidence": "Primary paper assigns these three authors to SRI; others to Princeton or Berkeley.",
+      "reviewed": "2026-10-09"
+    },
+    "etb2013": {
+      "title": "Tool Integration with the Evidential Tool Bus (2013)",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-35873-9_18",
+      "evidence": "Publisher lists Hamon, Owre and Shankar at SRI; Cruanes at École Polytechnique.",
+      "reviewed": "2026-10-09"
+    },
+    "etb2005": {
+      "title": "An Evidential Tool Bus (2005)",
+      "url": "https://doi.org/10.1007/11576280_3",
+      "evidence": "Foundational proposal by Rushby, SRI; distinguished from the 2013 implementation.",
+      "reviewed": "2026-10-09"
+    },
+    "bloomfield2021-dfedf034a7": {
+      "title": "Assurance 2.0: A Manifesto (2021)",
+      "url": "https://www.csl.sri.com/~rushby/abstracts/sss21",
+      "evidence": "SRI author-hosted manifesto by Bloomfield and Rushby; Rushby is the SRI contributor.",
+      "reviewed": "2026-10-09"
+    },
+    "pvs2020": {
+      "title": "PVS Language Reference, version 7.1 (August 2020)",
+      "url": "https://pvs.csl.sri.com/doc/pvs-language-reference.pdf",
+      "evidence": "SRI manual lists Owre, Shankar, Rushby and Stringer-Calvert; used as a continuation resource, not to infer each author’s current employment.",
+      "reviewed": "2026-10-09"
+    },
+    "sri-overview2025": {
+      "title": "Shift left / Shift up: SRI Formal Methods presentation (2025)",
+      "url": "https://sos-vo.org/system/files/2025-07/Harald.pdf",
+      "evidence": "Presentation by Harald Ruess and Natarajan Shankar mentions Ontic Types and Effigy semantic browsing. Presenter authorship does not establish individual project contribution.",
+      "reviewed": "2026-10-09"
+    },
+    "coprover2023": {
+      "title": "CoProver: A Recommender System for Proof Construction (2023)",
+      "url": "https://arxiv.org/abs/2304.10486",
+      "evidence": "Primary PDF title page affiliates all five authors with SRI International.",
+      "reviewed": "2026-10-09"
+    },
+    "stitches-darpa": {
+      "title": "DARPA: Creating Cross-Domain Kill Webs in Real Time (2020)",
+      "url": "https://www.darpa.mil/news/2020/cross-domain-kill-webs",
+      "evidence": "Sponsor account documents STITCHES integration capability but does not identify SRI individual contributors.",
+      "reviewed": "2026-10-09"
+    },
+    "stitches-team": {
+      "title": "STITCHES team announcements",
+      "url": "https://apogee-research.com/announcements/",
+      "evidence": "Prime contractor account lists SRI among subcontractors, without naming its individual contributors.",
+      "reviewed": "2026-10-09"
+    },
+    "dittmer2023-b615bd7457": {
+      "title": "Boosting the Performance of High-Assurance Cryptography: Parallel Execution and Optimizing Memory Access in Formally-Verified Line-Point Zero-Knowledge (2023)",
+      "url": "https://doi.org/10.1145/3576915.3616583",
+      "evidence": "SRI researcher bibliography and CCS program confirm the paper and authors.",
+      "reviewed": "2026-10-09"
+    },
+    "karim": {
+      "title": "Karim Eldefrawy: SRI projects",
+      "url": "https://www.sri.com/people/karim-eldefrawy/",
+      "evidence": "Official SRI biography lists EMPHASIZE (2020–2024) and formal verification of cryptographic protocols.",
+      "reviewed": "2026-10-09"
+    },
+    "sgl": {
+      "title": "Stéphane Graham-Lengrand: SRI publication bibliography",
+      "url": "https://www.csl.sri.com/users/sgl/Work/myproceedings_bib.html",
+      "evidence": "SRI author-maintained bibliography identifies the 2021 machine-checked ZKP and 2023 line-point ZK papers.",
+      "reviewed": "2026-10-09"
+    },
+    "bonacina2022-612471e14d": {
+      "title": "CDSAT for Nondisjoint Theories with Shared Predicates: Arrays With Abstract Length (2022)",
+      "url": "https://www.csl.sri.com/users/sgl/Work/myproceedings_bib.html",
+      "evidence": "2022 CDSAT primary title page affiliates Graham-Lengrand and Shankar with SRI, Bonacina with Verona.",
+      "reviewed": "2026-10-09"
+    },
+    "cdsat2022": {
+      "title": "CDSAT for Nondisjoint Theories with Shared Predicates: manuscript (2022)",
+      "url": "https://www.csl.sri.com/users/sgl/Work/Reports/SMT2022.pdf",
+      "evidence": "Primary publication-time affiliation evidence.",
+      "reviewed": "2026-10-09"
+    },
+    "navas2019": {
+      "title": "CAV 2019 software verification workshop: speakers and affiliations",
+      "url": "https://smackers.github.io/democratizing-software-verification-workshop-2019/",
+      "evidence": "The official workshop program identifies Jorge Navas at SRI in 2019. Supports the affiliation of the DeepOCCAM coauthor.",
+      "reviewed": "2026-10-09"
+    },
+    "hybridsal-doc": {
+      "title": "HybridSAL documentation: qualitative and relational abstraction",
+      "url": "https://www.csl.sri.com/~tiwari/relational-abstraction/relabs-doc.pdf",
+      "evidence": "Sections 3 and 3.1 explicitly connect the original HybridSAL qualitative abstractor to its relational-abstraction extension. Describes HybridSAL as a SAL extension, and its finite versus infinite-state abstractions.",
+      "reviewed": "2026-10-09"
+    },
+    "hybrid-abstraction2008": {
+      "title": "Abstractions for Hybrid Systems (2008)",
+      "url": "https://www.sri.com/publication/cyber-formal-methods-pubs/abstractions-for-hybrid-systems/",
+      "evidence": "Official SRI record for Ashish Tiwari’s FMSD paper: predicate/qualitative abstraction of hybrid systems. Used as methodological background alongside the HybridSAL documentation, not as a claim that all hybrid abstraction is HybridSAL.",
+      "reviewed": "2026-10-09"
+    },
+    "hybridsal2012": {
+      "title": "HybridSAL Relational Abstracter (2012)",
+      "url": "https://www.csl.sri.com/~tiwari/relational-abstraction/hsal-tool-paper.pdf",
+      "evidence": "Title page affiliates Ashish Tiwari with SRI. Paper explicitly implements the relational abstraction of Sankaranarayanan and Tiwari (2011); outputs SAL models for infinite bounded model checking and k-induction. Year confirmed by Tiwari’s official SRI bibliography.",
+      "reviewed": "2026-10-09"
+    }
+  },
+  "items": [
+    {
+      "id": "1970s-sift",
+      "decade": "1970s",
+      "label": "SIFT",
+      "description": "State-machine replication, modern fault tolerance",
+      "sri_contributors": [
+        "John H. Wensley",
+        "Leslie Lamport",
+        "Jack Goldberg",
+        "Milton W. Green",
+        "Karl N. Levitt",
+        "P. M. Melliar-Smith",
+        "Robert E. Shostak",
+        "Charles B. Weinstock"
+      ],
+      "sources": [
+        "sift1978",
+        "wensley1978-35d7c16306"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1970s-byzantine-agreement",
+      "decade": "1970s",
+      "label": "Byzantine Agreement",
+      "description": "Tolerating faults with no assumptions on behavior; later, basis of blockchain",
+      "sri_contributors": [
+        "Leslie Lamport",
+        "Robert Shostak",
+        "Marshall Pease"
+      ],
+      "sources": [
+        "lamport1982-7602b8691a"
+      ],
+      "note": "The 1982 paper develops work associated with the earlier SIFT project; the figure’s 1970s grouping is retained.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "The 1982 paper develops work associated with the earlier SIFT project."
+    },
+    {
+      "id": "1970s-psos",
+      "decade": "1970s",
+      "label": "PSOS",
+      "description": "Capability-based security, father of CHERI, ARM Morello",
+      "sri_contributors": [
+        "Peter G. Neumann",
+        "Richard J. Feiertag",
+        "Robert S. Boyer",
+        "Karl N. Levitt",
+        "Lawrence Robinson"
+      ],
+      "sources": [
+        "neumann1980-8f319f35d0",
+        "security-history"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1970s-early-fm",
+      "decade": "1970s",
+      "label": "Early FM",
+      "description": "JOVIAL Verifier, Boyer-Moore, SMT",
+      "sri_contributors": [
+        "Robert S. Boyer",
+        "J Strother Moore",
+        "Bernard Elspas",
+        "Milton Green",
+        "Mark Moriconi",
+        "Robert Shostak"
+      ],
+      "sources": [
+        "elspas1979-5a0f2d9216",
+        "boyer-moore",
+        "pvs-history"
+      ],
+      "note": "A broad grouping of several research efforts; the names refer to the cited JOVIAL and Boyer–Moore work, not sole authorship of SMT.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "The cited papers describe the JOVIAL verifier and Boyer–Moore theorem proving."
+    },
+    {
+      "id": "1970s-information-flow-analyzer",
+      "decade": "1970s",
+      "label": "Information Flow Analyzer",
+      "description": "Pre-noninterference semantics",
+      "sri_contributors": [
+        "Richard J. Feiertag"
+      ],
+      "sources": [
+        "security-history",
+        "flow-foundation"
+      ],
+      "note": "The analyzer report is from 1980; the original figure groups the earlier information-flow work in the 1970s.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "The information-flow analyzer report was published in 1980."
+    },
+    {
+      "id": "1970s-hdm",
+      "decade": "1970s",
+      "label": "HDM",
+      "description": "Hierarchical development of secure software",
+      "sri_contributors": [
+        "Lawrence Robinson",
+        "Karl N. Levitt",
+        "B. A. Silverberg"
+      ],
+      "sources": [
+        "robinson1979-910e0a3d40",
+        "pvs-history"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1980s-separation-kernel",
+      "decade": "1980s",
+      "label": "Separation Kernel",
+      "description": "Later evolved to MILS, also partitioning/safety",
+      "sri_contributors": [
+        "John Rushby"
+      ],
+      "sources": [
+        "separation1981",
+        "rushby2008-195a9f3494"
+      ],
+      "note": "Rushby’s original separation-kernel work was performed at Newcastle. His later SRI work developed the MILS connection; this is not an SRI-origin claim.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "Rushby’s original separation-kernel work was performed at Newcastle. His later SRI work developed the MILS connection."
+    },
+    {
+      "id": "1980s-ehdm",
+      "decade": "1980s",
+      "label": "EHDM",
+      "description": "Clock synchronization proofs",
+      "sri_contributors": [
+        "John Rushby",
+        "Friedrich von Henke"
+      ],
+      "sources": [
+        "ehdm1989",
+        "rushby1991-4f12d0a781"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1980s-noninterference",
+      "decade": "1980s",
+      "label": "Noninterference",
+      "description": "and its intransitive form",
+      "sri_contributors": [
+        "Joseph A. Goguen",
+        "José Meseguer",
+        "John Rushby"
+      ],
+      "sources": [
+        "security-history",
+        "rushby1992-cff083cb9d"
+      ],
+      "note": "Goguen and Meseguer’s 1982/1984 work and Rushby’s later intransitive treatment are distinct contributions.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "Goguen and Meseguer’s 1982/1984 work and Rushby’s later intransitive treatment are distinct contributions."
+    },
+    {
+      "id": "1980s-algebraic-semantics",
+      "decade": "1980s",
+      "label": "Algebraic Semantics",
+      "description": "and rewriting",
+      "sri_contributors": [
+        "Joseph A. Goguen",
+        "José Meseguer"
+      ],
+      "sources": [
+        "algebraic",
+        "order-sorted"
+      ],
+      "note": "The cited SRI-era equational and order-sorted work is part of a wider algebraic-semantics tradition.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "The cited SRI-era work develops equational and order-sorted approaches."
+    },
+    {
+      "id": "1980s-obj3",
+      "decade": "1980s",
+      "label": "OBJ3",
+      "description": "Modular and equational programming",
+      "sri_contributors": [
+        "Joseph A. Goguen",
+        "Timothy Winkler"
+      ],
+      "sources": [
+        "algebraic",
+        "obj"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1980s-ides",
+      "decade": "1980s",
+      "label": "IDES",
+      "description": "Intrusion detection, evolved to network intrusion detection",
+      "sri_contributors": [
+        "Teresa F. Lunt",
+        "Peter G. Neumann",
+        "R. Jagannathan",
+        "Harold S. Javitz",
+        "Alfonso Valdes"
+      ],
+      "sources": [
+        "lunt1988-247a3612cf",
+        "security-history"
+      ],
+      "note": "Selected contributors to the cited report; this is not a complete IDES/NIDES team roster.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1990s-interrogator",
+      "decade": "1990s",
+      "label": "Interrogator",
+      "description": "Cryptographic protocol verification",
+      "sri_contributors": [],
+      "sources": [
+        "millen-cv",
+        "interrogator1995"
+      ],
+      "note": "Jonathan Millen developed Interrogator before joining SRI (1997–2004).",
+      "gap": "An SRI-period contribution to Interrogator itself was not established; the historical item is retained without attributing its origin to SRI.",
+      "collaborators": "",
+      "public_note": "Jonathan Millen developed Interrogator before joining SRI (1997–2004)."
+    },
+    {
+      "id": "1990s-pvs",
+      "decade": "1990s",
+      "label": "PVS",
+      "description": "Interactive specification and verification",
+      "sri_contributors": [
+        "Sam Owre",
+        "John Rushby",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "owre1992-fa8d9ecd05"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1990s-lazy-compositional-verification",
+      "decade": "1990s",
+      "label": "Lazy Compositional Verification",
+      "description": "",
+      "sri_contributors": [
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "lazy1997"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1990s-rrm",
+      "decade": "1990s",
+      "label": "RRM",
+      "description": "performant rewrite rule machine",
+      "sri_contributors": [
+        "Patrick Lincoln",
+        "José Meseguer",
+        "Livio Ricciulli"
+      ],
+      "sources": [
+        "rrm1994"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1990s-maude",
+      "decade": "1990s",
+      "label": "Maude",
+      "description": "model-checking concurrent systems",
+      "sri_contributors": [
+        "Steven Eker",
+        "Patrick Lincoln"
+      ],
+      "sources": [
+        "maude1999",
+        "eker-profile"
+      ],
+      "note": "Selected SRI contributors; Maude was developed by a wider international team.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "Maude was developed by an international team."
+    },
+    {
+      "id": "1990s-aamp5",
+      "decade": "1990s",
+      "label": "AAMP5",
+      "description": "Microprocessor verification",
+      "sri_contributors": [
+        "Mandayam Srivas"
+      ],
+      "sources": [
+        "miller1995-c27efd643f"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Steven P. Miller (Collins Commercial Avionics).",
+      "public_note": ""
+    },
+    {
+      "id": "1990s-bitvector",
+      "decade": "1990s",
+      "label": "Bitvector solving",
+      "description": "decision procedures",
+      "sri_contributors": [
+        "David Cyrluk"
+      ],
+      "sources": [
+        "cyrluk1997-c294fad7a0",
+        "ruess-profile"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Harald Ruess and Oliver Möller (University of Ulm in the cited 1997 paper).",
+      "public_note": ""
+    },
+    {
+      "id": "1990s-predicate-abstraction",
+      "decade": "1990s",
+      "label": "Predicate abstraction",
+      "description": "",
+      "sri_contributors": [
+        "Hassen Saïdi",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "predicate1999"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "1990s-floating-point-verification",
+      "decade": "1990s",
+      "label": "Floating-point verification",
+      "description": "",
+      "sri_contributors": [
+        "Harald Ruess",
+        "Natarajan Shankar",
+        "Mandayam Srivas"
+      ],
+      "sources": [
+        "ruess1996-685b17acc2",
+        "ruess-profile"
+      ],
+      "note": "SRT division is a representative contribution within this broader research area.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "The cited work verifies SRT division."
+    },
+    {
+      "id": "2000s-ics",
+      "decade": "2000s",
+      "label": "ICS",
+      "description": "Integrated canonizer and solver for satisfiability modulo theories",
+      "sri_contributors": [
+        "Sam Owre",
+        "Harald Ruess",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "filliatre2001-f04396666a",
+        "ruess-profile"
+      ],
+      "note": "The priority wording is retained from the historical figure; the paper documents ICS rather than a universal priority comparison.",
+      "gap": "",
+      "collaborators": "Jean-Christophe Filliâtre (coauthor).",
+      "public_note": "",
+      "original_description": "First advanced SMT solver"
+    },
+    {
+      "id": "2000s-cyberlogic",
+      "decade": "2000s",
+      "label": "Cyberlogic",
+      "description": "Logic of evidential transactions",
+      "sri_contributors": [
+        "Harald Ruess",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "cyberlogic2003"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2000s-sal",
+      "decade": "2000s",
+      "label": "SAL",
+      "description": "Combining finite and infinite-state model checking",
+      "sri_contributors": [
+        "Leonardo de Moura",
+        "Sam Owre",
+        "Harald Ruess",
+        "John Rushby",
+        "Natarajan Shankar",
+        "Maria Sorea",
+        "Ashish Tiwari"
+      ],
+      "sources": [
+        "moura2004-7cdc2f612c",
+        "sal"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2000s-capsl",
+      "decade": "2000s",
+      "label": "CAPSL",
+      "description": "Crypto-protocol analysis",
+      "sri_contributors": [
+        "Grit Denker",
+        "Jonathan Millen"
+      ],
+      "sources": [
+        "capsl2002",
+        "millen-cv"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2000s-pathway-logic",
+      "decade": "2000s",
+      "label": "Pathway logic",
+      "description": "Analyzing biological pathways",
+      "sri_contributors": [
+        "Steven Eker",
+        "Patrick Lincoln",
+        "Carolyn Talcott"
+      ],
+      "sources": [
+        "pathway2002",
+        "eker-profile"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Merrill Knapp and Keith Laderoute (biological modeling collaborators).",
+      "public_note": ""
+    },
+    {
+      "id": "2000s-provenance",
+      "decade": "2000s",
+      "label": "Provenance",
+      "description": "Theory and tools",
+      "sri_contributors": [
+        "Ashish Gehani",
+        "Ulf Lindqvist"
+      ],
+      "sources": [
+        "bonsai2007"
+      ],
+      "note": "Bonsai is a 2000s example of the wider provenance research portfolio.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "Bonsai is a 2000s example of the provenance research portfolio."
+    },
+    {
+      "id": "2000s-calendar-automata",
+      "decade": "2000s",
+      "label": "Calendar automata",
+      "description": "Verification of fault-tolerant distributed real-time algorithms",
+      "sri_contributors": [
+        "Bruno Dutertre"
+      ],
+      "sources": [
+        "calendar2004",
+        "calendar-paper"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Maria Sorea (University of Ulm in the cited 2004 paper).",
+      "public_note": ""
+    },
+    {
+      "id": "2000s-wmc",
+      "decade": "2000s",
+      "label": "WMC",
+      "description": "Witness-producing model checker",
+      "sri_contributors": [
+        "Natarajan Shankar",
+        "Maria Sorea"
+      ],
+      "sources": [
+        "wmc"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2000s-parikh-automata",
+      "decade": "2000s",
+      "label": "Parikh automata",
+      "description": "that count",
+      "sri_contributors": [
+        "Harald Ruess"
+      ],
+      "sources": [
+        "parikh2003"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Felix Klaedtke (University of Freiburg).",
+      "public_note": ""
+    },
+    {
+      "id": "2000s-hybridsal",
+      "decade": "2000s",
+      "label": "HybridSAL",
+      "description": "Modeling and verification of hybrid systems through qualitative hybrid abstraction and relational abstraction. HybridSAL extends SAL with continuous dynamics and produces discrete abstractions for analysis with SAL model checkers.",
+      "sri_contributors": [
+        "Ashish Tiwari"
+      ],
+      "sources": [
+        "hybridsal-doc",
+        "hybrid-abstraction2008",
+        "sankaranarayanan2011-077cb45f21",
+        "hybridsal2012"
+      ],
+      "note": "The directly matching publication is from 2011. The source figure’s 2000s grouping is preserved, not asserted as this paper’s date. User replaced the entry with HybridSAL, retaining its decade. Official framework documentation connects its earlier qualitative abstractor with the later relational extension; the 2008 hybrid abstraction paper supplies decade-specific context.",
+      "gap": "The precise 2000s milestone intended by the original grouping is not established.",
+      "collaborators": "Sriram Sankaranarayanan (University of Colorado), coauthor of the 2011 relational-abstraction paper.",
+      "public_note": "Qualitative abstraction builds finite-state models. Relational abstraction summarizes continuous evolution as relations between states; the 2011 paper and 2012 tool paper describe this extension.",
+      "original_label": "Relational abstraction",
+      "original_id": "2000s-relational-abstraction",
+      "original_description": "for hybrid systems"
+    },
+    {
+      "id": "2010s-occam",
+      "decade": "2010s",
+      "label": "OCCAM",
+      "description": "Debloater",
+      "sri_contributors": [
+        "Ashish Gehani",
+        "Susmit Jha",
+        "Jorge A. Navas"
+      ],
+      "sources": [
+        "occam2019",
+        "gehani",
+        "occam-repo",
+        "navas2019"
+      ],
+      "note": "The 2019 paper describes the DeepOCCAM extension, not the origin of the entire OCCAM system.",
+      "gap": "",
+      "collaborators": "Nham Le Van and Arie Gurfinkel (coauthors).",
+      "public_note": "The 2019 paper describes the DeepOCCAM extension."
+    },
+    {
+      "id": "2010s-arsenal",
+      "decade": "2010s",
+      "label": "ARSENAL",
+      "description": "Semantic parsing",
+      "sri_contributors": [
+        "Shalini Ghosh",
+        "Daniel Elenius",
+        "Wenchao Li",
+        "Patrick Lincoln",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "arsenal"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Wilfried Steiner (TTTech).",
+      "public_note": ""
+    },
+    {
+      "id": "2010s-radler",
+      "decade": "2010s",
+      "label": "Radler",
+      "description": "Resilient multirate architectures",
+      "sri_contributors": [
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "radler2014",
+        "radler"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Robin Larrieu (coauthor).",
+      "public_note": ""
+    },
+    {
+      "id": "2010s-parsley",
+      "decade": "2010s",
+      "label": "Parsley",
+      "description": "Verified parsing/unparsing",
+      "sri_contributors": [
+        "Prashanth Mundkur",
+        "Linda Briesemeister",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "parsley2020"
+      ],
+      "note": "The project appears in the figure’s 2010s grouping; this report was published in 2020.",
+      "gap": "",
+      "collaborators": "Prashant Anantharaman, Sameed Ali, Zephyr Lucas and Sean Smith (Dartmouth).",
+      "public_note": "The linked Parsley report was published in 2020."
+    },
+    {
+      "id": "2010s-sherlock",
+      "decade": "2010s",
+      "label": "Sherlock",
+      "description": "Neural net analyzer",
+      "sri_contributors": [
+        "Susmit Jha"
+      ],
+      "sources": [
+        "dutta2019-65324b8686"
+      ],
+      "note": "SRI attribution here is limited to the cited 2019 paper.",
+      "gap": "",
+      "collaborators": "Ashish Tiwari, Souradeep Dutta, Xin Chen and Sriram Sankaranarayanan (coauthors).",
+      "public_note": ""
+    },
+    {
+      "id": "2010s-kernel-of-truth",
+      "decade": "2010s",
+      "label": "Kernel of Truth",
+      "description": "Verification of proof checkers against trusted kernel",
+      "sri_contributors": [
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "kot2010"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2010s-pvs2c",
+      "decade": "2010s",
+      "label": "PVS2C",
+      "description": "Autogenerating correct code",
+      "sri_contributors": [
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "shankar2017-2acc302a7c",
+        "pvs2c2017"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2010s-reverse-engineering",
+      "decade": "2010s",
+      "label": "Reverse Engineering",
+      "description": "of Hardware",
+      "sri_contributors": [
+        "Adrià Gascón",
+        "Ashish Tiwari",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "reverse2014"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Pramod Subramanyan, Nestan Tsiskaridze, Wenchao Li, Wei Yang Tan, Sanjit A. Seshia and Sharad Malik (Princeton/Berkeley).",
+      "public_note": ""
+    },
+    {
+      "id": "2010s-etb",
+      "decade": "2010s",
+      "label": "ETB",
+      "description": "Evidential Toolbus",
+      "sri_contributors": [
+        "Grégoire Hamon",
+        "Sam Owre",
+        "Natarajan Shankar",
+        "John Rushby"
+      ],
+      "sources": [
+        "etb2013",
+        "etb2005"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Simon Cruanes (École Polytechnique).",
+      "public_note": ""
+    },
+    {
+      "id": "2020s-assurance-2-0",
+      "decade": "2020s",
+      "label": "Assurance 2.0",
+      "description": "Rigorous assurance cases",
+      "sri_contributors": [
+        "John Rushby"
+      ],
+      "sources": [
+        "bloomfield2021-dfedf034a7"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Robin Bloomfield (City, University of London / Adelard).",
+      "public_note": ""
+    },
+    {
+      "id": "2020s-ontic-types",
+      "decade": "2020s",
+      "label": "Ontic types",
+      "description": "Meaningful typing",
+      "sri_contributors": [],
+      "sources": [
+        "sri-overview2025"
+      ],
+      "note": "",
+      "gap": "The reviewed SRI overview names this work but does not establish individual contributors or a foundational paper. It is not identified with the unrelated historical ONTIC prover.",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2020s-coprover",
+      "decade": "2020s",
+      "label": "CoProver",
+      "description": "LLM-assisted interactive theorem proving",
+      "sri_contributors": [
+        "Eric Yeh",
+        "Briland Hitaj",
+        "Sam Owre",
+        "Maena Quemener",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "coprover2023"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2020s-stitches",
+      "decade": "2020s",
+      "label": "Stitches",
+      "description": "Seamless data integration in system of systems",
+      "sri_contributors": [],
+      "sources": [
+        "stitches-darpa",
+        "stitches-team"
+      ],
+      "note": "",
+      "gap": "SRI’s team participation is documented; individual SRI contributor attribution was not established.",
+      "collaborators": "",
+      "public_note": ""
+    },
+    {
+      "id": "2020s-zero-knowledge",
+      "decade": "2020s",
+      "label": "Zero-Knowledge",
+      "description": "Verification of proof systems and code",
+      "sri_contributors": [
+        "Karim Eldefrawy",
+        "Stéphane Graham-Lengrand"
+      ],
+      "sources": [
+        "dittmer2023-b615bd7457",
+        "karim",
+        "sgl"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Samuel Dittmer, Steve Lu, Rafail Ostrovsky and Vitor Pereira (coauthors of the 2023 paper).",
+      "public_note": ""
+    },
+    {
+      "id": "2020s-cdsat",
+      "decade": "2020s",
+      "label": "CDSAT",
+      "description": "Conflict-Driven Reasoning",
+      "sri_contributors": [
+        "Stéphane Graham-Lengrand",
+        "Natarajan Shankar"
+      ],
+      "sources": [
+        "bonacina2022-612471e14d",
+        "cdsat2022"
+      ],
+      "note": "",
+      "gap": "",
+      "collaborators": "Maria Paola Bonacina (University of Verona).",
+      "public_note": ""
+    },
+    {
+      "id": "2020s-semantic-browsing",
+      "decade": "2020s",
+      "label": "Semantic Browsing",
+      "description": "Validated informal specifications",
+      "sri_contributors": [],
+      "sources": [
+        "sri-overview2025"
+      ],
+      "note": "The SRI presentation identifies Effigy as the context for semantic browsing of evolving standards documents.",
+      "gap": "The reviewed presentation does not establish individual project contributors or a foundational paper; presenter names are not treated as project credit.",
+      "collaborators": "",
+      "public_note": "The SRI presentation describes semantic browsing of evolving standards documents in Effigy."
+    }
+  ],
+  "presentation_policy": "Render descriptions, public_note, supported contributor names, collaborator facts and source links. Keep note, gap, source evidence and research_method as non-rendered provenance. Omit contributor rows when no names are supported.",
+  "removed_items": [
+    {
+      "id": "1990s-state-of-the-art-fm",
+      "decade": "1990s",
+      "label": "State of the Art FM",
+      "description": "PVS, RRM, Maude",
+      "sri_contributors": [
+        "Sam Owre",
+        "John Rushby",
+        "Natarajan Shankar",
+        "Steven Eker",
+        "Patrick Lincoln",
+        "José Meseguer",
+        "Livio Ricciulli"
+      ],
+      "sources": [
+        "owre1992-fa8d9ecd05",
+        "maude1999",
+        "rrm1994"
+      ],
+      "note": "PVS, Maude and RRM are separate efforts. These references represent their 1990s work; credit is shared with the other paper authors.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "PVS, Maude and RRM are separate efforts represented by these 1990s references."
+    },
+    {
+      "id": "2000s-state-of-the-art-fm",
+      "decade": "2000s",
+      "label": "State of the Art FM",
+      "description": "PVS, Maude continue",
+      "sri_contributors": [
+        "Sam Owre",
+        "Steven Eker",
+        "Patrick Lincoln",
+        "Carolyn Talcott"
+      ],
+      "sources": [
+        "pvs-releases",
+        "maude2003",
+        "eker-profile"
+      ],
+      "note": "PVS releases during this decade and Maude 2.0 (2003) document continuing development; the names are selected contributors to those resources.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "PVS releases during this decade and Maude 2.0 (2003) document continuing development."
+    },
+    {
+      "id": "2010s-state-of-the-art-fm",
+      "decade": "2010s",
+      "label": "State of the Art FM",
+      "description": "PVS, Maude continue",
+      "sri_contributors": [
+        "Natarajan Shankar",
+        "Steven Eker",
+        "Patrick Lincoln",
+        "Carolyn Talcott"
+      ],
+      "sources": [
+        "shankar2017-2acc302a7c",
+        "maude2015",
+        "eker-profile"
+      ],
+      "note": "The PVS2C extension (2017) and Two Decades of Maude (2015) are era-specific continuation references, not claims that either system began in this decade.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "References include the PVS2C extension (2017) and Two Decades of Maude (2015)."
+    },
+    {
+      "id": "2020s-state-of-the-art-fm",
+      "decade": "2020s",
+      "label": "State of the Art FM",
+      "description": "PVS, Maude continue",
+      "sri_contributors": [
+        "Sam Owre",
+        "Natarajan Shankar",
+        "Steven Eker",
+        "Carolyn Talcott"
+      ],
+      "sources": [
+        "pvs2020",
+        "maude2020"
+      ],
+      "note": "PVS 7.1 documentation and the 2020 Maude paper document continued development; these are selected contributors, not a complete current roster.",
+      "gap": "",
+      "collaborators": "",
+      "public_note": "PVS 7.1 documentation and the 2020 Maude paper describe continued development."
+    }
+  ]
+}

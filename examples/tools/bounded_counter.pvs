@@ -1,0 +1,10 @@
+bounded_counter: THEORY
+BEGIN
+  count: TYPE = {n: nat | n <= 3}
+
+  advance(n: count): count =
+    IF n < 3 THEN n + 1 ELSE n ENDIF
+
+  monotone: THEOREM
+    FORALL (n: count): advance(n) >= n
+END bounded_counter

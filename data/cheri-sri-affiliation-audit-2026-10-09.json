@@ -1,0 +1,2454 @@
+{
+  "reviewed": "2026-10-09",
+  "rule": "Retain CTSRD/CHERI bibliography entries only with affirmative publication-time direct SRI author evidence. Collaboration, sponsorship, acknowledgments, Cambridge employment, and affiliate/contractor organizations alone do not qualify. Publication-time joint SRI affiliation qualifies.",
+  "scope": "104 entries: the imported CTSRD/CHERI and formal-methods inventory plus CHERI-named Neumann additions. Unrelated publications and the explicitly labeled non-SRI Ruess CAV history are preserved.",
+  "before": 426,
+  "after": 384,
+  "reviewed_records": 104,
+  "retained": 62,
+  "removed": 42,
+  "decisions": [
+    {
+      "index": 0,
+      "citation_key": "gao2026-f8f819a479",
+      "title": "Efficient Linkage-Based Compartmentalization on CHERI",
+      "year": 2026,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Official CCS 2026 program assigns every author to Cambridge, Ararat River Consulting, Arm, Capabilities Limited, or Google. Brooks Davis is listed at Capabilities Limited, not SRI.",
+      "evidence": [
+        "https://doi.org/10.1145/3830454.3846528",
+        "https://www.sigsac.org/ccs/CCS2026/program/schedule.html"
+      ]
+    },
+    {
+      "index": 1,
+      "citation_key": "metzger2025-0ab73b7578",
+      "title": "Deprivileging Low-Level GPU Drivers Efficiently with User-Space Processes and CHERI Compartments",
+      "year": 2025,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "All author affiliations on the paper title page are University of Cambridge.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202510-ccs-gpu-driver-compartments.pdf"
+      ]
+    },
+    {
+      "index": 2,
+      "citation_key": "amar2025-8274daa2f6",
+      "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+      "year": 2025,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title-page institutions are Apple, Microsoft, SCI Semiconductor, Google, University of British Columbia, Cambridge and Arm; no SRI author.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202510-sosp-cheriot-rtos.pdf"
+      ]
+    },
+    {
+      "index": 3,
+      "citation_key": "cheng2025-b26e37862c",
+      "title": "Adaptive CHERI Compartmentalization for Heterogeneous Accelerators",
+      "year": 2025,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title-page affiliations are Edinburgh and Cambridge.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202506-isca-capchecker.pdf"
+      ]
+    },
+    {
+      "index": 4,
+      "citation_key": "hammond2025-6e8fdf5ce0",
+      "title": "Morello-Cerise: A Proof of Strong Encapsulation for the Arm Morello Capability Hardware Architecture",
+      "year": 2025,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title-page affiliations are Cambridge, Glasgow and Edinburgh; the former-affiliation note is Edinburgh.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/users/pes20/pldi25-paper646-camera-ready.pdf"
+      ]
+    },
+    {
+      "index": 5,
+      "citation_key": "watson2025-928f55ab46",
+      "title": "It is time to standardize principles and practices for software memory safety",
+      "year": 2025,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://dl.acm.org/doi/pdf/10.1145/3708553",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 6,
+      "citation_key": "fuchs2024-206c2d6be1",
+      "title": "Safe Speculation for CHERI",
+      "year": 2024,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202411-iccd-cap-contracts.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 7,
+      "citation_key": "filardo2024-121295d04a",
+      "title": "Cornucopia Reloaded: Load Barriers for CHERI Heap Temporal Safety",
+      "year": 2024,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202404asplos-cornucopia-reloaded.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 8,
+      "citation_key": "zaliva2024-1e2b896ed2",
+      "title": "Formal Mechanised Semantics of CHERI C: Capabilities, Provenance, and Undefined Behaviour",
+      "year": 2024,
+      "decision": "retain",
+      "sri_author": "Brooks Davis",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Brooks Davis is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/users/pes20/asplos24spring-paper110.pdf"
+      ]
+    },
+    {
+      "index": 9,
+      "citation_key": "joannou2024-91097bb237",
+      "title": "Randomized Testing of RISC-V CPUs using Direct Instruction Injection",
+      "year": 2024,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202402-testrig.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 10,
+      "citation_key": "fuchs2023-57ee7cc20b",
+      "title": "Architectural Contracts for Safe Speculation",
+      "year": 2023,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202311-iccd-speculation-contracts.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 11,
+      "citation_key": "amar2023-014f14154a",
+      "title": "CHERIoT: Complete Memory Safety for Embedded Devices",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title-page affiliations are Microsoft, Google, Cambridge and Arm; former-employer note is Microsoft.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202310ieeemicro-cheriot-uarch.pdf"
+      ]
+    },
+    {
+      "index": 12,
+      "citation_key": "gao2023-eb96dc6ebf",
+      "title": "Library-based Compartmentalisation on CHERI",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Both authors are explicitly affiliated with University of Cambridge on the title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202306-plarch-library-based-compartmentalisation.pdf"
+      ]
+    },
+    {
+      "index": 13,
+      "citation_key": "grisenthwaite2023-7c56c214a4",
+      "title": "The Arm Morello Evaluation Platform—Validating CHERI-Based Security in a High-Performance System",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title-page author affiliations are Arm and Cambridge. The project’s SRI collaboration mentioned in the body does not establish SRI authorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202305ieeemicro-morello-platform.pdf"
+      ]
+    },
+    {
+      "index": 14,
+      "citation_key": "bauereiss2022-e3874f9717",
+      "title": "Verified Security for the Morello Capability-enhanced Prototype Arm Architecture",
+      "year": 2022,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title-page affiliations are Cambridge, Edinburgh and Arm.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202205-esop-verified-morello-security.pdf"
+      ]
+    },
+    {
+      "index": 15,
+      "citation_key": "fuchs2021-827e0e0d93",
+      "title": "Developing a Test Suite for Transient-Execution Attacks on RISC-V and CHERI-RISC-V",
+      "year": 2021,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202106-carrv-transient-execution.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 16,
+      "citation_key": "markettos2020-c44587c3d3",
+      "title": "Position Paper: Defending Direct Memory Access with CHERI Capabilities",
+      "year": 2020,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2020hasp-cheri-dma.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 17,
+      "citation_key": "filardo2020-a2854ba428",
+      "title": "Cornucopia: Temporal Safety for CHERI Heaps",
+      "year": 2020,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2020oakland-cornucopia.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 18,
+      "citation_key": "nienhuis2020-24f8af42b8",
+      "title": "Rigorous engineering for hardware security: Formal modelling and proof in the CHERI design and implementation process",
+      "year": 2020,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202005oakland-cheri-formal.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 19,
+      "citation_key": "xia2019-86686b6cca",
+      "title": "CHERIvoke: Characterising Pointer Revocation using CHERI Capabilities for Temporal Memory Safety",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201910micro-cheri-temporal-safety.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 20,
+      "citation_key": "woodruff2019-a75727327c",
+      "title": "CHERI Concentrate: Practical Compressed Capabilities",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2019tc-cheri-concentrate.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 21,
+      "citation_key": "davis2019-94482b3c07",
+      "title": "CheriABI: Enforcing Valid Pointer Provenance and Minimizing Pointer Privilege in the POSIX C Run-time Environment",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201904-asplos-cheriabi.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 22,
+      "citation_key": "markettos2019-b49a3989fb",
+      "title": "Thunderclap: Exploring Vulnerabilities in Operating System IOMMU Protection via DMA from Untrustworthy Peripherals",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2019ndss-iommu-cameraready.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 23,
+      "citation_key": "memarian2019-e5236b5c45",
+      "title": "Exploring C Semantics and Pointer Provenance",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Brooks Davis",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Brooks Davis is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201901-popl-cerberus.pdf"
+      ]
+    },
+    {
+      "index": 24,
+      "citation_key": "xia2018-b2d3c64497",
+      "title": "CheriRTOS: A Capability Model for Embedded Devices",
+      "year": 2018,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201810-iccd2018-cheri-rtos.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 25,
+      "citation_key": "joannou2017-61cf852995",
+      "title": "Efficient Tagged Memory",
+      "year": 2017,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201711-iccd2017-efficient-tags.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 26,
+      "citation_key": "watson2018-2a8e7373b2",
+      "title": "Balancing Disruption and Deployability in the CHERI Instruction-Set Architecture (ISA)",
+      "year": 2018,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2017mit-cybersecurity-cheri-web.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 27,
+      "citation_key": "neumann2018-5bd4095912",
+      "title": "Fundamental Trustworthiness Principles",
+      "year": 2018,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2017mit-cybersecurity-cheri-princ-web.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 28,
+      "citation_key": "mazzinghi2018-d2e9b39cf2",
+      "title": "Pointer Provenance in a Capability Architecture",
+      "year": 2018,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "All three authors are explicitly Cambridge-affiliated on the title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2018tapp-tracing-cameraready.pdf"
+      ]
+    },
+    {
+      "index": 29,
+      "citation_key": "chisnall2017-897d1bb391",
+      "title": "CHERI-JNI: Sinking the Java security model into the C",
+      "year": 2017,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201704-asplos-cherijni.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 30,
+      "citation_key": "watson2016-b2578550e9",
+      "title": "Fast Protection-Domain Crossing in the CHERI Capability-System Architecture",
+      "year": 2016,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/20160728micro-journal-cheri-final.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 31,
+      "citation_key": "memarian2016-fa02b60a71",
+      "title": "Into the depths of C: elaborating the de facto standards",
+      "year": 2016,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "All authors list Cambridge, including the former-affiliation note for James Lingard.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201606-pldi2016-clanguage.pdf"
+      ]
+    },
+    {
+      "index": 32,
+      "citation_key": "gudka2015-1e16d8906a",
+      "title": "Clean Application Compartmentalization with SOAAP",
+      "year": 2015,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2015ccs-soaap.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 33,
+      "citation_key": "naylor2015-88ab8e91a7",
+      "title": "A Generic Synthesisable Test Bench",
+      "year": 2015,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Both authors list University of Cambridge.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201509-memocode2015-bluecheck.pdf"
+      ]
+    },
+    {
+      "index": 34,
+      "citation_key": "watson2015-198c535bb3",
+      "title": "CHERI: A Hybrid Capability-System Architecture for Scalable Software Compartmentalization",
+      "year": 2015,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201505-oakland2015-cheri-compartmentalization.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 35,
+      "citation_key": "chisnall2015-2720ff730a",
+      "title": "Beyond the PDP-11: Architectural support for a memory-safe C abstract machine",
+      "year": 2015,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201503-asplos2015-cheri-cmachine.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 36,
+      "citation_key": "uhler2014-f15663807c",
+      "title": "Smten with Satisfiability-based Search",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Nirav Dave",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Nirav Dave is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201410-smten-splash14.pdf"
+      ]
+    },
+    {
+      "index": 37,
+      "citation_key": "marinos2014-2213dfb9a9",
+      "title": "Network Stack Specialization for Performance",
+      "year": 2014,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title page lists Cambridge and University College London.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201408-sigcomm2014-specialization.pdf"
+      ]
+    },
+    {
+      "index": 38,
+      "citation_key": "woodruff2014-63500f9eb9",
+      "title": "The CHERI capability model: Revisiting RISC in an age of risk",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201406-isca2014-cheri.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 39,
+      "citation_key": "anderson2014-25972e5cde",
+      "title": "TESLA: Temporally Enhanced System Logic Assertions",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Brooks Davis",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Brooks Davis is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201404-eurosys2014-tesla.pdf"
+      ]
+    },
+    {
+      "index": 40,
+      "citation_key": "vijayaraghavan2013-aabfb3682a",
+      "title": "Modular Compilation of Guarded Atomic Actions",
+      "year": 2013,
+      "decision": "retain",
+      "sri_author": "Nirav Dave",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Nirav Dave is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://people.csail.mit.edu/vmurali/papers/modularbsv.pdf",
+        "https://www.sri.com/publication/information-computer-science-pubs/modular-compilation-of-guarded-atomic-actions/"
+      ]
+    },
+    {
+      "index": 41,
+      "citation_key": "uhler2013-8bedffa23f",
+      "title": "Smten: Automatic Translation of High-level Symbolic Computations into SMT Queries",
+      "year": 2013,
+      "decision": "retain",
+      "sri_author": "Nirav Dave",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Nirav Dave is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/20130718-smten-cav13.pdf"
+      ]
+    },
+    {
+      "index": 42,
+      "citation_key": "harris2013-c837214223",
+      "title": "Declarative, Temporal, and Practical Programming with Capabilities",
+      "year": 2013,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title page lists Wisconsin-Madison and Cambridge.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201305-temporal-practical-capabilities.pdf"
+      ]
+    },
+    {
+      "index": 43,
+      "citation_key": "watson2013-7dfff3cef7",
+      "title": "A Decade of OS Access-Control Extensibility: Open-source Security Foundations for mobile and embedded devices",
+      "year": 2013,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Watson article is attributed to Cambridge in the REF 2014 institutional submission and the author’s contemporaneous Cambridge research blog.",
+      "evidence": [
+        "https://dl.acm.org/authorize.cfm?key=6883207",
+        "https://results.ref.ac.uk/(S(yhxxsvgcyd3t2oyi1j0awbsx))/Submissions/Output/1841393?searchId=7805&searchPageNumber=1",
+        "https://www.lightbluetouchpaper.org/2013/01/30/cacm-a-decade-of-os-access-control-extensibility/"
+      ]
+    },
+    {
+      "index": 44,
+      "citation_key": "neumann2013-ba9c0fed29",
+      "title": "Inside Risks: More Sight on Foresight",
+      "year": 2013,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 45,
+      "citation_key": "neumann2012-dc2e0956f1",
+      "title": "Inside Risks: The Foresight Saga, Redux",
+      "year": 2012,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 46,
+      "citation_key": "king2012-a6eaae20ae",
+      "title": "Automatic Generation of Hardware/Software Interfaces",
+      "year": 2012,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "All three authors, including Nirav Dave, list MIT CSAIL on the 2012 paper. His later SRI affiliation is not applied retroactively.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://people.csail.mit.edu/ndave/Research/asplos_2012.pdf"
+      ]
+    },
+    {
+      "index": 47,
+      "citation_key": "marinos2013-46cb91c0e7",
+      "title": "Network stack specialisation for performance",
+      "year": 2013,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Official HotNets 2013 paper title page lists Cambridge and University College London.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://conferences.sigcomm.org/hotnets/2013/papers/hotnets-final43.pdf"
+      ]
+    },
+    {
+      "index": 48,
+      "citation_key": "watson2013-e46855c5f9",
+      "title": "Towards a theory of application compartmentalisation",
+      "year": 2013,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 49,
+      "citation_key": "woodruff2013-22633d8844",
+      "title": "Memory Segmentation to Support Secure Applications",
+      "year": 2013,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "All authors list University of Cambridge, Computer Laboratory.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2013essos-cheri.pdf"
+      ]
+    },
+    {
+      "index": 50,
+      "citation_key": "gudka2012-be7e985305",
+      "title": "Exploring compartmentalisation hypotheses with SOAAP",
+      "year": 2012,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Author affiliations are Cambridge and Google UK. A mention of the joint SRI project in the body is not SRI authorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2012ahans-soaap-final.pdf"
+      ]
+    },
+    {
+      "index": 51,
+      "citation_key": "watson2012-ce0d99874b",
+      "title": "CHERI: A Research Platform Deconflating Hardware Virtualization and Protection",
+      "year": 2012,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2012resolve-cheri.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 52,
+      "citation_key": "neumann2010-98f7584c71",
+      "title": "Capabilities Revisited: A Holistic Approach to Bottom-to-Top Assurance of Trustworthy Systems",
+      "year": 2010,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "publication author affiliation",
+      "reason": "The primary paper’s author affiliation block explicitly identifies Peter G. Neumann as SRI International.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2010law-final.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 53,
+      "citation_key": "davis2014-6ea887683a",
+      "title": "How FreeBSD Boots: a soft-core MIPS perspective",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Brooks Davis",
+      "evidence_kind": "contemporaneous conference author biography (joint affiliation)",
+      "reason": "The contemporaneous AsiaBSDCon 2014 biography identifies Brooks Davis as a Senior Software Engineer at SRI and Visiting Research Fellow at Cambridge.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201403-asiabsdcon2014-freebsd-smp-boot.pdf",
+        "https://2014.asiabsdcon.org/timetable.html.ja"
+      ]
+    },
+    {
+      "index": 54,
+      "citation_key": "chisnall2014-50d30b8526",
+      "title": "LLVM in the FreeBSD Toolchain",
+      "year": 2014,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole author David Chisnall is identified as a Cambridge Research Associate in the 2014 conference speaker biography.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201403-asiabsdcon2014-llvmbsd.pdf",
+        "https://2014.asiabsdcon.org/timetable.html.ja"
+      ]
+    },
+    {
+      "index": 55,
+      "citation_key": "markettos2013-4221564b54",
+      "title": "The BERIpad tablet: open-source construction, CPU, OS and applications",
+      "year": 2013,
+      "decision": "retain",
+      "sri_author": "Brooks Davis",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Brooks Davis is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2013terasic-beri-submitted.pdf"
+      ]
+    },
+    {
+      "index": 56,
+      "citation_key": "watson2025-1b560ee1d5",
+      "title": "CHERI C/C++ Programming Guide (2025 draft)",
+      "year": 2025,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://ctsrd-cheri.github.io/cheri-c-programming/",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 57,
+      "citation_key": "naylor2025-741881f069",
+      "title": "CHERI-SIMT report: implementing capability memory protection in GPGPUs",
+      "year": 2025,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Cambridge report author list; overlapping 2025 paper title pages identify the listed researchers at Cambridge. No direct SRI author attribution established.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-997.html",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202510-ccs-gpu-driver-compartments.pdf",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202506-isca-capchecker.pdf"
+      ]
+    },
+    {
+      "index": 58,
+      "citation_key": "watson2023-d207e2fdeb",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 9)",
+      "year": 2023,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-987.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 59,
+      "citation_key": "watson2023-11d14eb52c",
+      "title": "Early performance results from the prototype Morello microarchitecture",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Cambridge/Arm report author and copyright pages, contemporary Arm author biography, and related Morello paper. No direct SRI author attribution established; this report does not provide a complete per-author affiliation table.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-986.pdf",
+        "https://developer.arm.com/community/arm-community-blogs/b/announcements/posts/kathryn-stacer",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202305ieeemicro-morello-platform.pdf"
+      ],
+      "uncertainty": "Complete per-author affiliation table unavailable in the report; excluded under the requirement for affirmative direct SRI author evidence, not a claim about every author’s lifetime employment."
+    },
+    {
+      "index": 60,
+      "citation_key": "watson2023-3638724532",
+      "title": "Arm Morello Programme: Architectural security goals and known limitations",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Cambridge/Arm report; the related Morello publication and CHERI C paper identify its authors at Cambridge or Arm. No direct SRI author attribution.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-982.pdf",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202305ieeemicro-morello-platform.pdf",
+        "http://www.cl.cam.ac.uk/users/pes20/asplos24spring-paper110.pdf"
+      ]
+    },
+    {
+      "index": 61,
+      "citation_key": "watson2021-44f2c1a214",
+      "title": "Assessing the Viability of an Open-Source CHERI Desktop Software Ecosystem",
+      "year": 2021,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Title page identifies all three authors collectively as Capabilities Limited, September 17, 2021.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/20210917-capltd-cheri-desktop-report-version1-FINAL.pdf"
+      ]
+    },
+    {
+      "index": 62,
+      "citation_key": "bauereiss2021-2084094feb",
+      "title": "Verified security for the Morello capability-enhanced prototype Arm architecture",
+      "year": 2021,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Report’s article title page explicitly assigns authors to Cambridge, Edinburgh and Arm.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-959.pdf"
+      ]
+    },
+    {
+      "index": 63,
+      "citation_key": "watson2020-77953f6055",
+      "title": "DSbD CHERI and Morello Capability Essential IP (Version 1)",
+      "year": 2020,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Cambridge/Arm IP declaration names Cambridge researchers and Arm Limited. Project ownership or SRI funding does not establish direct SRI author affiliation.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-953.pdf",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202305ieeemicro-morello-platform.pdf"
+      ]
+    },
+    {
+      "index": 64,
+      "citation_key": "joly2020-71f7d9e309",
+      "title": "Security analysis of CHERI ISA",
+      "year": 2020,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "The authors are explicitly identified as Microsoft Security Response Center.",
+      "evidence": [
+        "https://github.com/microsoft/MSRC-Security-Research/raw/master/papers/2020/Security%20analysis%20of%20CHERI%20ISA.pdf"
+      ]
+    },
+    {
+      "index": 65,
+      "citation_key": "watson2019-8e618f8b0a",
+      "title": "An Introduction to CHERI",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-941.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 66,
+      "citation_key": "davis2019-7fb38d6feb",
+      "title": "CheriABI: Enforcing valid pointer provenance and minimizing pointer privilege in the POSIX C run-time environment",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-932.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 67,
+      "citation_key": "watson2018-5d0e79eb8c",
+      "title": "Capability Hardware Enhanced RISC Instructions (CHERI): Notes on the Meltdown and Spectre Attacks",
+      "year": 2018,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-916.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 68,
+      "citation_key": "watson2015-b62008a2ff",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Programmer’s Guide",
+      "year": 2015,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-877.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 69,
+      "citation_key": "watson2015-b0edb90e21",
+      "title": "Bluespec Extensible RISC Implementation: BERI Software Reference",
+      "year": 2015,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-869.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 70,
+      "citation_key": "watson2015-da1c441f5d",
+      "title": "Bluespec Extensible RISC Implementation: BERI Hardware Reference",
+      "year": 2015,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-868.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 71,
+      "citation_key": "watson2020-3bc83faaed",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 8)",
+      "year": 2020,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-951.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 72,
+      "citation_key": "watson2020-21f9f93efa",
+      "title": "CHERI C/C++ Programming Guide",
+      "year": 2020,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-947.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 73,
+      "citation_key": "watson2019-ce1e41e06e",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 7)",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-927.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 74,
+      "citation_key": "watson2017-2d83878b70",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 6)",
+      "year": 2017,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-907.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 75,
+      "citation_key": "watson2016-a1083a01c3",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (Version 5)",
+      "year": 2016,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-891.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 76,
+      "citation_key": "watson2015-b82a9d58a8",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (UCAM-CL-TR-876)",
+      "year": 2015,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-876.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 77,
+      "citation_key": "watson2014-79360bfe94",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (UCAM-CL-TR-864)",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-864.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 78,
+      "citation_key": "watson2014-a013034229",
+      "title": "Bluespec Extensible RISC Implementation: BERI Software Reference (UCAM-CL-TR-853)",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-853.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 79,
+      "citation_key": "watson2014-7ea955d7c4",
+      "title": "Bluespec Extensible RISC Implementation: BERI Hardware Reference (UCAM-CL-TR-852)",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-852.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 80,
+      "citation_key": "watson2014-197182e370",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI User’s Guide",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-851.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 81,
+      "citation_key": "watson2014-72af80e93b",
+      "title": "Capability Hardware Enhanced RISC Instructions: CHERI Instruction-Set Architecture (UCAM-CL-TR-850)",
+      "year": 2014,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-850.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 82,
+      "citation_key": "fuchs2025-5266d2804d",
+      "title": "Toward transient-execution attack mitigations on CHERI",
+      "year": 2025,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-1001.html"
+      ]
+    },
+    {
+      "index": 83,
+      "citation_key": "rugg2023-bba323e8cd",
+      "title": "Efficient spatial and temporal safety for microcontrollers and application-class processors",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-984.pdf"
+      ]
+    },
+    {
+      "index": 84,
+      "citation_key": "memarian2023-348a1ec8d3",
+      "title": "The Cerberos C semantics",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-981.pdf"
+      ]
+    },
+    {
+      "index": 85,
+      "citation_key": "almatary2022-b61653fb29",
+      "title": "CHERI compartmentalisation for embedded systems",
+      "year": 2022,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-976.pdf"
+      ]
+    },
+    {
+      "index": 86,
+      "citation_key": "gutstein2022-6b719bb8cd",
+      "title": "Memory safety with CHERI capabilities: security analysis, language interpreters, and heap temporal safety",
+      "year": 2022,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-975.pdf"
+      ]
+    },
+    {
+      "index": 87,
+      "citation_key": "dodson2021-f25e1d54b2",
+      "title": "Capability-based access control for cyber physical systems",
+      "year": 2021,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-963.pdf"
+      ]
+    },
+    {
+      "index": 88,
+      "citation_key": "esswood2021-60e2b93a76",
+      "title": "CheriOS: designing an untrusted single-address-space capability operating system utilising capability hardware and a minimal hypervisor",
+      "year": 2021,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf"
+      ]
+    },
+    {
+      "index": 89,
+      "citation_key": "xia2021-4ad8d52333",
+      "title": "Capability memory protection for embedded systems",
+      "year": 2021,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-955.pdf"
+      ]
+    },
+    {
+      "index": 90,
+      "citation_key": "richardson2020-fb7384be83",
+      "title": "Complete spatial safety for C and C++ using CHERI capabilities",
+      "year": 2020,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-949.pdf"
+      ]
+    },
+    {
+      "index": 91,
+      "citation_key": "joannou2019-45f8ed7312",
+      "title": "High-performance memory safety: optimizing the CHERI capability machine",
+      "year": 2019,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-936.pdf"
+      ]
+    },
+    {
+      "index": 92,
+      "citation_key": "norton2016-5504104b0a",
+      "title": "Hardware support for compartmentalisation",
+      "year": 2016,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-887.html"
+      ]
+    },
+    {
+      "index": 93,
+      "citation_key": "woodruff2014-49ca9b5b25",
+      "title": "A RISC capability machine for practical memory safety",
+      "year": 2014,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-858.html"
+      ]
+    },
+    {
+      "index": 94,
+      "citation_key": "watson2012-37d413f6af",
+      "title": "New approaches to operating system security extensibility",
+      "year": 2012,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Sole-author Cambridge doctoral dissertation. The official report front matter identifies the Cambridge degree and author; SRI collaborators, sponsorship or acknowledgments are not coauthorship.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-818.html"
+      ]
+    },
+    {
+      "index": 95,
+      "citation_key": "watson2024-4804e66264",
+      "title": "CHERI: Hardware-Enabled C/C++ Memory Protection at Scale",
+      "year": 2024,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://doi.org/10.1109/MSEC.2024.3396701",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 96,
+      "citation_key": "almatary2022-a9bc6cd0ef",
+      "title": "CompartOS: CHERI Compartmentalization for Embedded Systems",
+      "year": 2022,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://doi.org/10.48550/arXiv.2206.02852",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 97,
+      "citation_key": "watson2016-8e356c7fd0",
+      "title": "CHERI: A Hardware-Software System to Support the Principle of Least Privilege",
+      "year": 2016,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://dblp.org/rec/journals/ercim/WatsonMN16",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 98,
+      "citation_key": "neumann2019-834f4afb35",
+      "title": "CRASH-worthy Trustworthy Systems R&D (CTSRD): CHERI System Architecture and Research",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.csl.sri.com/~neumann/20191213-ctsrd-ftr-final.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 99,
+      "citation_key": "armstrong2019-25295fecfa",
+      "title": "ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Prashanth Mundkur",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Prashanth Mundkur is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://doi.org/10.1145/3290384",
+        "https://www.cl.cam.ac.uk/users/pes20/sail/sail-popl2019.pdf"
+      ]
+    },
+    {
+      "index": 100,
+      "citation_key": "armstrong2018-f6d71f90a7",
+      "title": "Detailed Models of Instruction Set Architectures: From Pseudocode to Formal Semantics",
+      "year": 2018,
+      "decision": "retain",
+      "sri_author": "Prashanth Mundkur",
+      "evidence_kind": "publication author affiliation",
+      "reason": "Prashanth Mundkur is explicitly SRI-affiliated on the paper title page.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/~pes20/sail/2018-04-12-arw-paper.pdf"
+      ]
+    },
+    {
+      "index": 101,
+      "citation_key": "nienhuis2019-071dadf8a6",
+      "title": "Rigorous engineering for hardware security: Formal modelling and proof in the CHERI design and implementation process",
+      "year": 2019,
+      "decision": "retain",
+      "sri_author": "Peter G. Neumann",
+      "evidence_kind": "author history and publication authorship",
+      "reason": "Peter G. Neumann is a named author. His official SRI author history states continuous CSL membership since September 1971; the publication falls within that SRI tenure.",
+      "evidence": [
+        "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-940.pdf",
+        "https://www.csl.sri.com/~neumann/"
+      ]
+    },
+    {
+      "index": 102,
+      "citation_key": "watson2023-15267fda50",
+      "title": "Improving Security with Hardware Support: CHERI and Arm's Morello",
+      "year": 2023,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Article byline explicitly identifies Watson and Sewell at Cambridge and William Martin at the National Security Agency.",
+      "evidence": [
+        "https://media.defense.gov/2023/Jan/23/2003148354/-1/-1/0/TNW_24-1_2023_20230112.PDF",
+        "https://www.govinfo.gov/content/pkg/GPO-TNW-24-1-2023/pdf/GPO-TNW-24-1-2023.pdf"
+      ]
+    },
+    {
+      "index": 103,
+      "citation_key": "campbell2016-6055618ef5",
+      "title": "Extracting Behaviour from an Executable Instruction Set Model",
+      "year": 2016,
+      "decision": "remove",
+      "sri_author": null,
+      "evidence_kind": "primary publication / institutional record",
+      "reason": "Both authors are explicitly affiliated with University of Edinburgh.",
+      "evidence": [
+        "https://homepages.inf.ed.ac.uk/bcampbe2/rems/fmcad16.pdf"
+      ]
+    }
+  ],
+  "removed_records": [
+    {
+      "title": "Efficient Linkage-Based Compartmentalization on CHERI",
+      "authors": [
+        "Dapeng Gao",
+        "John Baldwin",
+        "Jessica Clarke",
+        "Nicholas C. Connolly",
+        "Brooks Davis",
+        "Franz A. Fuchs",
+        "Alfredo Mazzinghi",
+        "Daniel Moghimi",
+        "Peter Rugg",
+        "Domagoj Stolfa",
+        "Konrad Witaszczyk",
+        "Simon W. Moore",
+        "Robert N. M. Watson"
+      ],
+      "year": 2026,
+      "category": "Conference Papers",
+      "venue": "CCS",
+      "venue_group": "CCS",
+      "url": "https://doi.org/10.1145/3830454.3846528",
+      "links": [],
+      "report_number": "",
+      "note": "Forthcoming at CCS 2026 (15–19 November), as listed by the project; the meeting is after this bibliography’s 9 October 2026 review.",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Dapeng Gao, John Baldwin, Jessica Clarke, Nicholas C. Connolly, Brooks Davis, Franz A. Fuchs, Alfredo Mazzinghi, Daniel Moghimi, Peter Rugg, Domagoj Stolfa, Konrad Witaszczyk, Simon W. Moore, and Robert N. M. Watson. Efficient Linkage-Based Compartmentalization on CHERI. Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security (CCS ’26), November 15–19, 2026, The Hague, Netherlands.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "gao2026-f8f819a479"
+    },
+    {
+      "title": "Deprivileging Low-Level GPU Drivers Efficiently with User-Space Processes and CHERI Compartments",
+      "authors": [
+        "Paul Metzger",
+        "A. Theodore Markettos",
+        "Edward Tomasz Napierała",
+        "Matthew Naylor",
+        "Robert N. M. Watson",
+        "Timothy M. Jones"
+      ],
+      "year": 2025,
+      "category": "Conference Papers",
+      "venue": "CCS",
+      "venue_group": "CCS",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202510-ccs-gpu-driver-compartments.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Paul Metzger, A. Theodore Markettos, Edward Tomasz Napierała, Matthew Naylor, Robert N. M. Watson, Timothy M. Jones. Deprivileging Low-Level GPU Drivers Efficiently with User-Space Processes and CHERI Compartments. Proceedings of the ACM SIGSAC Conference on Computer and Communications Security (CCS). Taipei, Taiwan, 13-17 October 2025.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "metzger2025-0ab73b7578"
+    },
+    {
+      "title": "CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices",
+      "authors": [
+        "Saar Amar",
+        "Tony Chen",
+        "David Chisnall",
+        "Nathaniel Wesley Filardo",
+        "Ben Laurie",
+        "Hugo Lefeuvre",
+        "Kunyan Liu",
+        "Simon W. Moore",
+        "Robert Norton-Wright",
+        "Margo Seltzer",
+        "Yucong Tao",
+        "Robert N. M. Watson",
+        "Hongyan Xia"
+      ],
+      "year": 2025,
+      "category": "Conference Papers",
+      "venue": "SOSP",
+      "venue_group": "SOSP",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202510-sosp-cheriot-rtos.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Saar Amar, Tony Chen, David Chisnall, Nathaniel Wesley Filardo, Ben Laurie, Hugo Lefeuvre, Kunyan Liu, Simon W. Moore, Robert Norton-Wright, Margo Seltzer, Yucong Tao, Robert N. M. Watson, and Hongyan Xia. CHERIoT RTOS: An OS for Fine-Grained Memory-Safe Compartments on Low-Cost Embedded Devices. Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles (SOSP '25). Seoul, Republic of Korea, 13-16 October 2025.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "amar2025-8274daa2f6"
+    },
+    {
+      "title": "Adaptive CHERI Compartmentalization for Heterogeneous Accelerators",
+      "authors": [
+        "Jianyi Cheng",
+        "A. Theodore Markettos",
+        "Alexandre Joannou",
+        "Paul Metzger",
+        "Matthew Naylor",
+        "Peter Rugg",
+        "Timothy Jones"
+      ],
+      "year": 2025,
+      "category": "Conference Papers",
+      "venue": "ISCA",
+      "venue_group": "ISCA",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202506-isca-capchecker.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Jianyi Cheng, A. Theodore Markettos, Alexandre Joannou, Paul Metzger, Matthew Naylor, Peter Rugg, and Timothy Jones. Adaptive CHERI Compartmentalization for Heterogeneous Accelerators. Proceedings of the 52nd Annual International Symposium on Computer Architecture (ISCA’25). Tokyo, Japan, June 21–25, 2025.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "cheng2025-b26e37862c"
+    },
+    {
+      "title": "Morello-Cerise: A Proof of Strong Encapsulation for the Arm Morello Capability Hardware Architecture",
+      "authors": [
+        "Angus Hammond",
+        "Ricardo Almeida",
+        "Thomas Bauereiss",
+        "Brian Campbell",
+        "Ian Stark",
+        "Peter Sewell"
+      ],
+      "year": 2025,
+      "category": "Journal Articles",
+      "venue": "Proceedings of the ACM on Programming Languages",
+      "venue_group": "",
+      "url": "http://www.cl.cam.ac.uk/users/pes20/pldi25-paper646-camera-ready.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://www.cl.cam.ac.uk/~pes20/pldi25-paper646-camera-ready.pdf"
+      ],
+      "source_citation": "Angus Hammond, Ricardo Almeida, Thomas Bauereiss, Brian Campbell, Ian Stark, and Peter Sewell. Morello-Cerise: A Proof of Strong Encapsulation for the Arm Morello Capability Hardware Architecture. Proceedings of the ACM on Programming Languages, Volume 9, PLDI 2025, Article No.: 226, Pages 1961-1983, June 2025. https://doi.org/10.1145/372932.",
+      "research_collection": "CTSRD / CHERI",
+      "doi": "10.1145/3729329",
+      "volume": "9",
+      "number": "PLDI",
+      "pages": "1961--1983",
+      "citation_key": "hammond2025-6e8fdf5ce0"
+    },
+    {
+      "title": "CHERIoT: Complete Memory Safety for Embedded Devices",
+      "authors": [
+        "Saar Amar",
+        "David Chisnall",
+        "Tony Chen",
+        "Nathaniel Wesley Filardo",
+        "Ben Laurie",
+        "Kunyan Liu",
+        "Robert Norton",
+        "Simon W. Moore",
+        "Yucong Tao",
+        "Robert N. M. Watson",
+        "Hongyan Xia"
+      ],
+      "year": 2023,
+      "category": "Conference Papers",
+      "venue": "MICRO",
+      "venue_group": "MICRO",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202310ieeemicro-cheriot-uarch.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Saar Amar, David Chisnall, Tony Chen, Nathaniel Wesley Filardo, Ben Laurie, Kunyan Liu, Robert Norton, Simon W. Moore, Yucong Tao, Robert N. M. Watson, and Hongyan Xia. CHERIoT: Complete Memory Safety for Embedded Devices. Proceedings of the 56th IEEE/ACM International Symposium on Microarchitecture (MICRO 2023). Toronto, Canada, October 28-November 1 2023.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "amar2023-014f14154a"
+    },
+    {
+      "title": "Library-based Compartmentalisation on CHERI",
+      "authors": [
+        "Dapeng Gao",
+        "Robert N. M. Watson"
+      ],
+      "year": 2023,
+      "category": "Conference Papers",
+      "venue": "PLARCH",
+      "venue_group": "PLARCH",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202306-plarch-library-based-compartmentalisation.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Dapeng Gao and Robert N. M. Watson. Library-based Compartmentalisation on CHERI. Programming Languages for Architecture (PLARCH 2023), co-located with PLDI 2023, June 2023.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "gao2023-eb96dc6ebf"
+    },
+    {
+      "title": "The Arm Morello Evaluation Platform—Validating CHERI-Based Security in a High-Performance System",
+      "authors": [
+        "Richard Grisenthwaite",
+        "Graeme Barnes",
+        "Robert N. M. Watson",
+        "Simon W. Moore",
+        "Peter Sewell",
+        "Jonathan Woodruff"
+      ],
+      "year": 2023,
+      "category": "Journal Articles",
+      "venue": "IEEE Micro",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202305ieeemicro-morello-platform.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/cheriformal_bib.html"
+      ],
+      "source_citation": "Richard Grisenthwaite, Graeme Barnes, Robert N. M. Watson, Simon W. Moore, Peter Sewell, and Jonathan Woodruff. The Arm Morello Evaluation Platform—Validating CHERI-Based Security in a High-Performance System, IEEE Micro, vol. 43, no. 3, pp. 50-57, May-June 2023, doi: 10.1109/MM.2023.3264676.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "grisenthwaite2023-7c56c214a4"
+    },
+    {
+      "title": "Verified Security for the Morello Capability-enhanced Prototype Arm Architecture",
+      "authors": [
+        "Thomas Bauereiss",
+        "Brian Campbell",
+        "Thomas Sewell",
+        "Alasdair Armstrong",
+        "Lawrence Esswood",
+        "Ian Stark",
+        "Graeme Barnes",
+        "Robert N. M. Watson",
+        "Peter Sewell"
+      ],
+      "year": 2022,
+      "category": "Conference Papers",
+      "venue": "ESOP",
+      "venue_group": "ESOP",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/202205-esop-verified-morello-security.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/cheriformal_bib.html"
+      ],
+      "source_citation": "Thomas Bauereiss, Brian Campbell, Thomas Sewell, Alasdair Armstrong, Lawrence Esswood, Ian Stark, Graeme Barnes, Robert N. M. Watson, and Peter Sewell. Verified Security for the Morello Capability-enhanced Prototype Arm Architecture, 31st European Symposium on Programming (ESOP 2022), May 2022.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "bauereiss2022-e3874f9717"
+    },
+    {
+      "title": "Pointer Provenance in a Capability Architecture",
+      "authors": [
+        "Alfredo Mazzinghi",
+        "Ripduman Sohan",
+        "Robert N. M. Watson"
+      ],
+      "year": 2018,
+      "category": "Conference Papers",
+      "venue": "TaPP",
+      "venue_group": "TaPP",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2018tapp-tracing-cameraready.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Alfredo Mazzinghi, Ripduman Sohan, and Robert N. M. Watson. Pointer Provenance in a Capability Architecture. Proceedings of the 10th USENIX Workshop on the Theory and Practice of Provenance (TaPP'18). London, UK, July 11-12, 2018.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "mazzinghi2018-d2e9b39cf2"
+    },
+    {
+      "title": "Into the depths of C: elaborating the de facto standards",
+      "authors": [
+        "Kayvan Memarian",
+        "Justus Matthiesen",
+        "James Lingard",
+        "Kyndylan Nienhuis",
+        "David Chisnall",
+        "Robert N. M. Watson",
+        "Peter Sewell"
+      ],
+      "year": 2016,
+      "category": "Conference Papers",
+      "venue": "PLDI",
+      "venue_group": "PLDI",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201606-pldi2016-clanguage.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/cheriformal_bib.html"
+      ],
+      "source_citation": "Kayvan Memarian, Justus Matthiesen, James Lingard, Kyndylan Nienhuis, David Chisnall, Robert N. M. Watson, and Peter Sewell. Into the depths of C: elaborating the de facto standards. Proceedings of the 37th ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI 2016). Santa Barbara, CA, USA, June 2016.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "memarian2016-fa02b60a71"
+    },
+    {
+      "title": "A Generic Synthesisable Test Bench",
+      "authors": [
+        "Matthew Naylor",
+        "Simon W. Moore"
+      ],
+      "year": 2015,
+      "category": "Conference Papers",
+      "venue": "MEMOCODE",
+      "venue_group": "MEMOCODE",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201509-memocode2015-bluecheck.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Matthew Naylor and Simon W. Moore, A Generic Synthesisable Test Bench, Proceedings of the 13th ACM/IEEE Conference on Formal Methods and Models for Codesign (MEMOCODE), Austin, Texas, USA, September 2015.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "naylor2015-88ab8e91a7"
+    },
+    {
+      "title": "Network Stack Specialization for Performance",
+      "authors": [
+        "Ilias Marinos",
+        "Robert N. M. Watson",
+        "Mark Handley"
+      ],
+      "year": 2014,
+      "category": "Conference Papers",
+      "venue": "SIGCOMM",
+      "venue_group": "SIGCOMM",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201408-sigcomm2014-specialization.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Ilias Marinos, Robert N. M. Watson, and Mark Handley, Network Stack Specialization for Performance, Proceedings of ACM SIGCOMM 2014 Conference (SIGCOMM'14), Chicago, IL, USA, August 17–22, 2014.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "marinos2014-2213dfb9a9"
+    },
+    {
+      "title": "Declarative, Temporal, and Practical Programming with Capabilities",
+      "authors": [
+        "William R. Harris",
+        "Somesh Jha",
+        "Thomas Reps",
+        "Jonathan Anderson",
+        "Robert N. M. Watson"
+      ],
+      "year": 2013,
+      "category": "Conference Papers",
+      "venue": "IEEE Symposium on Security and Privacy",
+      "venue_group": "IEEE Symposium on Security and Privacy",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201305-temporal-practical-capabilities.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "William R. Harris, Somesh Jha, Thomas Reps, Jonathan Anderson, and Robert N. M. Watson, Declarative, Temporal, and Practical Programming with Capabilities, IEEE Symposium on Security and Privacy (\"Oakland\"), San Francisco, CA, USA, May 19–22, 2013.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "harris2013-c837214223"
+    },
+    {
+      "title": "A Decade of OS Access-Control Extensibility: Open-source Security Foundations for mobile and embedded devices",
+      "authors": [
+        "Robert N.M. Watson"
+      ],
+      "year": 2013,
+      "category": "Journal Articles",
+      "venue": "Communications of the ACM",
+      "venue_group": "",
+      "url": "http://dl.acm.org/authorize.cfm?key=6883207",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Robert N.M. Watson, A Decade of OS Access-Control Extensibility: Open-source Security Foundations for mobile and embedded devices, Communications of the ACM, 56(2), February 2013, pages 52–63.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "watson2013-7dfff3cef7"
+    },
+    {
+      "title": "Automatic Generation of Hardware/Software Interfaces",
+      "authors": [
+        "Myron King",
+        "Nirav Dave",
+        "Arvind"
+      ],
+      "year": 2012,
+      "category": "Conference Papers",
+      "venue": "ASPLOS",
+      "venue_group": "ASPLOS",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Myron King, Nirav Dave, and Arvind, Automatic Generation of Hardware/Software Interfaces, Architectural Support for Programming Languages and Operating Systems (ASPLOS 2012), London, UK, March 3–7 2012.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "king2012-a6eaae20ae"
+    },
+    {
+      "title": "Network stack specialisation for performance",
+      "authors": [
+        "Ilias Marinos",
+        "Robert N. M. Watson",
+        "Mark Handley"
+      ],
+      "year": 2013,
+      "category": "Conference Papers",
+      "venue": "HotNets",
+      "venue_group": "HotNets",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Ilias Marinos, Robert N. M. Watson, and Mark Handley. Network stack specialisation for performance. Twelfth ACM Workshop on Hot Topics in Networks (HotNets-XII), College Park, MD, USA, November 21–22, 2013.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "marinos2013-46cb91c0e7"
+    },
+    {
+      "title": "Memory Segmentation to Support Secure Applications",
+      "authors": [
+        "Jonathan Woodruff",
+        "Simon W. Moore",
+        "Robert N.M. Watson"
+      ],
+      "year": 2013,
+      "category": "Conference Papers",
+      "venue": "ESSoS Doctoral Symposium",
+      "venue_group": "ESSoS Doctoral Symposium",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2013essos-cheri.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Jonathan Woodruff, Simon W. Moore and Robert N.M. Watson, Memory Segmentation to Support Secure Applications, CEUR Workshop: Doctoral Symposium on Engineering Secure Software and Systems (ESSoS), Paris, France, 26–27 February, 2013.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "woodruff2013-22633d8844"
+    },
+    {
+      "title": "Exploring compartmentalisation hypotheses with SOAAP",
+      "authors": [
+        "Khilan Gudka",
+        "Robert N. M. Watson",
+        "Steven Hand",
+        "Ben Laurie",
+        "Anil Madhavapeddy"
+      ],
+      "year": 2012,
+      "category": "Conference Papers",
+      "venue": "AHANS",
+      "venue_group": "AHANS",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/2012ahans-soaap-final.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Khilan Gudka, Robert N. M. Watson, Steven Hand, Ben Laurie, and Anil Madhavapeddy, Exploring compartmentalisation hypotheses with SOAAP, Adaptive Host and Network Security (AHANS 2012), Lyons, France, September 10–14, 2012.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "gudka2012-be7e985305"
+    },
+    {
+      "title": "LLVM in the FreeBSD Toolchain",
+      "authors": [
+        "David Chisnall"
+      ],
+      "year": 2014,
+      "category": "Conference Papers",
+      "venue": "AsiaBSDCon",
+      "venue_group": "AsiaBSDCon",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/201403-asiabsdcon2014-llvmbsd.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "David Chisnall. LLVM in the FreeBSD Toolchain, Proceedings of AsiaBSDCon 2014, Tokyo, Japan, March 13–16, 2014.",
+      "research_collection": "CTSRD / CHERI",
+      "citation_key": "chisnall2014-50d30b8526"
+    },
+    {
+      "title": "CHERI-SIMT report: implementing capability memory protection in GPGPUs",
+      "authors": [
+        "Matthew Naylor",
+        "Alexandre Joannou",
+        "A. Theodore Markettos",
+        "Paul Metzger",
+        "Simon W. Moore",
+        "Timothy M. Jones"
+      ],
+      "year": 2025,
+      "category": "Technical Reports",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-997.html",
+      "links": [],
+      "report_number": "UCAM-CL-TR-997",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Matthew Naylor, Alexandre Joannou, A. Theodore Markettos, Paul Metzger, Simon W. Moore, Timothy M. Jones. CHERI-SIMT report: implementing capability memory protection in GPGPUs Technical Report UCAM-CL-TR-997, Computer Laboratory, March 2025",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "citation_key": "naylor2025-741881f069"
+    },
+    {
+      "title": "Early performance results from the prototype Morello microarchitecture",
+      "authors": [
+        "Robert N. M. Watson",
+        "Jessica Clarke",
+        "Peter Sewell",
+        "Jonathan Woodruff",
+        "Simon W. Moore",
+        "Graeme Barnes",
+        "Richard Grisenthwaite",
+        "Kathryn Stacer",
+        "Silviu Baranga",
+        "Alexander Richardson"
+      ],
+      "year": 2023,
+      "category": "Technical Reports",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-986.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-986",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Robert N. M. Watson, Jessica Clarke, Peter Sewell, Jonathan Woodruff, Simon W. Moore, Graeme Barnes, Richard Grisenthwaite, Kathryn Stacer, Silviu Baranga, Alexander Richardson. Early performance results from the prototype Morello microarchitecture, Technical Report UCAM-CL-TR-986, Computer Laboratory, September 2023.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "citation_key": "watson2023-11d14eb52c"
+    },
+    {
+      "title": "Arm Morello Programme: Architectural security goals and known limitations",
+      "authors": [
+        "Robert N. M. Watson",
+        "Graeme Barnes",
+        "Jessica Clarke",
+        "Richard Grisenthwaite",
+        "Peter Sewell",
+        "Simon W. Moore",
+        "Jonathan Woodruff"
+      ],
+      "year": 2023,
+      "category": "Technical Reports",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-982.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-982",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Robert N. M. Watson, Graeme Barnes, Jessica Clarke, Richard Grisenthwaite, Peter Sewell, Simon W. Moore, and Jonathan Woodruff. Arm Morello Programme: Architectural security goals and known limitations, Technical Report UCAM-CL-TR-982, Computer Laboratory, July 2023.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "citation_key": "watson2023-3638724532"
+    },
+    {
+      "title": "Assessing the Viability of an Open-Source CHERI Desktop Software Ecosystem",
+      "authors": [
+        "Robert N. M. Watson",
+        "Ben Laurie",
+        "Alex Richardson"
+      ],
+      "year": 2021,
+      "category": "Technical Reports",
+      "venue": "",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/research/security/ctsrd/pdfs/20210917-capltd-cheri-desktop-report-version1-FINAL.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Robert N. M. Watson, Ben Laurie, and Alex Richardson. Assessing the Viability of an Open-Source CHERI Desktop Software Ecosystem, Technical Report, Capabilities Limited, 17 September 2021.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "Capabilities Limited",
+      "citation_key": "watson2021-44f2c1a214"
+    },
+    {
+      "title": "Verified security for the Morello capability-enhanced prototype Arm architecture",
+      "authors": [
+        "Thomas Bauereiss",
+        "Brian Campbell",
+        "Thomas Sewell",
+        "Alasdair Armstrong",
+        "Lawrence Esswood",
+        "Ian Stark",
+        "Graeme Barnes",
+        "Robert N. M. Watson",
+        "Peter Sewell"
+      ],
+      "year": 2021,
+      "category": "Technical Reports",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-959.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-959",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Thomas Bauereiss, Brian Campbell, Thomas Sewell, Alasdair Armstrong, Lawrence Esswood, Ian Stark, Graeme Barnes, Robert N. M. Watson, and Peter Sewell. Verified security for the Morello capability-enhanced prototype Arm architecture, Technical Report UCAM-CL-TR-959, Computer Laboratory, September 2021.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "citation_key": "bauereiss2021-2084094feb"
+    },
+    {
+      "title": "DSbD CHERI and Morello Capability Essential IP (Version 1)",
+      "authors": [
+        "Robert N. M. Watson",
+        "Jonathan Woodruff",
+        "Alexandre Joannou",
+        "Simon W. Moore",
+        "Peter Sewell",
+        "Arm Limited"
+      ],
+      "year": 2020,
+      "category": "Technical Reports",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-953.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-953",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Robert N. M. Watson, Jonathan Woodruff, Alexandre Joannou, Simon W. Moore, Peter Sewell, Arm Limited. DSbD CHERI and Morello Capability Essential IP (Version 1), Technical Report UCAM-CL-TR-953, Computer Laboratory, December 2020.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "corporate_authors": [
+        "Arm Limited"
+      ],
+      "citation_key": "watson2020-77953f6055"
+    },
+    {
+      "title": "Security analysis of CHERI ISA",
+      "authors": [
+        "Nicolas Joly",
+        "Saif ElSherei",
+        "Saar Amar"
+      ],
+      "year": 2020,
+      "category": "Technical Reports",
+      "venue": "",
+      "venue_group": "",
+      "url": "https://github.com/microsoft/MSRC-Security-Research/raw/master/papers/2020/Security%20analysis%20of%20CHERI%20ISA.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Nicolas Joly, Saif ElSherei, and Saar Amar. Security analysis of CHERI ISA, Microsoft Security Response Center (MSRC), October 2020.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "Microsoft Security Response Center",
+      "citation_key": "joly2020-71f7d9e309"
+    },
+    {
+      "title": "Toward transient-execution attack mitigations on CHERI",
+      "authors": [
+        "Franz Fuchs"
+      ],
+      "year": 2025,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-1001.html",
+      "links": [],
+      "report_number": "UCAM-CL-TR-1001",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Franz Fuchs. Toward transient-execution attack mitigations on CHERI, Technical Report UCAM-CL-TR-1001, Computer Laboratory, August 2025.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "fuchs2025-5266d2804d"
+    },
+    {
+      "title": "Efficient spatial and temporal safety for microcontrollers and application-class processors",
+      "authors": [
+        "Peter David Rugg"
+      ],
+      "year": 2023,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-984.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-984",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Peter David Rugg. Efficient spatial and temporal safety for microcontrollers and application-class processors, Technical Report UCAM-CL-TR-984, Computer Laboratory, July 2023.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "rugg2023-bba323e8cd"
+    },
+    {
+      "title": "The Cerberos C semantics",
+      "authors": [
+        "Kayvan Memarian"
+      ],
+      "year": 2023,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-981.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-981",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Kayvan Memarian. The Cerberos C semantics, Technical Report UCAM-CL-TR-981, May 2023.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "memarian2023-348a1ec8d3"
+    },
+    {
+      "title": "CHERI compartmentalisation for embedded systems",
+      "authors": [
+        "Hesham Almatary"
+      ],
+      "year": 2022,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-976.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-976",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Hesham Almatary. CHERI compartmentalisation for embedded systems, Technical Report UCAM-CL-TR-976, November 2022.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "almatary2022-b61653fb29"
+    },
+    {
+      "title": "Memory safety with CHERI capabilities: security analysis, language interpreters, and heap temporal safety",
+      "authors": [
+        "Brett Gutstein"
+      ],
+      "year": 2022,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-975.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-975",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Brett Gutstein. Memory safety with CHERI capabilities: security analysis, language interpreters, and heap temporal safety, Technical Report UCAM-CL-TR-975, Computer Laboratory, November 2022.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "gutstein2022-6b719bb8cd"
+    },
+    {
+      "title": "Capability-based access control for cyber physical systems",
+      "authors": [
+        "Michael G. Dodson"
+      ],
+      "year": 2021,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-963.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-963",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Michael G. Dodson. Capability-based access control for cyber physical systems, Technical Report UCAM-CL-TR-963, Computer Laboratory, October 2021.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "dodson2021-f25e1d54b2"
+    },
+    {
+      "title": "CheriOS: designing an untrusted single-address-space capability operating system utilising capability hardware and a minimal hypervisor",
+      "authors": [
+        "Lawrence G. Esswood"
+      ],
+      "year": 2021,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-961.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-961",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Lawrence G. Esswood. CheriOS: designing an untrusted single-address-space capability operating system utilising capability hardware and a minimal hypervisor, Technical Report UCAM-CL-TR-961, Computer Laboratory, September 2021.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "esswood2021-60e2b93a76"
+    },
+    {
+      "title": "Capability memory protection for embedded systems",
+      "authors": [
+        "Hongyan Xia"
+      ],
+      "year": 2021,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-955.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-955",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Hongyan Xia. Capability memory protection for embedded systems, Technical Report UCAM-CL-TR-955, Computer Laboratory, February 2021.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "xia2021-4ad8d52333"
+    },
+    {
+      "title": "Complete spatial safety for C and C++ using CHERI capabilities",
+      "authors": [
+        "Alexander Richardson"
+      ],
+      "year": 2020,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-949.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-949",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Alexander Richardson. Complete spatial safety for C and C++ using CHERI capabilities, Technical Report UCAM-CL-TR-949, Computer Laboratory, June 2020.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "richardson2020-fb7384be83"
+    },
+    {
+      "title": "High-performance memory safety: optimizing the CHERI capability machine",
+      "authors": [
+        "Alexandre J. P. Joannou"
+      ],
+      "year": 2019,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-936.pdf",
+      "links": [],
+      "report_number": "UCAM-CL-TR-936",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Alexandre J. P. Joannou. High-performance memory safety: optimizing the CHERI capability machine, Technical Report UCAM-CL-TR-936, University of Cambridge, Computer Laboratory, May 2019.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "joannou2019-45f8ed7312"
+    },
+    {
+      "title": "Hardware support for compartmentalisation",
+      "authors": [
+        "Robert M. Norton"
+      ],
+      "year": 2016,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-887.html",
+      "links": [],
+      "report_number": "UCAM-CL-TR-887",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Robert M. Norton. Hardware support for compartmentalisation, Technical Report UCAM-CL-TR-887, University of Cambridge, Computer Laboratory, May 2016.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "norton2016-5504104b0a"
+    },
+    {
+      "title": "A RISC capability machine for practical memory safety",
+      "authors": [
+        "Jonathan D. Woodruff"
+      ],
+      "year": 2014,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-858.html",
+      "links": [],
+      "report_number": "UCAM-CL-TR-858",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Jonathan D. Woodruff. A RISC capability machine for practical memory safety, Technical Report UCAM-CL-TR-858, University of Cambridge, Computer Laboratory, July 2014.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "woodruff2014-49ca9b5b25"
+    },
+    {
+      "title": "New approaches to operating system security extensibility",
+      "authors": [
+        "Robert N. M. Watson"
+      ],
+      "year": 2012,
+      "category": "Theses",
+      "venue": "University of Cambridge, Computer Laboratory",
+      "venue_group": "",
+      "url": "http://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-818.html",
+      "links": [],
+      "report_number": "UCAM-CL-TR-818",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html"
+      ],
+      "source_citation": "Robert N. M. Watson. New approaches to operating system security extensibility, Technical Report UCAM-CL-TR-818, University of Cambridge, Computer Laboratory, April 2012.",
+      "research_collection": "CTSRD / CHERI",
+      "institution": "University of Cambridge, Computer Laboratory",
+      "school": "University of Cambridge",
+      "citation_key": "watson2012-37d413f6af"
+    },
+    {
+      "title": "Improving Security with Hardware Support: CHERI and Arm's Morello",
+      "authors": [
+        "Robert N. M. Watson",
+        "Peter Sewell",
+        "William Martin"
+      ],
+      "year": 2023,
+      "category": "Journal Articles",
+      "venue": "The Next Wave (The National Security Agency's review of emerging technologies)",
+      "venue_group": "",
+      "url": "https://media.defense.gov/2023/Jan/23/2003148354/-1/-1/0/TNW_24-1_2023_20230112.PDF",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/cheriformal_bib.html",
+        "https://media.defense.gov/2023/Jan/23/2003148354/-1/-1/0/TNW_24-1_2023_20230112.PDF"
+      ],
+      "research_collection": "CTSRD / CHERI",
+      "volume": "24",
+      "number": "1",
+      "pages": "10--21",
+      "citation_key": "watson2023-15267fda50"
+    },
+    {
+      "title": "Extracting Behaviour from an Executable Instruction Set Model",
+      "authors": [
+        "Brian Campbell",
+        "Ian Stark"
+      ],
+      "year": 2016,
+      "category": "Conference Papers",
+      "venue": "FMCAD 2016: Formal Methods in Computer-Aided Design",
+      "venue_group": "FMCAD 2016: Formal Methods in Computer-Aided Design",
+      "url": "http://homepages.inf.ed.ac.uk/bcampbe2/rems/fmcad16.pdf",
+      "links": [],
+      "report_number": "",
+      "note": "",
+      "sources": [
+        "https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/cheriformal_bib.html",
+        "http://homepages.inf.ed.ac.uk/bcampbe2/rems/fmcad16.pdf"
+      ],
+      "research_collection": "CTSRD / CHERI",
+      "pages": "33--40",
+      "citation_key": "campbell2016-6055618ef5"
+    }
+  ]
+}

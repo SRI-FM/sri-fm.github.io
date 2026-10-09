@@ -14,16 +14,6 @@ For more information, please visit the [[https://ssft-sri.github.io/][Website]],
 since 2011.
 #+end_details
 
-#+begin_details Formal Methods Lounge
-The Formal Methods Lounge is an internal seminar series at SRI on Formal
-Techniques and its Application to Resilient Software (including AI/ML) and
-High-Assurance Systems.
-
-We plan to open it more and more to the interested public by announcing talks
-on this website and sending links for online participation to registered
-parties. Stay tuned.
-#+end_details
-
 #+begin_details PVS Day
 [[https://shemesh.larc.nasa.gov/nfm2025/pvs-day.html][PVS Day]] is an exciting and collaborative workshop dedicated to the Prototype
 Verification System (PVS), the legendary formal verification system developed

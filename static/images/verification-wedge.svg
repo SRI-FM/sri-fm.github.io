@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" role="img" aria-labelledby="title description">
+  <title id="title">The Verification Wedge</title>
+  <desc id="description">Five rising steps, from left to right: Testing, Type Checking, Static Analysis, Model Checking, and Theorem Proving. Coverage increases upward and Effort increases to the right. Under the heading Invisible Formal Methods, four curved arrows point from each higher step to the adjacent lower step on its left.</desc>
+  <defs>
+    <marker id="axis-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#17364f" stroke-width="1.5"/>
+    </marker>
+    <marker id="return-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#a9292f" stroke-width="1.6"/>
+    </marker>
+  </defs>
+  <g font-family="'Palatino Linotype', Palatino, 'Book Antiqua', serif" fill="#17364f">
+    <text x="70" y="38" font-size="25">Invisible Formal Methods</text>
+    <g stroke="#87949c" stroke-width="1.2">
+      <path d="M70 350 V290 H188 V350Z" fill="#edf1f3"/>
+      <path d="M188 350 V238 H306 V350Z" fill="#dee7ec"/>
+      <path d="M306 350 V186 H424 V350Z" fill="#c9d9e3"/>
+      <path d="M424 350 V134 H542 V350Z" fill="#b1c9d8"/>
+      <path d="M542 350 V82 H660 V350Z" fill="#91b1c5"/>
+    </g>
+    <g fill="none" stroke="#a9292f" stroke-width="2" marker-end="url(#return-arrow)">
+      <path d="M247 238 C234 197 143 178 129 283"/>
+      <path d="M365 186 C352 145 261 126 247 231"/>
+      <path d="M483 134 C470 93 379 74 365 179"/>
+      <path d="M601 82 C588 41 497 22 483 127"/>
+    </g>
+    <g text-anchor="middle" font-size="25">
+      <text x="129" y="326">Testing</text>
+      <text x="247" y="289"><tspan x="247">Type</tspan><tspan x="247" dy="29">Checking</tspan></text>
+      <text x="365" y="262"><tspan x="365">Static</tspan><tspan x="365" dy="29">Analysis</tspan></text>
+      <text x="483" y="236"><tspan x="483">Model</tspan><tspan x="483" dy="29">Checking</tspan></text>
+      <text x="601" y="210"><tspan x="601">Theorem</tspan><tspan x="601" dy="29">Proving</tspan></text>
+    </g>
+    <g fill="none" stroke="#17364f" stroke-width="1.4" marker-end="url(#axis-arrow)">
+      <path d="M49 350 V66"/>
+      <path d="M70 373 H659"/>
+    </g>
+    <text x="23" y="211" text-anchor="middle" font-size="23" transform="rotate(-90 23 211)">Coverage</text>
+    <text x="365" y="405" text-anchor="middle" font-size="23">Effort</text>
+  </g>
+</svg>

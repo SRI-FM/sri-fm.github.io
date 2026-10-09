@@ -4,10 +4,10 @@ PORT ?= 1313
 .PHONY: build clean serve
 
 build:
-	$(EMACS) --batch -Q --load ./publish.el --funcall sri-publish
+	python3 scripts/build_lock.py $(EMACS) --batch -Q --load ./publish.el --funcall sri-publish
 
 clean:
-	$(EMACS) --batch -Q --load ./publish.el --funcall sri-clean
+	python3 scripts/build_lock.py $(EMACS) --batch -Q --load ./publish.el --funcall sri-clean
 
 serve: build
-	python3 -m http.server $(PORT) --directory public
+	python3 scripts/dev_server.py --port $(PORT)

@@ -75,8 +75,12 @@ The Org source supports two deliberately small extensions:
          contents)))
      (t (org-html-special-block special-block contents info)))))
 
+(load (expand-file-name "scripts/source-highlight.el"
+                        (file-name-directory (or load-file-name buffer-file-name))))
+
 (org-export-define-derived-backend 'sri-html 'html
-  :translate-alist '((special-block . sri-html-special-block)))
+  :translate-alist '((special-block . sri-html-special-block)
+                     (src-block . sri-html-source-block)))
 
 (defun sri-publish-to-html (property-list filename publishing-directory)
   "Publish FILENAME with the `sri-html' backend."
@@ -172,7 +176,7 @@ The Org source supports two deliberately small extensions:
         ("site-static"
          :base-directory ,(expand-file-name "static" sri-root-directory)
          :base-extension
-         "css\\|js\\|txt\\|jpg\\|jpeg\\|png\\|gif\\|webp\\|svg\\|eps\\|ico\\|pdf"
+         "css\\|js\\|txt\\|jpg\\|jpeg\\|png\\|gif\\|webp\\|svg\\|eps\\|ico\\|pdf\\|bib"
          :publishing-directory ,sri-public-directory
          :recursive t
          :publishing-function org-publish-attachment)

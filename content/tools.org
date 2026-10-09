@@ -1,113 +1,172 @@
 #+TITLE: Specification and Verification Tools
-#+DESCRIPTION: Specification, verification, assurance, and reasoning tools from the SRI Formal Methods Program.
+#+HTML_CONTENT_CLASS: tools-page
+#+DESCRIPTION: PVS, Yices, SAL, and CHERI: specification, reasoning, model checking, and capability architecture.
+#+OPTIONS: toc:nil
 
-[[siteimg:images/the_wedge.jpg][The Verification Wedge]]
+#+ATTR_HTML: :class tool-index
+[[#pvs][PVS]] · [[#yices][Yices]] · [[#sal][SAL]] · [[#cheri][CHERI]]
 
-#+begin_details PVS — Specification and Proof Assistant
-*Description*
+* PVS
+:PROPERTIES:
+:CUSTOM_ID: pvs
+:END:
 
-PVS is an interactive specification and proof assistant.
+#+ATTR_HTML: :class tool-purpose
+Specification, proof, and executable models
 
-- Rich specification language based on simply-typed higher-order logic
-  extended with predicate subtyping, logical theories, and theory
-  interpretation
-- Interactive theorem prover combines automation based on rewriting, decision
-  procedures (SMT), predicate abstraction, model-checking with interaction
-  using powerful and robust proof commands that can be combined with high-level
-  proof strategies such as /grind/ and /induct-and-simplify/
-- Correct-by-construction generation of highly efficient, memory-safe,
-  stand-alone C and Rust code for a full functional fragment of PVS (PVS2C,
-  PVS2RUST)
+#+begin_toolgrid
+#+begin_toolcopy
+A specification language and interactive prover for mathematical theories,
+hardware, and software systems.
 
-*Purpose*
+- *Specify:* higher-order logic, predicate subtypes, dependent types, datatypes,
+  and parameterized theories.
+- *Prove:* induction, rewriting, decision procedures, and reusable strategies;
+  integrated Yices SMT reasoning and experimental BDD/CTL model checking.
+- *Execute:* ground evaluation and PVSio. Research extensions PVS2C/PVS2Rust
+  generate C/Rust; they are *not part of the public PVS release*.
+- *Reuse:* libraries and theory interpretations. PVS complements SAL's
+  transition-system analysis; SAL is a separate tool.
 
-Primarily used for modeling mathematical and computational concepts, including
-program behavior.
+*Use it for:* controller invariants, processor correctness, distributed
+algorithms, and formalized mathematics.
 
-*Use Cases*
+#+ATTR_HTML: :class tool-resources
+[[https://pvs.csl.sri.com/][Website]] · [[https://pvs.csl.sri.com/documentation.html][Documentation]] · [[https://github.com/SRI-CSL/PVS][Source / releases]]
+#+end_toolcopy
+#+begin_toolcode
+#+INCLUDE: "../examples/tools/bounded_counter.pvs" src pvs
 
-Microprocessors, separation kernels, cache-coherence protocols, real-time
-operating systems, distributed fault-tolerance, cryptographic protocols,
-air-traffic control algorithms, libraries for mathematics and computer science.
+A predicate subtype bounds the counter; =advance= saturates at three.
+The quantified theorem states monotonicity. Typechecked; one subtype obligation
+and the theorem remain unproved.
+#+end_toolcode
+#+end_toolgrid
 
-*Download*
+* Yices
+:PROPERTIES:
+:CUSTOM_ID: yices
+:END:
 
-PVS is available under the [[https://www.gnu.org/licenses/gpl-3.0.html][GPL v3]] license from the
-[[https://pvs.csl.sri.com][PVS website]] and on [[https://github.com/SRI-CSL/PVS][GitHub]].
+#+ATTR_HTML: :class tool-purpose
+Constraint solving for verification and synthesis
 
-Licenses for commercial usage or specific support are available upon request.
+#+begin_toolgrid
+#+begin_toolcopy
+An SMT solver that checks whether constraints can hold together and produces
+satisfying models when they exist.
 
-Note that the PVS2C and PVS2Rust extensions of PVS are not part of the publicly
-released PVS.
-#+end_details
+- *Model:* arithmetic, bitvectors, arrays, tuples, scalar types, and
+  uninterpreted functions. MCSat-enabled builds add nonlinear arithmetic.
+- *Query:* incremental contexts, assumptions, models, and unsatisfiable cores;
+  support varies by logic and solver configuration.
+- *Integrate:* native Yices or SMT-LIB input, a C API, and Python, Java, Go,
+  and OCaml bindings. Yices also supports PVS and SAL reasoning workflows.
 
-#+begin_details Yices — Decision Procedures
-*Description*
+*Use it for:* overflow checks, hardware equivalence, program analysis,
+synthesis, and scheduling constraints.
 
-Powerful automated reasoning tool that determines the satisfiability of
-formulas in combinations of logical theories.
+#+ATTR_HTML: :class tool-resources
+[[https://yices.csl.sri.com/][Website]] · [[https://yices.csl.sri.com/yices2-documentation.html][Documentation]] · [[https://yices.csl.sri.com/doc/yices-language.html][Language]] · [[https://github.com/SRI-CSL/yices2][Source / releases]]
+#+end_toolcopy
+#+begin_toolcode
+#+INCLUDE: "../examples/tools/overflow.ys" src yices
 
-- Supports linear and nonlinear real and integer arithmetic, bitvectors,
-  scalar types, tuples, extensional arrays, and uninterpreted function symbols
-  with equality
-- Powerful first-order reasoning based on counterexample-guided quantifier
-  instantiation and model interpolation
-- Processes SMT-LIB formulas and offers language bindings for C, Python, Java,
-  Go, and OCaml
+Eight-bit addition wraps modulo 256. Yices 2.7.0 returns =sat= and
+=x = 0b11111111= (255). The example uses native Yices syntax, not SMT-LIB.
+#+end_toolcode
+#+end_toolgrid
 
-*Purpose*
+* SAL
+:PROPERTIES:
+:CUSTOM_ID: sal
+:END:
 
-Robust formal verification backend for other applications that require
-reasoning about complex logical constraints over various data types.
+#+ATTR_HTML: :class tool-purpose
+A suite for concurrent-system analysis
 
-*Use Cases*
+#+begin_toolgrid
+#+begin_toolcopy
+The Symbolic Analysis Laboratory applies complementary analysis engines to
+one compositional transition-system language.
 
-Constraint Solving for Hardware Verification, Extended Type Checking, Program
-Analysis and Synthesis, Crypto Analysis, Artificial Intelligence, Interactive
-Proof Assistants, Spreadsheet Debugging.
+- *Model:* typed state, initialization, guarded transitions, and module
+  composition; =sal-wfc= provides limited typechecking.
+- *Check:* BDD-based =sal-smc=, SAT-based =sal-bmc=, and SMT-based
+  =sal-inf-bmc=. Bounded checking finds bugs; induction can establish invariants.
+- *Explore:* deadlock detection, counterexamples, and =sal-atg= test generation;
+  experimental simulation, explicit-state, and witness tools.
+- *Connect:* Yices backs bounded checking; HybridSAL abstracts hybrid systems
+  into SAL. Sally is a separate model checker, not the SAL suite.
 
-*Download*
+*Use it for:* protocols, mutual exclusion, and fault-tolerant distributed
+algorithms, under explicitly modeled assumptions.
 
-The latest Yices2 is available under the [[https://www.gnu.org/licenses/gpl-3.0.html][GPL v3]] license from the
-[[https://yices.csl.sri.com][Yices website]] and on [[https://github.com/SRI-CSL/yices2][GitHub]].
+#+ATTR_HTML: :class tool-resources
+[[https://sal.csl.sri.com/][Website]] · [[https://sal.csl.sri.com/documentation.shtml][Documentation]] · [[https://sal.csl.sri.com/download.shtml][Source / downloads]] · [[https://sal.csl.sri.com/introduction.shtml][Suite guide]]
+#+end_toolcopy
+#+begin_toolcode
+#+INCLUDE: "../examples/tools/counter.sal" src sal
 
-Licenses for commercial usage or specific support are available upon request.
-#+end_details
+Guards advance and wrap a typed counter; primes denote next-state values.
+=G(F(n = 0))= means zero recurs. SAL 3.3 accepts the model, finds no deadlocks,
+and proves this property with =sal-smc=.
+#+end_toolcode
+#+end_toolgrid
 
-#+begin_details Sally — Model Checking
-*Description*
+* CHERI
+:PROPERTIES:
+:CUSTOM_ID: cheri
+:END:
 
-Sally is a model checker for the formal verification of infinite-state
-systems. It is the successor to SRI’s earlier SAL (Symbolic Analysis
-Laboratory).
+#+ATTR_HTML: :class tool-purpose
+Architecture · Capability-based memory protection and compartmentalization
 
-- Takes as input a description of transition systems based on SMT-LIB2, BTOR2,
-  and MOXI, allowing for the definition of state types, initial states, and
-  transition relations using first-order formulas
-- Implements property-directed k-induction, a variant of IC3/PDR, which is
-  particularly effective for generating k-inductive strengthenings
-- Sally heavily relies on the [[https://yices.csl.sri.com][Yices2 solver]] for efficient constraint
-  solving for bitvectors and nonlinear real and integer arithmetic
+#+begin_toolgrid
+#+begin_toolcopy
+CHERI extends processor instruction sets with hardware-enforced capabilities.
+Developed through the SRI–University of Cambridge collaboration, it brings
+protection into the hardware–software interface.
 
-*Purpose*
+- *Constrain:* capabilities carry an address, bounds, and permissions. Hardware
+  tags distinguish valid capabilities from ordinary data; software cannot forge
+  authority by constructing an arbitrary bit pattern.
+- *Protect:* accesses through capabilities are checked against their bounds and
+  permissions. Compilers, runtimes, and operating systems use these mechanisms
+  for fine-grained memory protection.
+- *Compartmentalize:* software can delegate limited authority to components,
+  reducing what a compromised component can access. The design of interfaces
+  and the supporting software remains part of the security argument.
 
-Robust formal verification backend for other applications that require
-reasoning about complex logical constraints over various data type.s
+*Use it for:* memory-safe systems software and components with restricted access
+to shared resources. Temporal safety requires supporting revocation mechanisms;
+capabilities alone do not eliminate every class of vulnerability.
 
-*Use Cases*
+#+ATTR_HTML: :class tool-resources
+[[https://www.cl.cam.ac.uk/research/security/ctsrd/cheri/][Architecture]] · [[https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-987.html][ISA specification]] · [[https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-941.html][Introduction]] · [[https://www.cl.cam.ac.uk/research/security/ctsrd/publications.html][Research]]
+#+end_toolcopy
+#+begin_export html
+<figure class="cheri-figure">
+  <div class="cheri-diagram" tabindex="0" role="region" aria-label="CHERI protection diagram; scroll horizontally to see all protections on a narrow screen">
+  <a href="/images/cheri-protection-model.png" aria-label="Open the CHERI protection diagram at full resolution">
+    <img src="/images/cheri-protection-model.png" width="1908" height="537" alt="CHERI protection model: capabilities constrain accesses to heap, stack, and code. Crossed arrows show blocked out-of-bounds access, authority expansion, permission violations, and injected pointers from the network.">
+  </a>
+  </div>
+  <figcaption>Hardware protection for pointers. Figure 2.1 from <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-987.pdf#page=46">CHERI Instruction-Set Architecture, Version 9</a> (2023), p. 46, by Robert N. M. Watson et al. © the report authors and SRI International, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Cropped from the report; diagram unchanged. <a href="/images/cheri-protection-model.png">View full size</a>.</figcaption>
+</figure>
+#+end_export
+#+end_toolgrid
 
-Software and Hardware Verification, Protocol Analysis, Fault-Tolerant
-Distributed Algorithms.
+#+begin_toolcontext
+*Verification in context*
 
-*Download*
+The verification wedge relates complementary techniques to effort and coverage.
 
-Sally is available on [[https://github.com/SRI-CSL/sally][GitHub]] under the
-[[https://www.gnu.org/licenses/gpl-3.0.html][GPL v3]] license.
+[[siteimg:images/verification-wedge.svg][The Verification Wedge: Testing, Type Checking, Static Analysis, Model Checking, and Theorem Proving form rising steps. Coverage increases upward; Effort increases to the right. Invisible Formal Methods arrows point from each higher step to the adjacent lower step on its left.]]
+#+end_toolcontext
 
-Licenses for commercial usage or specific support are available upon request.
-
-Its predecessor can be downloaded from the [[https://sal.csl.sri.com][SAL Website]].
-#+end_details
+* COMMENT Deferred tool descriptions
+The complete source below is retained for later restoration and excluded from export.
 
 #+begin_details Radler — Multi-Rate Integration Architecture
 *Description*

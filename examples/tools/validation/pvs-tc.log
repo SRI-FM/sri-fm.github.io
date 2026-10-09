@@ -1,0 +1,13 @@
+
+Defining METIT. 
+Defining SIMPLIFY-NTH1__. 
+Defining SIMPLIFY-NTH1__$. 
+Defining SIMPLIFY-NTH. 
+Defining SIMPLIFY-NTH$. 
+PVS Settings (@ .pvs.lisp)
+
+Parsing bounded_counter
+bounded_counter parsed in 0.00 seconds
+Typechecking bounded_counter
+bounded_counter typechecked in 0.01s: 1 TCC, 0 proved, 0 subsumed, 1 unproved
+PVS(1): 

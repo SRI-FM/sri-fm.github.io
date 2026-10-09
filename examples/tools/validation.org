@@ -1,0 +1,66 @@
+#+TITLE: Tools showcase validation
+
+These are original illustrative examples, not models of a deployed controller
+or protocol. The page includes the source files directly; highlighted HTML
+must retain their exact text. Reviewed 2026-10-09.
+
+* Commands and results
+Run from a scratch directory containing copies of the three example files.
+Local binaries used:
+- /Users/e35480/git/PVS/pvs (local development checkout)
+- /opt/homebrew/bin/yices (2.7.0)
+- /Users/e35480/projects/misc/sal/sal-3.3/bin/ (SAL 3.3)
+
+Commands (all process exit codes 0):
+#+begin_example
+pvs -raw -E '(progn (tc "bounded_counter" t) nil)'
+pvs -raw -E '(show-tccs "bounded_counter")'
+yices overflow.ys
+sal-wfc counter.sal
+sal-deadlock-checker counter.sal main
+sal-smc counter.sal returns
+#+end_example
+
+Complete outputs are in validation/*.log.
+- PVS: typechecked; one subtype TCC, zero proved, zero subsumed, one unproved.
+  The named monotone theorem was not proved. No code generation was attempted.
+- Yices: sat, with x = 0b11111111.
+- SAL: well-formedness Ok; no deadlocks; returns proved by sal-smc.
+  The liveness result's deadlock-freedom warning is addressed by the separate
+  deadlock check. No induction run was used for this liveness property.
+
+* Semantic sources and scope
+- [[https://pvs.csl.sri.com/doc/pvs-language-reference.pdf][PVS Language Reference]]:
+  predicate subtypes, function definitions, quantified formulas.
+- [[https://pvs.csl.sri.com/documentation.html][PVS documentation]] and
+  [[https://pvs.csl.sri.com/introduction.shtml][introduction]]: specification, proof,
+  evaluation, and experimental model checking.
+- [[https://pvs.csl.sri.com/doc/pvs-release-notes.pdf][PVS release notes]], p. 14:
+  integrated Yices prover commands. Availability of research PVS2C/PVS2Rust
+  extensions is qualified according to the site's existing source.
+- [[https://yices.csl.sri.com/doc/yices-language.html][Yices input grammar]] and
+  [[https://github.com/SRI-CSL/yices2][official source overview]]: native typed
+  syntax, APIs, MCSat build requirements.
+- [[https://sal.csl.sri.com/documentation.shtml][SAL manuals]], plus local
+  sal-3.3/doc/sal_tutorial.tex, sections on the SAL language and model checking:
+  contexts, controlled variables, initialization, transitions, and LTL.
+- [[https://sal.csl.sri.com/introduction.shtml][SAL suite guide]]: separate checker
+  capabilities, limited typechecking, Yices backend, and experimental tools.
+
+* Static highlighting
+Inspected read-only:
+- /Users/e35480/git/PVS/emacs/pvs-mode.el, lines 378–456:
+  keyword lists, operator categories, minimal/maximal font-lock rules;
+  syntax setup and comment/string rules at lines 143–164.
+- /Users/e35480/projects/misc/sal/sal-3.3/etc/sal-mode.el, lines 22–28 and
+  sal-create-syntax-table: keyword, built-in/type, and percent-comment rules.
+
+scripts/source-highlight.el uses Emacs font-lock with a focused adaptation of
+these classifications. PVS operators and delimiters receive their corresponding
+categories; SAL operators and identifiers remain plain, as in the original mode.
+PVS matching is case-insensitive; SAL keywords use the mode's lower/upper forms.
+Yices uses native commands, types, bitvector constants, and semicolon comments.
+The website applies its own accessible light palette, not an exact Emacs theme.
+Synthetic comment/keyword/identifier checks passed for all three languages.
+Neither upstream repository was modified. There is no browser highlighting
+runtime or third-party highlighting dependency.
