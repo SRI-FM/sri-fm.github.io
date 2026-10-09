@@ -1,0 +1,8 @@
+#+TITLE: Impact
+#+DESCRIPTION: A historical portfolio of the SRI Formal Methods Program's impact.
+
+[[siteimg:images/sri_fm_history.jpg][Impact of SRI's Formal Methods Program]]
+
+Here are some of the early
+[[https://www.csl.sri.com/users/rushby/history/][accomplishments]]
+of the Computer Science Labs (CSL) and several sibling labs.

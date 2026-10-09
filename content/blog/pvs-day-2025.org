@@ -1,0 +1,16 @@
+#+TITLE: PVS Day at NASA Formal Methods 2025
+#+DESCRIPTION: PVS Day brings the PVS community together at NASA Formal Methods 2025.
+#+DATE: June 2025
+
+#+ATTR_HTML: :class post-date
+/June 2025/
+
+[[https://shemesh.larc.nasa.gov/nfm2025/pvs-day.html][PVS Day]] is a collaborative workshop dedicated to the Prototype Verification
+System (PVS), the formal verification system developed by SRI International
+and supported by NASA.
+
+Co-located with [[https://shemesh.larc.nasa.gov/nfm2025/][NASA Formal Methods 2025]], the workshop features expert talks
+on current work with PVS, community discussion, and examples of applications
+across several domains.
+
+[[site:blog/][Back to the blog]]

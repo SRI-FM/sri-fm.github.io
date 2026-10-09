@@ -1,0 +1,14 @@
+#+TITLE: Yices2 at SMT-COMP 2025
+#+DESCRIPTION: Yices2 has been submitted to SMT-COMP 2025.
+#+DATE: June 2025
+
+#+ATTR_HTML: :class post-date
+/June 2025/
+
+Yices2 has been submitted to SMT-COMP 2025.
+
+Yices is SRI's automated reasoning tool for determining the satisfiability of
+formulas in combinations of logical theories. More information and downloads
+are available from the [[https://yices.csl.sri.com][Yices website]].
+
+[[site:blog/][Back to the blog]]

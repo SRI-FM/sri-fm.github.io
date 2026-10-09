@@ -1,0 +1,32 @@
+#+TITLE: Formal Methods Program
+#+DESCRIPTION: SRI's Formal Methods Program advances formal methods, fault-tolerant computing, and high-assurance software.
+#+OPTIONS: title:nil
+#+HTML_CONTENT_CLASS: home-page
+
+#+begin_home-hero
+[[siteimg:images/SRI_dish.jpg][The Stanford Dish, owned and maintained by SRI]]
+
+The Formal Methods and Dependable Systems Program at SRI is pivotal in the founding, theory, and
+continued practice of formal methods, fault-tolerant computing, and the development of
+high-assurance software systems for safety-critical environments.
+
+See [[site:impact/][Impact]] for a detailed portfolio.
+#+end_home-hero
+
+* Latest News
+** 2026
+- @@html:[07/2026]@@ SRI has been awarded a contract by DARPA (under the ERIS/LUCID effort) for proof-assisted mission operator awareness.
+- @@html:[06/2026]@@ Yices2 submitted to SMT-COMP 2026!
+- @@html:[06/2026]@@ SRI has been awarded a contract by DARPA (under the DARPAVERSE effort) for rigorous coupling of multi-physical systems.
+- @@html:[05/2026]@@ [[https://ssft-sri.github.io/][Fifteenth Summer School on Formal Techniques]] @ Menlo College
+- @@html:[03/2025]@@ /Show Me The Money: An Exercise in Proof-Driven Software Understanding/ accepted to CAV 2026 (FLoC/Lisbon)!  
+** 2025
+- @@html:[06/2025]@@ Yices2 submitted to SMT-COMP 2025!
+- @@html:[06/2025]@@ [[https://shemesh.larc.nasa.gov/nfm2025/pvs-day.html][PVS Day @ NASA Formal Methods 2025]]
+- @@html:[05/2025]@@ [[https://ssft-sri.github.io/][Fourteenth Summer School on Formal Techniques]] @ Menlo College
+- @@html:[05/2025]@@ /Boosting MCSat Modulo Nonlinear Integer Arithmetic via Local Search/ accepted to CADE-30!
+- @@html:[04/2025]@@ /Decision Heuristics in MCSat/ accepted to CAV 2025!
+** 2024
+- @@html:[11/2024]@@ SRI has been awarded a contract by ARPA-H (under the PARADIGM
+  effort) to develop a mobile healthcare platform that improves healthcare
+  access and health outcomes across rural America.

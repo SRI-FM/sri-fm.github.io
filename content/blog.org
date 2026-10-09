@@ -1,0 +1,24 @@
+#+TITLE: Blog
+#+DESCRIPTION: News and notes from the SRI Formal Methods Program.
+
+* [[site:blog/yices-smt-comp-2025/][Yices2 at SMT-COMP 2025]]
+
+#+ATTR_HTML: :class post-date
+/June 2025/
+
+Yices2 has been submitted to SMT-COMP 2025.
+
+* [[site:blog/pvs-day-2025/][PVS Day at NASA Formal Methods 2025]]
+
+#+ATTR_HTML: :class post-date
+/June 2025/
+
+A workshop for the PVS community, co-located with NASA Formal Methods 2025.
+
+* [[site:blog/summer-school-2025/][Fourteenth Summer School on Formal Techniques]]
+
+#+ATTR_HTML: :class post-date
+/May 2025/
+
+The annual summer school returned to Menlo College for hands-on study and use
+of formal techniques.

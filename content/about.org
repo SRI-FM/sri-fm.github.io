@@ -1,0 +1,20 @@
+#+TITLE: About Us
+#+DESCRIPTION: People and affiliates of the SRI Formal Methods Program.
+
+#+ATTR_HTML: :class people-list
+- *Harald Ruess* :: /Senior Principal Scientist/ (Head of Formal Methods Program) · [[https://www.csl.sri.com/people/ruess/][Personal Website]]
+- *Natarajan Shankar* :: /Distinguished Senior Scientist/ · [[https://www.csl.sri.com/~shankar/][Personal Website]]
+- *John Rushby* :: /Distinguished Senior Scientist/ · [[https://www.csl.sri.com/users/rushby/][Personal Website]]
+- *Alejandro Brito* :: /Senior Computer Scientist/
+- *Karthik Nukala* :: /Computer Scientist/ · [[https://karthiknukala.github.io/][Personal Website]]
+- *Brian Arthur* :: /Consultant/
+
+* Affiliates
+
+** Entalus
+
+#+ATTR_HTML: :class people-list
+- *Hassen Saidi* ([[https://www.entalus.com/][Entalus Labs]]) :: /Senior Scientist/ · [[https://www.csl.sri.com/~saidi/][Personal Website]]
+- *Sam Owre* ([[https://www.entalus.com/][Entalus Labs]]) :: /Distinguished Software Engineer/ · [[https://www.csl.sri.com/~shankar/][Personal Website]]
+
+** NASA Langley Formal Methods Group

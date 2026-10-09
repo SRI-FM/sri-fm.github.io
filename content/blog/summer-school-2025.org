@@ -1,0 +1,16 @@
+#+TITLE: Fourteenth Summer School on Formal Techniques
+#+DESCRIPTION: The 2025 Summer School on Formal Techniques at Menlo College.
+#+DATE: May 2025
+
+#+ATTR_HTML: :class post-date
+/May 2025/
+
+The Fourteenth Summer School on Formal Techniques took place at Menlo College
+in May 2025.
+
+Organized by the SRI Formal Methods Program, the school focuses on the
+principles and practice of formal techniques, with an emphasis on hands-on use
+and development. Lectures and materials are available from the
+[[https://ssft-sri.github.io/][Summer School website]].
+
+[[site:blog/][Back to the blog]]
